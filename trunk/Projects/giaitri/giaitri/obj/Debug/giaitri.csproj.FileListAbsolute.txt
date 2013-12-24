@@ -1,0 +1,5 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\giaitri\giaitri\bin\Debug\giaitri.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\giaitri\giaitri\bin\Debug\giaitri.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\giaitri\giaitri\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\giaitri\giaitri\obj\Debug\giaitri.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\giaitri\giaitri\obj\Debug\giaitri.pdb

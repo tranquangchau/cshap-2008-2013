@@ -1,0 +1,11 @@
+﻿Bước 1: Chép file CM.ext từ DVD vào máy tính
+Bước 2: Chạy file CM từ máy tính, Nếu OS=win8 thì run với quyền adminstrater, Nếu OS=win7 or XP thì không cần.
+Bước 3: Nhấn Install
+Bước 4: Nhấn Next
+Bước 5: Nhấn Next
+Bước 6: Nhấn Finish
+Bước 7: Click trên màn hình desktop file CM.exe
+Bước 8: Trong phần mềm CM chọn Tool > DataConfig và nhập vào Database User và Pass
+Bước 9: Nhấn OK
+Bước 10: Nhập user name là admin123, password là 123456
+Bước 11: Kết thúc.
