@@ -1,0 +1,9 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\bin\Release\install step.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\bin\Release\install step.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\obj\Release\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\obj\Release\install step.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\obj\Release\install step.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\obj\Release\install step.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install step\install step\obj\Release\WindowsFormsApplication1.demso.resources

@@ -1,0 +1,9 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\obj\Release\tree.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\obj\Release\tree.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\obj\Release\tree.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\bin\Release\tree.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\bin\Release\tree.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\obj\Release\tree.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\obj\Release\tree.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\tree\tree\obj\Release\tree.exe.licenses
