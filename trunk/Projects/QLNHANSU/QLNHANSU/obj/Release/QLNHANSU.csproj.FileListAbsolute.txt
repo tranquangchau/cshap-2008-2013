@@ -1,0 +1,16 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\bin\Release\QLNhanSu.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\bin\Release\QLNhanSu.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Release\QLNhanSu.Form1.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Release\QLNhanSu.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Release\QLNHANSU.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Release\QLNhanSu.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Release\QLNhanSu.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\bin\Release\QLNHANSU.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\bin\Release\QLNHANSU.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Release\QLNhanSu.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Release\QLNhanSu.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Release\QLNHANSU.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Release\QLNHANSU.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Release\QLNHANSU.pdb

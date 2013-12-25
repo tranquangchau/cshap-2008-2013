@@ -1,0 +1,84 @@
+﻿9/13/2013 5:09:49 AM
+	hehe
+9/13/2013 5:09:55 AM
+	OK well
+9/13/2013 5:10:07 AM
+	Gee
+9/13/2013 5:12:08 AM
+	jsf
+9/13/2013 5:15:39 AM
+	Ngủ sớm dậy sớm
+9/13/2013 5:17:26 AM
+	jhgjh
+9/13/2013 5:26:19 AM
+	hehe
+9/13/2013 5:27:12 AM
+	Có trả lời được không đó
+9/13/2013 5:28:59 AM
+9/13/2013 5:31:26 AM
+9/13/2013 5:32:14 AM
+	Lưu đi nào
+9/13/2013 5:32:31 AM
+	Có gì khó đâu
+9/13/2013 5:33:42 AM
+	Có gì hót
+9/13/2013 5:37:15 AM1
+	Châu
+9/13/2013 5:37:25 AM1
+	He lo
+9/13/2013 5:39:15 AM1
+	Có được không
+9/13/2013 5:39:20 AM1
+	châu
+9/13/2013 5:43:18 AM
+	hêh
+9/13/2013 9:03:09 AM
+	 Châu
+9/13/2013 9:08:07 AM
+	chau tranquang nghe an vietn anm ha noi viet nam ccó gì mà không làm được chứ
+9/13/2013 9:08:57 AM
+	Làm thật là nhiều bài tập chứ sao giờ
+	Đúng không
+9/13/2013 9:09:13 AM
+	ok
+9/13/2013 9:10:06 AM
+	có được không đó nhỉ hehe
+9/13/2013 10:15:27 AM
+	có thể ăn uống thay nấu cơm chăng
+9/13/2013 2:31:26 PM
+	OK
+9/13/2013 2:32:01 PM
+	OK
+	Rất đẹp trai nj
+9/16/2013 9:32:58 PM
+	Rất là đẹp trai luôn
+11/26/2013 5:08:20 AM
+	afd
+12/10/2013 4:08:51 PM
+	Hơi đúng hihhi có gì đâu mà khó
+	Cần biết những mô hình thiết kế nào MVC- 3 layer khác nhau điều gì????
+	cách làm việc của nó
+	cần hiểu cách lập trình theo hướng đối tượng với các kiểu lập trình theo cách khác nữa so sánh đó => suy ra các kết quả hệ luỵ của cấu trúc thiết kế đó.
+	Vai trò và các thành phần theo thiết kế đó là gì? như trong phần thiết kế thì DataObject chỉ là vận chuyển chứ không phải là tâng logic gì cả
+	Cách thầy Quang hướng dẫn vẽ kiến trúc là vẽ giống như là SYSTEM CONTEXT vậy rất dễ hiểu và làm được hệ thống nhưng Kiến trúc ở mức chi tiết và đảm bảo thuộc tính chất lươnng hơn
+	Có người nói trong tất cả phần mềm được xây dựng đều có kiến trúc vậy kiến trúc phần mềm nằm ở đâu và có ý nghĩa gì?
+	ĐỒ ÁN P trả lời những câu hỏi khó nào?? VÌ SAO, Làm như thế nào à?
+	Detail design là thiết kế đến mức chi tiết của phần mềm.... còn có câu nói nào, Môn học nào hỗ trợ viết tài liệu và cho lý thuyết tưnog tự không???
+	Làm sao đồ án báo cáo được việc học những môn học ở CMU và của khoá học thành công trong dự án công nghệ phần mềm
+	Thầy là theo hướng cấu trúc nên có các thông tin đó rồi phân tích chi tiết theo các đối tượng thông tin đó để lưu vào dữ liệu, ý nghĩa và 5 ví dụ về hướng đối tượng xem nào.
+	Làm sao trang web của mình nhanh mà lại đẹp và nhiều người sử dụng để viết bài và làm sao để nghiện nó.
+	Detail design cần đầu vào đầu ra là gì và những việc nào đã làm, làm có tốt không, và nó có lợi ích gì? =>> nó theo cấp độ hay sao?
+	Phần mềm hay trang web trả lời, hay sử dụng các công cụ note khác đã có.
+		danh sách các câu hỏi, từ viết tắt và miêu tả cho câu hỏi đó.
+		các câu đã trả lời, từ viết tắt câu trả lời và câu hỏi đó.
+	sử dụng kết hợp cả 2 file excel và txt được không. như thế có thể lưu được keywork của các note đã ghi
+	Vì sao facebook thành công chiếm lĩnh (cô gái)thị trường vì nó có những đặc điểm của riêng trang web đó điều khác biệt, sự khác biệt này từ hệ thống xây dựng rôi đến khác biệt về dữ liệu xây dựng. => phần mềm nhóm em có 1 số điểm khác biệt kết hợp mới đây nhất từ những bạn yêu thích phần mềm nhất trong nhóm cùng phát triển ra sản phẩm ngày hôm nay báo cáo.
+	Như thế có thể nói tóm tắt  và chi tiết được các bước để mà xây dựng 1 phần mềm tốt và chất lượng đạt được yêu cầu của khách hàng thấy được tầm nhìn phát triển của 1 hệ thống công nghệ thông tin.
+	Từ đó làm chủ được trong cái gì đó giọi là phần mềm. Và có thể đạt được chất lượng cao nhất trong lĩnh vực cntt như giải thưởng sao khuyê cho phần mềm có tính khả thi cao.
+	Cần biết phải làm gì để có thể hoàn thành được công việc, sử dụng kiến thức lý thuyết nào sử dụng công cụ gì và cần làm nó như thế nào.
+	Gần đây câu hỏi của mình cho Thầy Nam là gì và câu hỏi nào đã làm khó Thầy???? không?
+	Sau giới hạn được số lượng chữ pass và số dòng mà sao lại không giới hạn dung lượng khi là hình ảnh nhỉ? có phải số lượng số dòng viết hay không?
+	Viết 1 ứng dụng giải trí trong giây lát được không môi trường cmd, các cách tính toán luyện tính toán vậy não trái và 1 cmd bên cạnh luyện ngôn ngữ não phải. OH tuyệt nhỉ. chương trình phần mềm là để. + tên gọi chương trinh đó rát là thú vị và làm sao thuyết phực và ứng dụng
+	Phần mềm đếm lùi thời gian. theo ngày tháng năm đã lưu, và ghi lại những gì đã làm và câu hỏi đặt ra ý tưởng mới là ? Bạn Muốn Một Ngày Dài Bao Nhiều Giờ.?
+	Phần mềm chương trình test đơn giản của mình thiếu nhiều chức năng cơ bản nhất.
+	

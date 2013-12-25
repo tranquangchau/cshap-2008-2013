@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\bin\Debug\demokeyup.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\bin\Debug\demokeyup.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\obj\Debug\demokeyup.Form1.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\obj\Debug\demokeyup.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\obj\Debug\demokeyup.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\obj\Debug\demokeyup.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\demokeyup\obj\Debug\demokeyup.pdb

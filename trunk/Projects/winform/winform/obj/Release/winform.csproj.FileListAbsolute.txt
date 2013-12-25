@@ -1,0 +1,10 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\bin\Release\winform.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\bin\Release\winform.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\winform.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\winform.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\winform.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\winform.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\winform.Flistbox.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\winform.F_RadioButon.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\winform\obj\Release\winform.F_DemNguoc.resources

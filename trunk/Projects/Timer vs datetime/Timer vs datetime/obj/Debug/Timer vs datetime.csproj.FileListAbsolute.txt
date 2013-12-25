@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\bin\Debug\Timer vs datetime.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\bin\Debug\Timer vs datetime.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\obj\Debug\Timer vs datetime.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\obj\Debug\Timer vs datetime.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Timer vs datetime\Timer vs datetime\obj\Debug\Timer vs datetime.pdb

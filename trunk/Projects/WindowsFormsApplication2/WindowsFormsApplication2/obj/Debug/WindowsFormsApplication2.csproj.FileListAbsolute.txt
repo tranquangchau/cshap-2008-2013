@@ -1,0 +1,12 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication1.Form5.resources

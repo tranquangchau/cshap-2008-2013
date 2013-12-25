@@ -1,0 +1,12 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\bin\Release\KetNoiCSDL.exe.config
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\bin\Release\KetNoiCSDL.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\bin\Release\KetNoiCSDL.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\obj\Release\KetNoiCSDL.Form2.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\obj\Release\KetNoiCSDL.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\obj\Release\KetNoiCSDL.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\obj\Release\KetNoiCSDL.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\KetNoiCSDL\obj\Release\KetNoiCSDL.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\KetNoiCSDL\KetNoiCSDL\bin\Release\KetNoiCSDL.exe.config
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\KetNoiCSDL\KetNoiCSDL\obj\Release\KetNoiCSDL.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\KetNoiCSDL\KetNoiCSDL\obj\Release\KetNoiCSDL.pdb

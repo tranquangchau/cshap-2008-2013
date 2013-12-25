@@ -1,0 +1,10 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\bin\Release\CountdownTimer.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\bin\Release\CountdownTimer.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Release\CountdownTimer.Form1.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Release\CountdownTimer.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Release\CountdownTimer.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Release\CountdownTimer.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Release\CountdownTimer.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\CountdownTimer\CountdownTimer\obj\Release\CountdownTimer.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\CountdownTimer\CountdownTimer\obj\Release\CountdownTimer.pdb
