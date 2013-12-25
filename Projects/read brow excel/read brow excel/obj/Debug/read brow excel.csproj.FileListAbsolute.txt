@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\bin\Debug\read brow excel.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\bin\Debug\read brow excel.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\obj\Debug\read brow excel.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\obj\Debug\read brow excel.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\read brow excel\read brow excel\obj\Debug\read brow excel.pdb

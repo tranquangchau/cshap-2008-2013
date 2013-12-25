@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\bin\Debug\CountdownTimer.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\bin\Debug\CountdownTimer.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Debug\CountdownTimer.Form1.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Debug\CountdownTimer.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Debug\CountdownTimer.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Debug\CountdownTimer.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\CountdownTimer\obj\Debug\CountdownTimer.pdb

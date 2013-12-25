@@ -1,0 +1,16 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\bin\Debug\QLNhanSu.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\bin\Debug\QLNhanSu.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Debug\QLNhanSu.Form1.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Debug\QLNhanSu.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Debug\QLNHANSU.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Debug\QLNhanSu.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\QLNhanSu\obj\Debug\QLNhanSu.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Debug\QLNHANSU.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Debug\QLNHANSU.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\bin\Debug\QLNHANSU.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\bin\Debug\QLNHANSU.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Debug\QLNhanSu.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Debug\QLNhanSu.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\QLNHANSU\QLNHANSU\obj\Debug\QLNHANSU.csproj.GenerateResource.Cache

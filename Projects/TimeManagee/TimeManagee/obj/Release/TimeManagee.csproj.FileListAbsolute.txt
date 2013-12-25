@@ -1,0 +1,10 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\bin\Release\TimeManagee.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\bin\Release\TimeManagee.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\TimeManagee.First.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\TimeManagee.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\TimeManagee.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\TimeManagee.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\TimeManagee.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\TimeManagee.Second.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\TimeManagee\obj\Release\TimeManagee.Thirst.resources
