@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\bin\Debug\toidanglamgi.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\bin\Debug\toidanglamgi.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\obj\Debug\toidanglamgi.Form1.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\obj\Debug\toidanglamgi.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\obj\Debug\toidanglamgi.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\obj\Debug\toidanglamgi.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\toidanglamgi\obj\Debug\toidanglamgi.pdb
