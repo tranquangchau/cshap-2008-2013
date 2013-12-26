@@ -1,0 +1,5 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\DongHo\bin\Release\DongHo.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\DongHo\bin\Release\DongHo.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\DongHo\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\DongHo\obj\Release\DongHo.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\DongHo\obj\Release\DongHo.pdb

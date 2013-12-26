@@ -1,0 +1,5 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Mang\bin\Release\Mang.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Mang\bin\Release\Mang.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Mang\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Mang\obj\Release\Mang.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Mang\obj\Release\Mang.pdb
