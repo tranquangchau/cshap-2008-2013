@@ -1,0 +1,10 @@
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.exe
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\bin\Debug\DXWindowsApplication1.pdb
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Form1.resources
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.Properties.Resources.resources
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe.licenses
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.exe
+c:\documents and settings\admin\my documents\visual studio 2010\Projects\DXWindowsApplication1\DXWindowsApplication1\obj\Debug\DXWindowsApplication1.pdb
