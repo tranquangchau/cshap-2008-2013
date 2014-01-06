@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="install step">
+</Property><Property Name="Solution File" Value="D:\code\Projects\install step\install step.sln">
+</Property><Property Name="Date" Value="Thursday, January 02, 2014">
+</Property><Property Name="Time" Value="22:14 PM">
+</Property></Properties><Event ErrorLevel="0" Project="install step" Source="install step\install step.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="install step" Source="install step\install step.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="install step.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="install step.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="install step" Source="install step\install step.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
