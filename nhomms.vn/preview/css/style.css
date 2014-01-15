@@ -1,0 +1,300 @@
+/*	
+	============================================================================================================================================
+																	START
+	============================================================================================================================================
+*/
+
+	body {
+		font-family: 'Lato', sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+		overflow: hidden;
+		-webkit-text-size-adjust:100%;
+	}
+
+/*	
+	------------------------------------------------------
+						TEXT
+	------------------------------------------------------
+*/
+
+	h1 {
+		font-size: 32px;
+		line-height: 38px;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
+	h2{
+		font-size: 20px;
+		line-height: 20px;
+		text-transform: uppercase;
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+	strong {
+	}
+	em {
+		font-weight: 300;
+	}
+	p {
+		margin-bottom: 15px;
+	}
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+	a.blue {
+		background: #00AEA8;
+		padding: 0 6px;
+	}
+	a.red {
+		background: #d1281f;
+		padding: 0 6px;
+	}
+	.quote {
+		font-weight: 400;
+	}
+
+/*	
+	------------------------------------------------------
+						ALTRO
+	------------------------------------------------------
+*/	
+
+	.clear {
+		clear: both;
+	}
+	.keyboard {
+		position: absolute;
+		bottom: 42px;
+		right: 15px;
+		z-index: 1000;
+	}
+	.keyboard img {
+		vertical-align: middle;
+	}
+	pre.prettyprint {
+		font-size: 12px;
+		line-height: 16px;
+		border: none;
+		padding: 15px;
+		background: url(../images/code.png) left top repeat;
+		-moz-tab-size: 3;
+		-o-tab-size: 3;
+		tab-size: 3;
+		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+		border-radius: 2px;
+	}
+	code.prettyprint {
+		font-size: 12px;
+		line-height: 12px;
+		border: none;
+		padding: 3px 6px;
+		margin: 0 4px;
+		background: url(../images/code.png) left top repeat;
+		-moz-tab-size: 3;
+		-o-tab-size: 3;
+		tab-size: 3;
+		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+		border-radius: 2px;
+	}
+	.prettyprint.distance {
+		margin-bottom: 15px;
+	}
+	
+	div.note {
+		padding: 8px;
+		position: relative;
+		display: block;
+		margin-bottom: 15px;
+	}
+	div.note .text {
+		position: relative;
+		z-index: 200;
+		font-size: 15px;
+		line-height: 17px;
+		font-weight: 300;
+	}
+	div.note .bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #00AEA8;
+		z-index: 100;
+		opacity: 0.5;
+		border-radius: 2px;
+	}
+	
+	.example-scroll {
+		font-size: 12px;
+		line-height: 15px;
+		color: #eee;
+		position: relative;
+	}
+	
+/*	
+	============================================================================================================================================
+																	HEAD
+	============================================================================================================================================
+*/
+
+	.fsn-bar {
+		background: #1a1a1a url(../images/bg_menu.png);
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+		overflow: hidden;
+	}
+	.fsn-bar .bar-body {
+		width: 980px;
+		margin: 0 auto;
+	}
+	
+/*	
+	------------------------------------------------------
+						MENU
+	------------------------------------------------------
+*/
+	
+	
+	.menu .fsn-menu-item {
+		float: left;
+	}
+	.menu .fsn-menu-item.right {
+		float: right;
+	}
+	.menu .fsn-menu-item span,
+	.menu .fsn-menu-item a {
+		color: #a9a9a9;
+		text-transform: uppercase;
+		font-size: 13px;
+		line-height: 13px;
+		padding: 14px 22px;
+		display: block;
+	}
+	.menu .fsn-menu-item.fsn-current {
+		background: #00AEA8;
+	}
+	.menu .fsn-menu-item:hover a,
+	.menu .fsn-menu-item:hover span {
+		color: #ccc;
+	}
+	.menu .fsn-menu-item.fsn-current span {
+		color: #fff;
+	}
+/*	
+	============================================================================================================================================
+																	CONTENT
+	============================================================================================================================================
+*/
+
+	.content-left {
+		float: left;
+		width: 400px;
+		padding-top: 30px;
+	}
+	.content-right {
+		float: right;
+		width: 490px;
+		padding-top: 30px;
+	}
+	.content-left.s2 {
+		float: left;
+		width: 340px;
+	}
+	.content-right.s2 {
+		float: right;
+		width: 640px;
+	}
+	
+	.content-left .image {
+		margin-top: 70px;
+	}
+
+/*	
+	------------------------------------------------------
+						DOTS
+	------------------------------------------------------
+*/
+	
+	.fsn-dots .fsn-dots-item {
+		background: #fff;
+		opacity: 0.3;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 30);
+		-MS-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 30);
+	}
+	.fsn-dots .fsn-dots-item:hover {
+		opacity: 0.4;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+		-MS-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 40);
+	}
+	.fsn-dots .fsn-dots-item.fsn-current {
+		background: #fff;
+		opacity: 0.9;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 90);
+		-MS-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 90);
+	}
+	
+/*	
+	------------------------------------------------------
+						NAVIGATION ARROWS
+	------------------------------------------------------
+*/
+	
+	.fsn-navigation-arrow {
+		background-image: url(../images/arrows.png);
+	}
+	.fsn-navigation-arrow.left {
+		background-position: left top;
+	}
+	.fsn-navigation-arrow.right {
+		background-position: right top;
+	}
+	
+/*	
+	------------------------------------------------------
+						PAGES
+	------------------------------------------------------
+*/
+	
+	.fsn-page-body {
+		color: #fff;
+	}	
+	.fsn-page {
+		background-image: url(../images/bg.png);
+		background-color: #000;
+	}
+	
+/*	
+	============================================================================================================================================
+																	FOOTER
+	============================================================================================================================================
+*/
+
+	.fsn-footer {
+		background: #1a1a1a url(../images/bg_menu.png);
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+		overflow: hidden;
+	}
+	.fsn-footer .footer-body {
+		width: 980px;
+		margin: 0 auto;
+		padding: 8px 0;
+	}
+	.fsn-footer .footer-body p {
+		margin: 0;
+		font-size: 11px;
+		line-height: 11px;
+		color: #666;
+		text-align: center;
+	}
+	.fsn-footer .footer-body .divide {
+		padding: 0 5px;
+		color: #555;
+	}
+	.fsn-footer .footer-body a {
+		color: #888;
+	}
+	.fsn-footer .footer-body a:hover {
+		text-decoration: underline;
+	}
