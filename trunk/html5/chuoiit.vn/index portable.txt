@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Presentation</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='http://html5slides.googlecode.com/svn/trunk/slides.js'></script>
+  </head>
+  
+  <style>
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+
+      <article class='fill'>
+        <iframe src='http://phanmem-portables.blogspot.com/'></iframe>
+      </article>
+     
+      <article class='fill'>
+        <iframe src='http://xn--chuiit-kxa.vn/'></iframe>
+      </article>
+    </section>
+
+  </body>
+</html>
