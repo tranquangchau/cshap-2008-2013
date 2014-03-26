@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\bin\Debug\Time Up.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\bin\Debug\Time Up.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\obj\Debug\Time_Up.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\obj\Debug\Time_Up.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\obj\Debug\Time Up.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\obj\Debug\Time Up.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Time Up\Time Up\obj\Debug\Time Up.pdb

@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\bin\Release\test save file.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\bin\Release\test save file.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\obj\Release\test_save_file.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\obj\Release\test_save_file.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\obj\Release\test save file.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\obj\Release\test save file.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test save file\test save file\obj\Release\test save file.pdb

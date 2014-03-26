@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Release\ets.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Release\ets.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Release\XMLTree.XMLTreeForm.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\bin\Release\ets.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\bin\Release\ets.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Release\ets.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Release\ets.pdb

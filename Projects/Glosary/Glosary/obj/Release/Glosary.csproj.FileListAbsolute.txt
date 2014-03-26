@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\bin\Release\Glosary.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\bin\Release\Glosary.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\obj\Release\Glosary.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\obj\Release\Glosary.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\obj\Release\Glosary.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\obj\Release\Glosary.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Glosary\Glosary\obj\Release\Glosary.Learning.resources
