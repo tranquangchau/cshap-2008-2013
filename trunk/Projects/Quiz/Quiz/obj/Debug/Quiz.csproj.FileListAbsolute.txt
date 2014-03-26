@@ -1,0 +1,4 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Quiz\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Quiz\obj\Debug\Quiz.Form1.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Quiz\obj\Debug\Quiz.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\Quiz\obj\Debug\Quiz.csproj.GenerateResource.Cache

@@ -1,0 +1,14 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\bin\Release\TimeDown.exe.manifest
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\bin\Release\TimeDown.application
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\bin\Release\TimeDown.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\bin\Release\TimeDown.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.Form2.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.Form3.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.exe.manifest
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.application
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\TimeDown\TimeDown\obj\Release\TimeDown.pdb

@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\bin\Debug\sound.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\bin\Debug\sound.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\obj\Debug\sound.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\obj\Debug\sound.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\obj\Debug\sound.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\obj\Debug\sound.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\sound\sound\obj\Debug\sound.pdb

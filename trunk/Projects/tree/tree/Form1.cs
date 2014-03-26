@@ -23,7 +23,7 @@ namespace tree
         private void Form1_Load(object sender, EventArgs e)
         {
             //DirectoryInfo directoryInfo = new DirectoryInfo(@"D:Photo");
-            DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Documents and Settings\Admin\Desktop\file");
+            DirectoryInfo directoryInfo = new DirectoryInfo(@"\New Folder");
             
             if (directoryInfo.Exists)
             {

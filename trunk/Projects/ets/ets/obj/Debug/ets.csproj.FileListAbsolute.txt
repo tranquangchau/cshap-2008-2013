@@ -1,0 +1,16 @@
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Debug\XMLTree.XMLTreeForm.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Debug\ets.Properties.Resources.resources
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Debug\ets.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\bin\Debug\ets.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\bin\Debug\ets.pdb
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Debug\ets.exe
+C:\Documents and Settings\Admin\Local Settings\Application Data\Temporary Projects\ets\obj\Debug\ets.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\obj\Debug\ets.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\obj\Debug\ets.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\bin\Debug\ets.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\bin\Debug\ets.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\obj\Debug\XMLTree.XMLTreeForm.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\obj\Debug\ets.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\ets\ets\obj\Debug\ets.csproj.GenerateResource.Cache

@@ -1,0 +1,27 @@
+﻿- có kết quả mong đạt được bằng txt view
+- tắt âm nhạc khi ấn start
+- tắt âm nhạc khi đã hết giờ và mở nhạc chúc mừng lên OK
+- thêm stop nhạc khi hết giờ để mở nhạc kia lên
+- chỉnh sửa lại code ghichep thành lưu vào file và add thêm 1 dòng mới khi được gọi lệnh (hàm này là hàm dùng chung nên có thể gọi lại nó)
+- để form main nó luôn hiện thị => Panel 2 cho full window luôn và fix cái nút nhạc cho vào form 2 xóa người thổi kèn.
+- thêm cái hệ thống danh sách việc cần làm và add vào danh sách hàng chờ công việc khi nào xong hết stop rồi thì cho gét test task mới +goal cần đạt được, task template vào chọn task từ cái template vào hàng đợi làm trong ngày.
+- thay hình ảnh configuration thành các sao vàng chiến thắng nếu cần thiết cho đẹp hơn 
+- test hàm radom chữ và hình ảnh.
+- list tự chạy câu nói nổi tiếng của ai đó dưới các công việc đang thực hiện các câu nói danh  ngôn
+- thêm comment task như vai trò người làm công việc, tên công việc, đầu ra công việc là gì.
+- xóa txt4 khi task đó đã hoàn thành còn time không cần cũng được
+- cho sét thể loại công việc => start để có compled file sẽ được sắp xếp công việc nào được làm nhiều nhất nhóm công việc nào làm ít nhất và định hướng công việc??? hay là vẽ biểu đồ số lượng công việc, còn lưu báo cáo thì khác nhỉ
+- sao giao diện cáo chạy không hiện thị công việc đang làm? hay câu nói nào đó chạy đi chạy lại nhỉ?
+- sao chúc mừng lại cần thêm một form mới nhỉ chỉ cần thêm một panel nữa là ok thôi mà. đỡ code mà lại quản lý được đánh giá công việc, hoàn thành 100% hoàn thành 90% công việc có số % để chọn messgabox cho dễ ghi vào file luôn
+- làm sao có lưu trữ 1 ngày 1 file 1 ngày 1 file rồi sau đó có thể dùng phần mềm khác thống kê mấy file này này trong một ngày rồi thống kê nó sự thể loại công việc, số lượng hoàn thành, ghi chú công việc đã làm hoàn tất
+- thêm ico cho phần mềm
+- phần mềm nên báo cáo thời gian sau 5.10,15 phút nếu không có nhieeumvuj tiếp theo dwojcthuwc hien dể không bị quên nhiệm vụ tiếp
+- task không ghi time, và tự chạy??? để thời gian tự trôi + time hiện tại lên đầu và chạy ?? đã chạy được mấy phút rồi từ khi mở máy tính
+- tính thời gian chạy trước sau khi xong việc mới ghi task được không
+- có thể thêm task được không trong khi task kia chưa thực hiện xong (hãy đọc trang sách đó thật nhanh và hiểu được nhiều từ nhất, hãy tìm hiểu về vần a, => các loài động vật ?? what is ADN, amper, amazon)
+- cho ghi chép các ý tưởng trong khi làm task đó được không? (phần mềm note có hình ảnh để phân tích như các công công cụ khác hỗ trợ viết test được tốt như thêm các smiler nhiều hơn trong bài viết của mình) và write => làm liền???
+-? viết được phần mềm chia task công việc không? như task hôm nay ghi thì lưu lại ngày giờ, rồi có các nút add thêm task con và lưu ngày lại như thế có thể thấy được các công việc đã làm và thời gian thực hiện cũng như có các công việc con khác đang làm để hoàn thành công việc lớn đó_ theo thời gian thực
+- tôi có thể viết code web chèn hình ảnh lên hình lập phương được không
+- giờ 1 từ có nhiều nghĩa và biểu hiện nó bằng hình ảnh, vậy có thể radom hình ảnh đó theo thời gian khi truy cập đến hình ảnh đó được không?
+- làm sao có thể cho tree linh động, như vần a, hiển thị thêm các từ bắt đầu bằng vần a, rồi tiếp hiện thị các từ bắt đầu bằng vần a, tiếp theo là câu ví dụ và tiếp theo là hình ảnh minh họa nó.
+- tôi muốn thấy các công việc của tôi hiện tại và thấy nó bằng hình ảnh trực quan do trực quan đang tác động tới tôi rất nhiều và giờ tôi phải là thế nào, cách đơn giản nhất tạo thư mục và cho hình ảnh vào up các hình ảnh mong muốn và thư mục và cho hình ảnh biểu thị cho thư mục đó bằng dấu . trước và sau đó ẩn thư mục đi, và sau đó là cho task vào thư mục trong đó rồi làm tương tự như thế có thể truy cập được các hình ảnh thư mục task
