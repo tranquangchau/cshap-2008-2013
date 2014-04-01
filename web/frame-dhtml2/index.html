@@ -1,0 +1,66 @@
+<html>
+<body>
+<!--CHANGE LINKS BELOW TO YOUR OWN-->
+<a href="javascript:jumpto('http://www.cnn.com')">CNN.com</a> | 
+<a href="javascript:jumpto('http://www.msnbc.com')">MSNBC</a> | 
+<a href="javascript:jumpto('http://www.abcnews.com')">ABC News</a> | 
+<a href="javascript:jumpto('http://news.bbc.co.uk')">BBC UK News</a>
+<a href="javascript:jumpto('http://www.cnn.com')">CNN.com</a> | 
+<a href="javascript:jumpto('http://www.msnbc.com')">MSNBC</a> | 
+<a href="javascript:jumpto('http://www.abcnews.com')">ABC News</a> | 
+<a href="javascript:jumpto('http://news.bbc.co.uk')">BBC UK News</a>
+<a href="javascript:jumpto('http://www.cnn.com')">CNN.com</a> | 
+<a href="javascript:jumpto('http://www.msnbc.com')">MSNBC</a> | 
+<a href="javascript:jumpto('http://www.abcnews.com')">ABC News</a> | 
+<a href="javascript:jumpto('http://news.bbc.co.uk')">BBC UK News</a>
+<a href="javascript:jumpto('http://www.cnn.com')">CNN.com</a> | 
+<a href="javascript:jumpto('http://www.msnbc.com')">MSNBC</a> | 
+<a href="javascript:jumpto('http://www.abcnews.com')">ABC News</a> | 
+<a href="javascript:jumpto('http://news.bbc.co.uk')">BBC UK News</a>
+<a href="javascript:jumpto('http://www.cnn.com')">CNN.com</a> | 
+<a href="javascript:jumpto('http://www.msnbc.com')">MSNBC</a> | 
+<a href="javascript:jumpto('http://www.abcnews.com')">ABC News</a> | 
+<a href="javascript:jumpto('http://news.bbc.co.uk')">BBC UK News</a>
+<a href="javascript:jumpto('http://www.cnn.com')">CNN.com</a> | 
+<a href="javascript:jumpto('http://www.msnbc.com')">MSNBC</a> | 
+<a href="javascript:jumpto('http://www.abcnews.com')">ABC News</a> | 
+<a href="javascript:jumpto('http://news.bbc.co.uk')">BBC UK News</a>
+
+
+<script language="javascript">
+<!--
+
+//Drop-down Document Viewer II- © Dynamic Drive (www.dynamicdrive.com)
+//For full source code, 100's more DHTML scripts, and TOS,
+//visit http://www.dynamicdrive.com
+
+//Specify display mode (0 or 1)
+//0 causes document to be displayed in an inline frame, while 1 in a new browser window
+var displaymode=0
+//if displaymode=0, configure inline frame attributes (ie: dimensions, intial document shown
+var iframecode='<iframe id="external" style="width:100%;height:90%" src="http://www.vtv.vn"></iframe>'
+
+/////NO NEED TO EDIT BELOW HERE////////////
+
+if (displaymode==0)
+document.write(iframecode)
+
+function jumpto(inputurl){
+if (document.getElementById&&displaymode==0)
+document.getElementById("external").src=inputurl
+else if (document.all&&displaymode==0)
+document.all.external.src=inputurl
+else{
+if (!window.win2||win2.closed)
+win2=window.open(inputurl)
+//else if win2 already exists
+else{
+win2.location=inputurl
+win2.focus()
+}
+}
+}
+//-->
+</script>
+</body>
+</html>

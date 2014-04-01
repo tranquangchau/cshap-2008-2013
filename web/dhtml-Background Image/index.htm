@@ -1,0 +1,38 @@
+
+
+<html>
+
+<body>
+<script language="JavaScript1.2">
+
+/*
+Watermark Backgound Image Script- © Dynamic Drive (www.dynamicdrive.com)
+For full source code, 100's more DHTML scripts, and TOS,
+visit dynamicdrive.com
+*/
+if (document.all||document.getElementById)
+document.body.style.background="url('notebook.jpg') white center no-repeat fixed"
+
+</script>
+
+Positioning Images using CSS</p>
+
+</p>Background images can be positioned using the "background-position" property.
+</p>Syntax: background-position: <percentage> | <length> | left | center | right
+</p>Images are positioned according to the top-left corner of the image. Percentage and length values are expressed as a horizontal (x) and vertical (y) values. If only one value is used, the second value is presumed to be center. Of course, you can use the keywords, left, center, and right, to position the image. The keywords are for the horizontal position, the vertical position will default to 50% or centered vertically on the screen.
+</p>background-position: 50% 50%; /* image centered on screen */
+</p>background-position: 50%; /* this also centers on screen */
+</p>background-position: 100px 100px;
+</p>background-position: center;
+</p>Repeating Images
+</p>
+</p>You might notice that when you place a background image on the screen, it tiles. It will repeat left to right, top to bottom for the entire length of the page. You might not want this so you can specify how a background image repeats using the "background-repeat" property.
+Syntax: background-repeat: repeat | repeat-x | repeat-y | no-repeat
+The "repeat" keyword is the default. All background images will repeat by default. Using the "repeat-x" or "repeat-y" keywords will limit the image to just horizontal or vertical, respectively. The "no-repeat" keyword will force it to display on one image.
+</p>background-repeat: repeat; /* default */
+</p>background-repeat: repeat-x; /* repeat horizontally */
+</p>background-repeat: repeat-y; /* repeat vertically */
+</p>background-repeat: no-repeat; /* don't tile the image */
+
+</body>
+</html>

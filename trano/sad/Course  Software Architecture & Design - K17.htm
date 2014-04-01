@@ -1,0 +1,663 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0060)http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728 -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<link rel="stylesheet" type="text/css" href="./Course  Software Architecture & Design - K17_files/styles.php">
+<link rel="stylesheet" type="text/css" href="./Course  Software Architecture & Design - K17_files/styles(1).php">
+
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="https://hoctructuyen.vanlanguni.edu.vn/theme/standard/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="https://hoctructuyen.vanlanguni.edu.vn/theme/standard/styles_ie6.css" />
+<![endif]-->
+
+
+    <meta name="keywords" content="moodle, Course: Software Architecture &amp; Design - K17 ">
+    <title>Course: Software Architecture &amp; Design - K17</title>
+    <link rel="shortcut icon" href="https://hoctructuyen.vanlanguni.edu.vn/theme/computer-scientist/favicon.ico">
+    <!--<style type="text/css">/*<![CDATA[*/ body{behavior:url(https://hoctructuyen.vanlanguni.edu.vn/lib/csshover.htc);} /*]]>*/</style>-->
+
+<script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/javascript-static.js"></script>
+<script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/javascript-mod.php"></script>
+<script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/overlib.js"></script>
+<script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/overlib_cssstyle.js"></script>
+<script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/cookies.js"></script>
+<script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/ufo.js"></script>
+<script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/dropdown.js"></script>  
+
+<script type="text/javascript" defer="defer">
+//<![CDATA[
+setTimeout('fix_column_widths()', 20);
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function openpopup(url, name, options, fullscreen) {
+    var fullurl = "https://hoctructuyen.vanlanguni.edu.vn" + url;
+    var windowobj = window.open(fullurl, name, options);
+    if (!windowobj) {
+        return true;
+    }
+    if (fullscreen) {
+        windowobj.moveTo(0, 0);
+        windowobj.resizeTo(screen.availWidth, screen.availHeight);
+    }
+    windowobj.focus();
+    return false;
+}
+
+function uncheckall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false;
+    }
+}
+
+function checkall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = true;
+    }
+}
+
+function inserttext(text) {
+  text = ' ' + text + ' ';
+  if ( opener.document.forms['theform'].message.createTextRange && opener.document.forms['theform'].message.caretPos) {
+    var caretPos = opener.document.forms['theform'].message.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+  } else {
+    opener.document.forms['theform'].message.value  += text;
+  }
+  opener.document.forms['theform'].message.focus();
+}
+
+function getElementsByClassName(oElm, strTagName, oClassNames){
+	var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
+	var arrReturnElements = new Array();
+	var arrRegExpClassNames = new Array();
+	if(typeof oClassNames == "object"){
+		for(var i=0; i<oClassNames.length; i++){
+			arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + "(\\s|$)"));
+		}
+	}
+	else{
+		arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)"));
+	}
+	var oElement;
+	var bMatchesAll;
+	for(var j=0; j<arrElements.length; j++){
+		oElement = arrElements[j];
+		bMatchesAll = true;
+		for(var k=0; k<arrRegExpClassNames.length; k++){
+			if(!arrRegExpClassNames[k].test(oElement.className)){
+				bMatchesAll = false;
+				break;
+			}
+		}
+		if(bMatchesAll){
+			arrReturnElements.push(oElement);
+		}
+	}
+	return (arrReturnElements)
+}
+//]]>
+</script>
+<style type="text/css"></style></head>
+
+<body class="http:--hoctructuyen.vanlanguni.edu.vn-course course-728 dir-ltr lang-en_utf8" id="http:--hoctructuyen.vanlanguni.edu.vn-course-view">
+
+<div id="page">
+
+    <div id="header" class=" clearfix">       <h1 class="headermain">Software Architecture &amp; Design - K17</h1>
+    </div>    <div id="banner"><h1 class="headermain">.</h1></div>
+    <div class="navbar clearfix">
+        <div class="breadcrumb"><h2 class="accesshide ">You are here</h2> <ul>
+<li class="first"><a onclick="this.target=&#39;_top&#39;" href="https://hoctructuyen.vanlanguni.edu.vn/">VLOC</a></li><li> <span class="accesshide ">/&nbsp;</span><span class="arrow sep">»</span> CMU-SE-K17_SAD</li></ul></div>
+        <div class="navbutton">&nbsp;</div>
+    </div>
+    <!-- END OF HEADER -->
+    <div id="content"><div class="course-content"><link rel="stylesheet" type="text/css" href="./Course  Software Architecture & Design - K17_files/popup_dialog_styles.css"><div id="lightboxOverlay" style="position:absolute; visibility:hidden;z-index:500;">
+		<iframe id="popupIFrame" src="" scrolling="no" frameborder="0"></iframe>
+	        <div id="dropShadow" style="position:absolute;top:5px;left:3px;background-color:#000000;z-index:-1;opacity:0.25;moz-opacity:0.25;filter:alpha(opacity=25);">
+		</div>
+	</div><table id="layout-table" cellspacing="0" summary="Layout table"><tbody><tr><td style="width:180px" id="left-column"><div><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-1" class="skip-block">Skip People</a><div id="inst20835" class="block_participants sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20835" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show People block&#39;, &#39;Hide People block&#39;); return false;" alt="Hide People block" title="Hide People block" class="hide-show-image"><h2>People</h2></div></div><div class="content">
+<ul class="list">
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/users.gif" class="icon" alt=""></div><div class="column c1"><a title="List of all people" href="https://hoctructuyen.vanlanguni.edu.vn/user/index.php?contextid=91023">Participants</a></div></li>
+</ul>
+</div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20835","Show People block","Hide People block");
+//]]>
+</script><span id="sb-1" class="skip-block-to"></span><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-2" class="skip-block">Skip Activities</a><div id="inst20836" class="block_activity_modules sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20836" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show Activities block&#39;, &#39;Hide Activities block&#39;); return false;" alt="Hide Activities block" title="Hide Activities block" class="hide-show-image"><h2>Activities</h2></div></div><div class="content">
+<ul class="list">
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="icon" alt=""></div><div class="column c1"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/index.php?id=728">Assignments</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/icon(1).gif" class="icon" alt=""></div><div class="column c1"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/index.php?id=728">Forums</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/icon(2).gif" class="icon" alt=""></div><div class="column c1"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/index.php?id=728">Resources</a></div></li>
+</ul>
+</div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20836","Show Activities block","Hide Activities block");
+//]]>
+</script><span id="sb-2" class="skip-block-to"></span><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-3" class="skip-block">Skip Search Forums</a><div id="inst20837" class="block_search_forums sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20837" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show Search Forums block&#39;, &#39;Hide Search Forums block&#39;); return false;" alt="Hide Search Forums block" title="Hide Search Forums block" class="hide-show-image"><h2>Search Forums</h2></div></div><div class="content"><div class="searchform"><form action="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/search.php" style="display:inline"><fieldset class="invisiblefieldset"><input name="id" type="hidden" value="728"><label class="accesshide" for="searchform_search">Search</label><input id="searchform_search" name="search" type="text" size="16"><button id="searchform_button" type="submit" title="Search">Go</button><br><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/search.php?id=728">Advanced search</a><span class="helplink"><a title="Help with Advanced search (new window)" href="https://hoctructuyen.vanlanguni.edu.vn/help.php?module=moodle&file=search.html&forcelang=" onclick="this.target=&#39;popup&#39;; return openpopup(&#39;/help.php?module=moodle&amp;file=search.html&amp;forcelang=&#39;, &#39;popup&#39;, &#39;menubar=0,location=0,scrollbars,resizable,width=500,height=400&#39;, 0);"><img class="iconhelp" alt="Help with Advanced search (new window)" src="./Course  Software Architecture & Design - K17_files/help.gif"></a></span></fieldset></form></div></div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20837","Show Search Forums block","Hide Search Forums block");
+//]]>
+</script><span id="sb-3" class="skip-block-to"></span><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-4" class="skip-block">Skip Administration</a><div id="inst20838" class="block_admin sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20838" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show Administration block&#39;, &#39;Hide Administration block&#39;); return false;" alt="Hide Administration block" title="Hide Administration block" class="hide-show-image"><h2>Administration</h2></div></div><div class="content">
+<ul class="list">
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/grades.gif" class="icon" alt=""></div><div class="column c1"><a href="https://hoctructuyen.vanlanguni.edu.vn/grade/report/index.php?id=728">Grades</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/user.gif" class="icon" alt=""></div><div class="column c1"><a href="https://hoctructuyen.vanlanguni.edu.vn/course/unenrol.php?id=728">Unenrol me from CMU-SE-K17_SAD</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/user.gif" alt=""></div><div class="column c1"><a href="https://hoctructuyen.vanlanguni.edu.vn/user/view.php?id=2675&course=728">Profile</a></div></li>
+</ul>
+</div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20838","Show Administration block","Hide Administration block");
+//]]>
+</script><span id="sb-4" class="skip-block-to"></span><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-5" class="skip-block">Skip My courses</a><div id="inst20839" class="block_course_list sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20839" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show My courses block&#39;, &#39;Hide My courses block&#39;); return false;" alt="Hide My courses block" title="Hide My courses block" class="hide-show-image"><h2>My courses</h2></div></div><div class="content">
+<ul class="list">
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK1_Kythuat_11-12_VanAnh" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=332">Anh Văn HK1 - Khối Kỹ thuật (2011) - GV. Vân Anh</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK1_KyThuat_13-14_NhuNgoc" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=664">Anh Văn HK1 - Khối Kỹ thuật (2013) - GV. Như Ngọc</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK3_KyThuat_13-14_NhuNgoc" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=660">Anh Văn HK3 - Khối Kỹ thuật (2013) - GV. Như Ngọc</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK5_Kythuat_12-13_DinhQuoc" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=482">Anh Văn HK5 - Khối Kỹ thuật - CMU (2012) - GV. Định Quốc</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK5_KyThuat_13-14_NhuNgoc" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=648">Anh Văn HK5 - Khối Kỹ thuật (2013) - GV. Như Ngọc</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK5_11-12_NhuNgoc" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=310">Anh Văn HK5 (2011) - GV. Như Ngọc</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK6_Kythuat_12-13_DinhQuoc" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=591">Anh Văn HK6 - Khối Kỹ thuật (2012) - GV. Định Quốc</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="AVK6_Kythuat_12-13_NhuNgoc" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=600">Anh Văn HK6 - Khối Kỹ thuật (2012) - GV. Như Ngọc</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="BGTT-AV1-KTE" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=339">Bài giảng trực tuyến Anh văn 1 - Nhóm ngành kinh tế.</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Chính trị " href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=79">Chính trị (Ban THCN)</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Đại số tuyến tính -Trương Thanh Duy" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=145">Đại số tuyến tính -Trương Thanh Duy</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Đường lối cách mạng của Đảng Cộng sản Việt Nam " href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=105">Đường lối cách mạng của Đảng Cộng sản Việt Nam - GV. Nguyễn Thị Thu Thủy</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="DELF" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=76">Entrainement au DELF A2</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CMU-SE-K16_FC1" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=268">Fundamentals of Computing 1</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Giải tích -  Nguyễn Thị Lan Vinh" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=111">Giải tích -  Nguyễn Thị Lan Vinh</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="is-k16q" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=272">Hệ thống thông tin - K16Q</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="HD thi TN_ĐLCM của ĐCSVN &amp; TTHCM_2012" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=11">Hướng dẫn ôn thi tốt nghiệp học phần Đường lối cách mạng của Đảng cộng sản Việt Nam và tư tưởng Hồ Chí Minh, năm 2012_Thầy Đức </a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Demo support" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=109">Hướng dẫn sử dụng trang Học trực tuyến</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CMU-QT-K15_IIS-Q567" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=200">Introduction to Information System - K15 (Q5,Q6,Q7)</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CRS-SE2_ktlt" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=224">Kỹ thuật lập trình - Java</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CRS-SE2_LTHDT" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=221">Lập trình hướng đối tượng - C++</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Những nguyên lý Cb của chủ nghĩa Mac - Lênin, HP2 - Thầy Bùi Tá Thạnh" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=154">Những nguyên lý Cb của chủ nghĩa Mac - Lênin, HP2 - Thầy Bùi Tá Thạnh</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Nguyên lý CB CNML-HP1_Thầy Đức" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=69">Những nguyên lý cơ bản của chủ nghĩa Mác Lênin - HP1 - GV: Nguyễn Văn Đức</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Public speaking" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=118">Public speaking - cô Thùy</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CMU-SE-K16_QTDN" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=552">Quản trị Doanh nghiệp - K16</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Reading 3" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=119">Reading 3 - cô Thuỳ</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Reading 5" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=120">Reading 5 - cô Thuỳ</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CMU-SE-K17_SAD" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728">Software Architecture &amp; Design - K17</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CMU-SE-K17_SMA" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=727">Software Measurements &amp; Analysis - K17</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CMU-SE-K16_SPQM" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=620">Software Process and Quality Management - K16</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="CRS-SE2_sqlserver" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=222">SQL Server</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Tư tưởng Hồ Chí Minh - Nguyễn Thị Thu Thủy" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=292">Tư tưởng Hồ Chí Minh -  GV. Nguyễn Thị Thu Thủy</a></div></li>
+<li class="r0"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Vẽ kỹ thuật" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=78">Vẽ kỹ thuật - thầy Vũ Tiến Đạt</a></div></li>
+<li class="r1"><div class="icon column c0"><img src="./Course  Software Architecture & Design - K17_files/course.gif" class="icon" alt="Course category"></div><div class="column c1"><a title="Xác suất thống Kê (60 tiết) - Lê Thị Hồng Thuy" href="https://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=228">Xác suất thống Kê (60 tiết) - Lê Thị Hồng Thuy</a></div></li>
+</ul>
+<div class="footer"><a href="https://hoctructuyen.vanlanguni.edu.vn/course/index.php">All courses</a> ...</div></div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20839","Show My courses block","Hide My courses block");
+//]]>
+</script><span id="sb-5" class="skip-block-to"></span></div></td><td id="middle-column"><div><span id="maincontent"></span><h2 class="headingblock header outline">Weekly outline</h2><table class="weeks" width="100%" summary="Layout table"><tbody><tr id="section-0" class="section main"><td class="left side">&nbsp;</td><td class="content"><div class="summary"></div><ul class="section img-text">
+<li class="activity resource" id="module-48773"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=48773"><img src="./Course  Software Architecture & Design - K17_files/excel.gif" class="activityicon" alt=""> <span>SAD Course implementation plan<span class="accesshide "> Excel spreadsheet</span></span></a></li>
+<li class="activity forum" id="module-47779"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/view.php?id=47779"><img src="./Course  Software Architecture & Design - K17_files/icon(1).gif" class="activityicon" alt=""> <span>Diễn đàn trao đổi &amp; thông báo<span class="accesshide "> Forum</span></span></a></li>
+<li class="activity label" id="module-48768"><span class="label"><b>Required Text books:</b> </span></li>
+<li class="activity resource" id="module-48766"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=48766"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>1. Architecting Software Intensive System – A Practitioner’s Guide, Anthony Lattanze, 2008 (Lattanze 08)<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-48769"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=48769"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>2. Software Architecture in Practice, Len Bass, 2003 (Bass 03)<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-48770"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=48770"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>3. Documenting Software Architectures- View and Beyond,  Paul Clements, 2002 (Clements 10)<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity label" id="module-49248"><span class="label"> <b>References</b> </span></li>
+<li class="activity resource" id="module-49249"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49249"><img src="./Course  Software Architecture & Design - K17_files/web.gif" class="activityicon" alt=""> <span>Design Patterns – Elements of Reusable Object-Oriented Software, Erich Gamma, 1995 (Gamma 95)<span class="accesshide "> file</span></span></a></li>
+<li class="activity resource" id="module-49250"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49250"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>UML in Practice<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49252"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49252"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>ASP.NET 3.5 Application Architecture and Design<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49253"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49253"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Professional.ASP.NET MVC.3<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity label" id="module-48767"><span class="label"> <span class="label">
+<h2 style="margin-left: 0.25in; text-indent: -0.25in;"><font face="Verdana" color="black"><span>Course Description:</span></font></h2>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Architecture design is a term frequently used in today’s organizations building software intensive systems. But the term is frequently over-loaded, misused, and not clearly understood. What is architecture? As a representation artifact, software architecture is an abstract view of a software intensive system’s structures that is distinct from detailed design and implementation concerns. Architecture is an important corporate asset and a crucial part of a software organization's business strategy. Software architectures can</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− provide flexibility and adaptability in rapidly changing markets and business models</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− permit strategic alliance with other marketplace standards and vendors</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− seize and maintain control of a market</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− ensure that products possess essential properties such as availability, security, modifiability, and others</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− be part of a sales and marketing strategy</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− reduce lifecycle costs and permit the amortization of development costs</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− aid in workforce alignment and organization</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− establish a common vocabulary among stakeholders</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">− shorten learning curves</span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">This course is targeted at those practicing professionals who design, develop, and/or manage the construction of software-intensive systems. This course will provide an overview of architecture design for practicing engineers and provide insight on the latest thinking in architecture design. </span></font></b></h1>
+<h1 style="margin: 12pt 0.2in 0.0001pt 0.25in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Why is architecture design important, what is architecture, and what is its role in system development. Participants should have prior experience in the development of software-intensive systems and some familiarity with modern software engineering concepts.</span></font></b></h1>
+<p><span class="label"> </span></p>
+<h2 style="margin-left: 0.25in; text-indent: -0.25in;"><b><font size="4" face="Verdana" color="black"><span style="font-size: 13pt;"><span>2.<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font face="Verdana" color="black"><span>Course Learning Objectives:</span></font></h2>
+<h1 style="margin-left: 0in;"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;"><span> </span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Successful completion of this course will provide you with the knowledge and skills to</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Understand the influence of architectural drivers on software structures.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Understand the technical, organizational, and business role of software architecture.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Recognize major architectural structures (styles, patterns, tactics, etc.).</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Generate architectural alternatives for a problem and choose among them.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Understand the principles of good architectural documentation.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Understand the affect of COTS on architectural designs.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Understand how formal notations can be used to specify architectures.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Evaluate the fitness of an architectural design in meeting a set of system requirements and balancing quality trade-offs.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Be aware of future trends in software architecture.</span></font></h1>
+<h2 style="margin-left: 0.25in; text-indent: -0.25in;"><b><font size="4" face="Verdana" color="black"><span style="font-size: 13pt;"><span>3.<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font face="Verdana" color="black"><span>Prerequisites</span></font></h2>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Experience with at least one large software system, which condition could be satisfied by industrial software development experience or an undergraduate course in software engineering, compilers, or operating systems.</span></font></h1>
+<h1 style="margin-left: 0.75in; text-indent: -0.25in;"><b><font size="2" face="Times New Roman" color="black"><span style="font-size: 11pt;"><span>-<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font size="2" color="black"><span style="font-size: 11pt; color: windowtext; font-weight: normal;">Facility with a high-level, structured language, such as C++, and familiarity with object-oriented concepts and notations. </span></font></h1>
+<h2 style="margin-left: 0.25in; text-indent: -0.25in;"><b><font size="4" face="Verdana" color="black"><span style="font-size: 13pt;"><span>4.<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font face="Verdana" color="black"><span>Organization</span></font></h2>
+<p class="Pa1"><font size="2" face="Verdana"><span style="font-size: 11pt;">The course consists of a series of lectures given by faculty and staff from the School of Computer Science at Carnegie Mellon University. The lectures, captured on DVDs, lead the way through a series of assignments and chat room discussions.</span></font></p>
+<p style="margin-top: 5pt;" class="Pa4"><font size="2" face="Verdana"><span style="font-size: 11pt;">Your best approach to successfully complete the course is to follow three simple steps.</span></font></p>
+<p class="Pa1"><font size="2" face="Verdana"><span style="font-size: 11pt;">1. Do the assigned readings.</span></font></p>
+<p style="margin-top: 5pt;" class="Pa4"><font size="2" face="Verdana"><span style="font-size: 11pt;">2. Watch the lecture.</span></font></p>
+<p style="margin: 5pt 0in;" class="Pa3"><font size="2" face="Verdana"><span style="font-size: 11pt;">3. Complete the assignments.</span></font></p>
+<h2><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt;">All course materials, with the exception of the texts and DVDs, will be available on the Online Web site of Van lang university prior to the start of class.</span></font></b></h2>
+<h2 style="margin-left: 0.25in; text-indent: -0.25in;"><b><font size="4" face="Verdana" color="black"><span style="font-size: 13pt;"><span>5.<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font face="Verdana" color="black"><span>Feedback and Support</span></font></h2>
+<p style="margin: 5pt 0in; line-height: 12pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Your instructor for the course will conduct course discussions in the computer room every week. Should your instructor decide to have consultant meeting for each different team, they will notify you at the beginning of the course. Other times, your instructor will be available by email. In addition, you should feel free to post questions and comments on the course in course forum in Online Web site at any time to discuss the readings, the course, and issues related to software engineering with members of your class.</span></font></p> </span><span class="label"> </span><span class="label">
+<h2 style="margin-left: 0.25in; text-indent: -0.25in;"><b><font size="4" face="Verdana" color="black"><span style="font-size: 13pt;"><span>6.<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font face="Verdana" color="black"><span>Time Allocation</span></font></h2>
+<h2 style="margin-left: 0.25in;"><b><font size="4" face="Verdana" color="black"><span style="font-size: 13pt;"> </span></font></b></h2>
+<table width="727" cellspacing="0" cellpadding="0" border="0" style="width: 545.4pt; margin-left: 27pt; border-collapse: collapse;" class="MsoNormalTable"> <tbody>
+  <tr height="17" style="height: 12.75pt;">
+    <td width="463" valign="bottom" nowrap="nowrap" height="17" style="width: 347.4pt; border-width: 1pt; border-style: solid; border-color: windowtext black windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 12.75pt;" colspan="2">
+      <p align="center" style="margin: 0in 0in 0.0001pt; text-align: center;" class="MsoNormal"><b><font size="2" face="Verdana"><span style="font-size: 11pt; font-weight: bold;">Activities</span></font></b></p>
+    </td>
+    <td width="86" valign="bottom" nowrap="nowrap" height="17" style="width: 64.75pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 12.75pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><b><font size="2" face="Verdana"><span style="font-size: 11pt; font-weight: bold;">Duration</span></font></b></p>
+    </td>
+    <td width="178" valign="bottom" nowrap="nowrap" height="17" style="width: 133.25pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 12.75pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><b><font size="2" face="Verdana"><span style="font-size: 11pt; font-weight: bold;">Comments</span></font></b></p>
+    </td>
+  </tr>
+  <tr height="17" style="height: 12.75pt;">
+    <td width="134" nowrap="nowrap" style="width: 100.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext black; padding: 0in 5.4pt; height: 12.75pt;" rowspan="4">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Class-based Activities</span></font></p>
+    </td>
+    <td width="329" valign="bottom" nowrap="nowrap" height="17" style="width: 246.8pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 12.75pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Lesson</span></font></p>
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Discussion, Q&amp;A <br></span></font></p><br>
+    </td>
+    <td width="86" valign="bottom" nowrap="nowrap" height="17" style="width: 64.75pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 12.75pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">60 Slots</span></font></p>
+    </td>
+    <td width="178" style="width: 133.25pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext black -moz-use-text-color; padding: 0in 5.4pt; height: 12.75pt;" rowspan="4">
+      <p class="MsoNormal"><font size="2" face="Verdana"> </font></p>
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">● Total: 15 Weeks<br> ● 1 Week: 6 Slots<br> ● 1 Slot= 45 minutes</span></font></p>
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">● 1 Session = 2 Slots</span></font></p>
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;"> </span></font></p>
+    </td>
+  </tr>
+  <tr height="17" style="height: 12.75pt;">
+    <td width="329" valign="bottom" nowrap="nowrap" height="17" style="width: 246.8pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 12.75pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Discussion and review Reading questions</span></font></p>
+    </td>
+    <td width="86" valign="bottom" nowrap="nowrap" height="17" style="width: 64.75pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 12.75pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">14 Slots</span></font></p>
+    </td>
+  </tr>
+  <tr height="17" style="height: 12.75pt;">
+    <td width="329" valign="bottom" nowrap="nowrap" height="17" colspan="1" rowspan="2" style="width: 246.8pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 12.75pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Team Assignment Discussion/Presentation</span></font></p>
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Final Exam<br></span></font></p>
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;"><br></span></font></p>
+    </td>
+    <td width="86" valign="bottom" nowrap="nowrap" style="width: 64.75pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 12.75pt;" rowspan="2">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">16 Slots</span></font></p>
+      <p class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;"> </span></font></p>
+    </td>
+  </tr>
+  <tr height="17" style="height: 12.75pt;">
+  </tr>
+  <tr height="51" style="height: 38.25pt;">
+    <td width="134" nowrap="nowrap" height="51" style="width: 100.6pt; border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 38.25pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Self-study</span></font></p>
+    </td>
+    <td width="329" valign="bottom" height="51" style="width: 246.8pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 38.25pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Reading<br> Listening</span></font></p>
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Reading questions, team assignment, team Project<br> Other Research</span></font></p>
+    </td>
+    <td width="86" nowrap="nowrap" height="51" style="width: 64.75pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 38.25pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">180 Slots</span></font></p>
+    </td>
+    <td width="178" height="51" style="width: 133.25pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext black -moz-use-text-color; padding: 0in 5.4pt; height: 38.25pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">● 1 Slot= 45 minutes</span></font></p>
+    </td>
+  </tr> </tbody>
+</table>
+<h2 style="margin-left: 0.25in; text-indent: -0.25in;"><b><font size="4" face="Verdana" color="black"><span style="font-size: 13pt;"><span>7.<font size="1" face="Times New Roman"><span> </span></font></span></span></font></b><font face="Verdana" color="black"><span>Evaluation and Grading:</span></font><font size="2" face="Verdana"> <br></font></h2>
+<table width="496" cellspacing="0" cellpadding="0" border="0" style="width: 371.65pt; margin-left: 27pt; border-collapse: collapse;" class="MsoNormalTable"> <tbody>
+  <tr height="24" style="height: 17.9pt;">
+    <td valign="bottom" nowrap="nowrap" height="24" style="border: 1pt solid windowtext; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Reading &amp; Questions<br></span></font></p>
+    </td>
+    <td width="130" valign="bottom" nowrap="nowrap" height="24" style="width: 97.3pt; border-width: 1pt 1pt 1pt medium; border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">30%</span></font></p>
+    </td>
+  </tr>
+  <tr height="24" style="height: 17.9pt;">
+    <td valign="bottom" nowrap="nowrap" height="24" style="border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Team Assignment (3 Team Assignments)</span></font></p>
+    </td>
+    <td width="130" valign="bottom" nowrap="nowrap" height="24" style="width: 97.3pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">35%</span></font></p>
+    </td>
+  </tr>
+  <tr height="24" style="height: 17.9pt;">
+    <td valign="bottom" nowrap="nowrap" height="24" style="border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Final exam</span></font></p>
+    </td>
+    <td width="130" valign="bottom" nowrap="nowrap" height="24" style="width: 97.3pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">30%</span></font></p>
+    </td>
+  </tr>
+  <tr height="24" style="height: 17.9pt;">
+    <td valign="bottom" nowrap="nowrap" height="24" style="border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">Diligence</span></font></p>
+    </td>
+    <td width="130" valign="bottom" nowrap="nowrap" height="24" style="width: 97.3pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 17.9pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><font size="2" face="Verdana"><span style="font-size: 11pt;">5%</span></font></p>
+    </td>
+  </tr>
+  <tr height="25" style="height: 18.8pt;">
+    <td valign="bottom" nowrap="nowrap" height="25" style="border-width: medium 1pt 1pt; border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0in 5.4pt; height: 18.8pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><b><font size="2" face="Verdana"><span style="font-size: 11pt; font-weight: bold;">Total </span></font></b></p>
+    </td>
+    <td width="130" valign="bottom" nowrap="nowrap" height="25" style="width: 97.3pt; border-width: medium 1pt 1pt medium; border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; padding: 0in 5.4pt; height: 18.8pt;">
+      <p style="margin: 0in 0in 0.0001pt;" class="MsoNormal"><b><font size="2" face="Verdana"><span style="font-size: 11pt; font-weight: bold;">100%</span></font></b></p>
+    </td>
+  </tr> </tbody>
+</table>
+<p><font size="2" face="Verdana" color="black"><span style="font-size: 11pt;">Note: The instructor reserves the right to raise or lower your quantitatively determined grade based on their judgment of your mastery of course material; this judgement will be based in part on your ability to participate constructively in class discussions.</span></font></p>
+<p><span class="label"><b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt;">Passing criteria: </span></font></b><font size="2" face="Verdana" color="black"><span style="font-size: 11pt;"></span></font> </span><font size="2" face="Verdana" color="black"><span style="font-size: 11pt;"><br></span></font></p>
+<p><font size="2" face="Verdana" color="black"><span style="font-size: 11pt;"> Van Lang University: Total average mark &gt;= 5</span></font><span class="label"> </span></p> </span><span><font size="2" face="Verdana"><span style="font-size: 11pt;">Carnegie Mellon University: Total average mark &gt;= 7</span></font></span><span class="label"></span>
+<p></p>
+<p></p>
+<p></p>
+<p></p> </span></li>
+</ul><!--class='section'-->
+
+</td><td class="right side">&nbsp;</td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-1" class="section main"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  17 February -   23 February</h3><div class="summary"></div><ul class="section img-text">
+<li class="activity label" id="module-49257"><span class="label"><p><font size="4"><strong>Session 1: <br></strong></font></p>
+<p><font size="4"><strong>Course Introduction </strong></font></p>
+<p><strong>Objectives:</strong></p>
+<p>- Course Goals and Objectives </p>
+<p>- Architecture definitions </p>
+<p>- Why you should care </p>
+<p><strong>Reading:</strong></p>
+<p><strong>- </strong>Lattanze 08: ch1, Bass 03: ch1</p></span></li>
+<li class="activity resource" id="module-49258"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49258"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Course Introduction slides<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49259"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49259"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 01-Audio<span class="accesshide "> sound file</span></span></a></li>
+<li class="activity label" id="module-49260"><span class="label"><p><strong><font size="4">Session 2: Architecture defined </font></strong></p>
+<p><strong>Objectives:</strong></p>
+<p>-What is architecture design? </p>
+<p>-What inspires Architecture Design? </p>
+<p>-What is structure and how to present it? </p>
+<p><strong>Reading:</strong></p>
+<p>· Lattanze 08: ch2, Bass 03: ch1, ch2</p>
+<h2> </h2></span></li>
+<li class="activity resource" id="module-49261"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49261"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Architecture defined slides<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49262"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49262"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 02 - Audio<span class="accesshide "> sound file</span></span></a></li>
+<li class="activity label" id="module-49263"><span class="label"><strong><font size="4">Session <font size="4">3</font>: Q<font size="4">&amp;A and other discussion if any</font></font></strong><br><br></span></li>
+</ul><!--class='section'-->
+
+</td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=1" title="Show only week 1"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 1"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-2" class="section main"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  24 February -  2 March</h3><div class="summary"></div><ul class="section img-text">
+<li class="activity label" id="module-49264"><span class="label"><p><strong><font size="4">Session 4: Architecture Driver</font></strong></p>
+<p><strong>Objectives:</strong></p>
+<p>-What motivates architecture drivers? </p>
+<p>-Examine typical to express architecture drivers </p>
+<p>-Better way to express quality attributes</p>
+<p><strong>Reading:</strong> </p>
+<p>· Lattanze 08: ch3, ch8, ch9; Bass 03: ch4</p></span></li>
+<li class="activity resource" id="module-49265"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49265"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Architecture Driver Slides<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49266"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49266"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 03 - Audio<span class="accesshide "> sound file</span></span></a></li>
+<li class="activity label" id="module-49267"><span class="label"><font size="4"><span style="font-weight: bold;">Session 5: Present <a class="resource autolink" title="RQ1 (Introduction)" href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?r=25341">RQ1 (Introduction)</a></span></font></span></li>
+<li class="activity resource" id="module-49268"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49268"><img src="./Course  Software Architecture & Design - K17_files/word.gif" class="activityicon" alt=""> <span>RQ1 (Introduction)<span class="accesshide "> Word document</span></span></a></li>
+<li class="activity assignment" id="module-50095"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=50095"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="activityicon" alt=""> <span>Submit RQ1 (Target date: 11:55 AM , 26/02/14)<span class="accesshide "> Assignment</span></span></a></li>
+<li class="activity label" id="module-49269"><span class="label"><strong><font size="4">Session <font size="4">6</font>: Q<font size="4">&amp;A and other discussion if any</font></font></strong></span></li>
+<li class="activity resource" id="module-49270"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49270"><img src="./Course  Software Architecture & Design - K17_files/docx.gif" class="activityicon" alt=""> <span>Team assignment 1<span class="accesshide "> file</span></span></a></li>
+</ul><!--class='section'-->
+
+</td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=2" title="Show only week 2"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 2"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-3" class="section main"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates"> 3 March -  9 March</h3><div class="summary"></div><ul class="section img-text">
+<li class="activity label" id="module-49271"><span class="label"><p><strong><font size="4">Session 7: Architectural structures I<br></font></strong></p>
+<p><strong>Objectives:</strong></p><!--[if gte mso 9]><xml>&#010; <o:OfficeDocumentSettings>&#010;  <o:DoNotRelyOnCSS/>&#010;  <o:DoNotOrganizeInFolder/>&#010; </o:OfficeDocumentSettings>&#010;</xml><![endif]--><!--[if gte mso 9]><xml>&#010; <w:WordDocument>&#010;  <w:View>Normal</w:View>&#010;  <w:Zoom>0</w:Zoom>&#010;  <w:TrackMoves/>&#010;  <w:TrackFormatting/>&#010;  <w:PunctuationKerning/>&#010;  <w:ValidateAgainstSchemas/>&#010;  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>&#010;  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>&#010;  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>&#010;  <w:DoNotPromoteQF/>&#010;  <w:LidThemeOther>EN-US</w:LidThemeOther>&#010;  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>&#010;  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>&#010;  <w:Compatibility>&#010;   <w:BreakWrappedTables/>&#010;   <w:SnapToGridInCell/>&#010;   <w:WrapTextWithPunct/>&#010;   <w:UseAsianBreakRules/>&#010;   <w:DontGrowAutofit/>&#010;   <w:SplitPgBreakAndParaMark/>&#010;   <w:DontVertAlignCellWithSp/>&#010;   <w:DontBreakConstrainedForcedTables/>&#010;   <w:DontVertAlignInTxbx/>&#010;   <w:Word11KerningPairs/>&#010;   <w:CachedColBalance/>&#010;  </w:Compatibility>&#010;  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>&#010;  <m:mathPr>&#010;   <m:mathFont m:val="Cambria Math"/>&#010;   <m:brkBin m:val="before"/>&#010;   <m:brkBinSub m:val="--"/>&#010;   <m:smallFrac m:val="off"/>&#010;   <m:dispDef/>&#010;   <m:lMargin m:val="0"/>&#010;   <m:rMargin m:val="0"/>&#010;   <m:defJc m:val="centerGroup"/>&#010;   <m:wrapIndent m:val="1440"/>&#010;   <m:intLim m:val="subSup"/>&#010;   <m:naryLim m:val="undOvr"/>&#010;  </m:mathPr></w:WordDocument>&#010;</xml><![endif]--><!--[if gte mso 9]><xml>&#010; <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"&#010;  DefSemiHidden="true" DefQFormat="false" DefPriority="99"&#010;  LatentStyleCount="267">&#010;  <w:LsdException Locked="false" Priority="0" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>&#010;  <w:LsdException Locked="false" Priority="9" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>&#010;  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>&#010;  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>&#010;  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>&#010;  <w:LsdException Locked="false" Priority="10" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Title"/>&#010;  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>&#010;  <w:LsdException Locked="false" Priority="11" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>&#010;  <w:LsdException Locked="false" Priority="22" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>&#010;  <w:LsdException Locked="false" Priority="20" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>&#010;  <w:LsdException Locked="false" Priority="0" Name="Normal (Web)"/>&#010;  <w:LsdException Locked="false" Priority="59" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Table Grid"/>&#010;  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>&#010;  <w:LsdException Locked="false" Priority="1" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>&#010;  <w:LsdException Locked="false" Priority="60" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Shading"/>&#010;  <w:LsdException Locked="false" Priority="61" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light List"/>&#010;  <w:LsdException Locked="false" Priority="62" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Grid"/>&#010;  <w:LsdException Locked="false" Priority="63" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 1"/>&#010;  <w:LsdException Locked="false" Priority="64" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 2"/>&#010;  <w:LsdException Locked="false" Priority="65" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 1"/>&#010;  <w:LsdException Locked="false" Priority="66" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 2"/>&#010;  <w:LsdException Locked="false" Priority="67" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 1"/>&#010;  <w:LsdException Locked="false" Priority="68" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 2"/>&#010;  <w:LsdException Locked="false" Priority="69" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 3"/>&#010;  <w:LsdException Locked="false" Priority="70" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Dark List"/>&#010;  <w:LsdException Locked="false" Priority="71" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Shading"/>&#010;  <w:LsdException Locked="false" Priority="72" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful List"/>&#010;  <w:LsdException Locked="false" Priority="73" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Grid"/>&#010;  <w:LsdException Locked="false" Priority="60" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="61" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light List Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="62" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="63" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="64" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="65" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>&#010;  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>&#010;  <w:LsdException Locked="false" Priority="34" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>&#010;  <w:LsdException Locked="false" Priority="29" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>&#010;  <w:LsdException Locked="false" Priority="30" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>&#010;  <w:LsdException Locked="false" Priority="66" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="67" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="68" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="69" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="70" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Dark List Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="71" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="72" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="73" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>&#010;  <w:LsdException Locked="false" Priority="60" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="61" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light List Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="62" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="63" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="64" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="65" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="66" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="67" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="68" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="69" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="70" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Dark List Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="71" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="72" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="73" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>&#010;  <w:LsdException Locked="false" Priority="60" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="61" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light List Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="62" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="63" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="64" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="65" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="66" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="67" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="68" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="69" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="70" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Dark List Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="71" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="72" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="73" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>&#010;  <w:LsdException Locked="false" Priority="60" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="61" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light List Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="62" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="63" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="64" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="65" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="66" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="67" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="68" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="69" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="70" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Dark List Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="71" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="72" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="73" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>&#010;  <w:LsdException Locked="false" Priority="60" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="61" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light List Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="62" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="63" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="64" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="65" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="66" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="67" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="68" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="69" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="70" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Dark List Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="71" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="72" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="73" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>&#010;  <w:LsdException Locked="false" Priority="60" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="61" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light List Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="62" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="63" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="64" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="65" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="66" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="67" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="68" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="69" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="70" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Dark List Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="71" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="72" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="73" SemiHidden="false"&#010;   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>&#010;  <w:LsdException Locked="false" Priority="19" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>&#010;  <w:LsdException Locked="false" Priority="21" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>&#010;  <w:LsdException Locked="false" Priority="31" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>&#010;  <w:LsdException Locked="false" Priority="32" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>&#010;  <w:LsdException Locked="false" Priority="33" SemiHidden="false"&#010;   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>&#010;  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>&#010;  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>&#010; </w:LatentStyles>&#010;</xml><![endif]--><!--[if gte mso 10]>&#010;<style>&#010; /* Style Definitions */&#010; table.MsoNormalTable&#010;	{mso-style-name:"Table Normal";&#010;	mso-tstyle-rowband-size:0;&#010;	mso-tstyle-colband-size:0;&#010;	mso-style-noshow:yes;&#010;	mso-style-priority:99;&#010;	mso-style-qformat:yes;&#010;	mso-style-parent:"";&#010;	mso-padding-alt:0in 5.4pt 0in 5.4pt;&#010;	mso-para-margin:0in;&#010;	mso-para-margin-bottom:.0001pt;&#010;	mso-pagination:widow-orphan;&#010;	font-size:11.0pt;&#010;	font-family:"Calibri","sans-serif";&#010;	mso-ascii-font-family:Calibri;&#010;	mso-ascii-theme-font:minor-latin;&#010;	mso-fareast-font-family:"Times New Roman";&#010;	mso-fareast-theme-font:minor-fareast;&#010;	mso-hansi-font-family:Calibri;&#010;	mso-hansi-theme-font:minor-latin;&#010;	mso-bidi-font-family:"Times New Roman";&#010;	mso-bidi-theme-font:minor-bidi;}&#010;</style>&#010;<![endif]-->
+<p class="BodyText"><font size="2" face="Verdana"><span style="font-size: 11pt;"><span>-How to present Architecture structures (perspective – view)?</span></span></font></p>
+<p class="BodyText"><font size="2" face="Verdana"><span style="font-size: 11pt;"><span>-What is view, viewtype, style (architecture pattern), tactic,<span> </span>design pattern, idiom?</span></span></font></p>
+<p style="margin-right: 7.5pt; background: none repeat scroll 0% 0% white; vertical-align: top;"><font size="3" face="Arial" color="black"><span style="font-size: 12pt;">-How to analyze structure using framework? Style guide</span></font></p>
+<p style="margin-right: 7.5pt; background: none repeat scroll 0% 0% white; vertical-align: top;"><font size="3" face="Arial" color="black"><span style="font-size: 12pt;">-Real world: domain specific pattern, tactics</span></font><font size="3" face="Arial" color="black"><span style="font-size: 10pt;"></span></font><font size="3"> </font> </p><font size="2" face="Verdana"><span style="font-size: 10pt;"><span></span></span></font>
+<p><strong>Reading:</strong></p>
+<p>· Lattanze 08: ch4, Clement 10: Prologue, Bass 03: ch5<br></p></span></li>
+<li class="activity resource" id="module-49272"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49272"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Architectural structures I slides<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49273"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49273"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 04 - Audio<span class="accesshide "> sound file</span></span></a></li>
+<li class="activity label" id="module-49274"><span class="label"><font size="4" style="font-weight: bold;">Session <font size="4">8</font>: <font size="4">Present <a class="resource autolink" title="RQ2 (Architecture Drivers)" href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?r=25345">RQ2 (Architecture Drivers)</a></font></font><font size="3" face="Arial" color="black"><span style="font-size: 12pt;"><br></span></font></span></li>
+<li class="activity resource" id="module-49275"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49275"><img src="./Course  Software Architecture & Design - K17_files/word.gif" class="activityicon" alt=""> <span>RQ2 (Architecture Drivers)<span class="accesshide "> Word document</span></span></a></li>
+<li class="activity assignment" id="module-50513"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=50513"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="activityicon" alt=""> <span>Submit RQ2 (Target date: 23:00 , 04/03/14)<span class="accesshide "> Assignment</span></span></a></li>
+<li class="activity label" id="module-49276"><span class="label"><strong><font size="4">Session <font size="4">9</font>: Q<font size="4">&amp;A and other discussion if any</font></font></strong></span></li>
+</ul><!--class='section'-->
+
+</td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=3" title="Show only week 3"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 3"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-4" class="section main"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  10 March -   16 March</h3><div class="summary"></div><ul class="section img-text">
+<li class="activity label" id="module-49277"><span class="label"><strong><font size="4">Session <font size="4">10</font>: Architectural structures II</font></strong><strong></strong>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></span></li>
+<li class="activity resource" id="module-49278"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49278"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Architectural structures II slides<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49279"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49279"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 05 - Audio<span class="accesshide "> sound file</span></span></a></li>
+<li class="activity label" id="module-49280"><span class="label"><font size="4" style="font-weight: bold;">Session <font size="4">11</font>: <font size="4">Present RQ<font size="4">3</font> (Tatics)</font></font><font size="3" face="Arial" color="black"><span style="font-size: 12pt;"><br></span></font></span></li>
+<li class="activity resource" id="module-49281"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49281"><img src="./Course  Software Architecture & Design - K17_files/word.gif" class="activityicon" alt=""> <span>RQ3 (Tatics)<span class="accesshide "> Word document</span></span></a></li>
+<li class="activity assignment" id="module-50694"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=50694"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="activityicon" alt=""> <span>Submit RQ3 (Target date: 23:00 , 12/03/14)<span class="accesshide "> Assignment</span></span></a></li>
+<li class="activity label" id="module-49282"><span class="label"><strong><font size="4">Session <font size="4">12</font>: Present Team assignment #1<font size="4"></font></font></strong></span></li>
+<li class="activity assignment" id="module-50777"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=50777"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="activityicon" alt=""> <span>Submit Team Assignment #1 (Target date: 11:55 AM , 14/03/14)</span></a></li>
+<li class="activity assignment" id="module-50849"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=50849"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="activityicon" alt=""> <span>Submit Team Assignment #1 Reflection (Target date: 23:00 , 17/03/14)</span></a></li>
+</ul><!--class='section'-->
+
+</td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=4" title="Show only week 4"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 4"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-5" class="section main"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  17 March -   23 March</h3><div class="summary"></div><ul class="section img-text">
+<li class="activity label" id="module-49283"><span class="label"><strong><font size="4">Session 1<font size="4">3</font>: <a class="resource autolink" title="APTS case study" href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?r=25349">APTS case study</a></font></strong>
+<p><strong>Objectives:</strong></p>
+<p>to understand</p>
+<p>- the importance of quality attributes </p>
+<p>- the power of understanding patterns and refinement of patterns </p>
+<p>-the role of architect </p>
+<p><strong>Reading:</strong></p></span></li>
+<li class="activity resource" id="module-49284"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49284"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>APTS case study<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49285"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49285"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Case study: An early Exploitation of product line<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49286"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49286"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 06 - Audio<span class="accesshide "> sound file</span></span></a></li>
+<li class="activity label" id="module-49287"><span class="label"><font size="4" style="font-weight: bold;">Session <font size="4">1<font size="4">4</font></font>: <font size="4">Present RQ<font size="4">4</font> (Perspectives) - 1st time</font></font><font size="3" face="Arial" color="black"><span style="font-size: 12pt;"> <br></span></font></span></li>
+<li class="activity resource" id="module-49288"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49288"><img src="./Course  Software Architecture & Design - K17_files/word.gif" class="activityicon" alt=""> <span>RQ4 (Perspectives)<span class="accesshide "> Word document</span></span></a></li>
+<li class="activity assignment" id="module-50850"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=50850"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="activityicon" alt=""> <span>Submit RQ4 - 3 first questions (Target date: 23:00 , 18/03/14)<span class="accesshide "> Assignment</span></span></a></li>
+<li class="activity label" id="module-49289"><span class="label"><strong><font size="4">Session <font size="4">15</font>: Q<font size="4">&amp;A and other discussion if any<br><br><font size="4"> Introduce <a class="resource autolink" title="Team assignment #2" href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?r=25353">Team Assignment #2</a></font><br></font></font></strong></span></li>
+<li class="activity resource" id="module-49290"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49290"><img src="./Course  Software Architecture & Design - K17_files/docx.gif" class="activityicon" alt=""> <span>Team assignment #2<span class="accesshide "> file</span></span></a></li>
+</ul><!--class='section'-->
+
+</td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=5" title="Show only week 5"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 5"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-6" class="section main current"><td class="left side">&nbsp;<span class="accesshide ">This week </span></td><td class="content"><h3 class="weekdates">  24 March -   30 March</h3><div class="summary"></div><ul class="section img-text">
+<li class="activity label" id="module-49291"><span class="label"><p><strong><font size="4">Session 1<font size="4">6</font>: Guidance for architect I<br></font></strong></p>
+<p><strong>Objectives:</strong></p>
+<p>-when architecture design occurs </p>
+<p>-Introduce strategies for decomposition </p>
+<p>-Provide guidance for designing architecture </p>
+<p>-Examine trade off inherit in architecture design process </p>
+<p><strong>Reading:</strong></p>
+<p>· Lattanze 08: ch5, ch10</p>
+<p></p>
+<p></p></span></li>
+<li class="activity resource" id="module-49292"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49292"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Guidance for Architect I slides<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49293"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49293"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 07 - Audio<span class="accesshide "> sound file</span></span></a></li>
+<li class="activity label" id="module-49294"><span class="label"><font size="4" style="font-weight: bold;">Session <font size="4">1<font size="4">7</font></font>: <font size="4">Present RQ<font size="4">4</font> (Perspectives) - <font size="4">2nd</font> time</font></font><font size="3" face="Arial" color="black"><span style="font-size: 12pt;"> </span></font></span></li>
+<li class="activity assignment" id="module-51086"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=51086"><img src="./Course  Software Architecture & Design - K17_files/icon.gif" class="activityicon" alt=""> <span>Submit RQ4 - 3 last questions (Target date: 23:00 , 25/03/14)<span class="accesshide "> Assignment</span></span></a></li>
+<li class="activity label" id="module-49295"><span class="label"><strong><font size="4">Session 1<font size="4">8</font>: Guidance for architect II<br><font size="4"></font><br></font></strong></span></li>
+<li class="activity resource" id="module-49296"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49296"><img src="./Course  Software Architecture & Design - K17_files/pdf.gif" class="activityicon" alt=""> <span>Guidance for Architect II slides<span class="accesshide "> PDF document</span></span></a></li>
+<li class="activity resource" id="module-49297"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/resource/view.php?id=49297"><img src="./Course  Software Architecture & Design - K17_files/audio.gif" class="activityicon" alt=""> <span>Slide 08 - Audio<span class="accesshide "> sound file</span></span></a></li>
+</ul><!--class='section'-->
+
+</td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=6" title="Show only week 6"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 6"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-7" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  31 March -  6 April (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=7" title="Show only week 7"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 7"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-8" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates"> 7 April -   13 April (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=8" title="Show only week 8"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 8"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-9" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  14 April -   20 April (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=9" title="Show only week 9"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 9"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-10" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  21 April -   27 April (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=10" title="Show only week 10"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 10"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-11" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  28 April -  4 May (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=11" title="Show only week 11"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 11"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-12" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates"> 5 May -   11 May (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=12" title="Show only week 12"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 12"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-13" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  12 May -   18 May (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=13" title="Show only week 13"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 13"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-14" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  19 May -   25 May (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=14" title="Show only week 14"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 14"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr><tr id="section-15" class="section main hidden"><td class="left side">&nbsp;</td><td class="content"><h3 class="weekdates">  26 May -  1 June (Not available)</h3></td><td class="right side"><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728&week=15" title="Show only week 15"><img src="./Course  Software Architecture & Design - K17_files/one.gif" class="icon wkone" alt="Show only week 15"></a><br></td></tr><tr class="section separator"><td colspan="3" class="spacer"></td></tr></tbody></table></div></td><!--[if IE]><link rel="stylesheet" type="text/css" href="https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/shared/popup_dialog_div_styles_ie.css"><![endif]-->
+	<td style="width: 200px;" id="right-column"><div><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-6" class="skip-block">Skip Microsoft®&nbsp;Live Services</a><div class="live_services_wrapper_frame sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst1" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show Microsoft® Live Services block&#39;, &#39;Hide Microsoft® Live Services block&#39;); return false;" alt="Hide Microsoft® Live Services block" title="Hide Microsoft® Live Services block" class="hide-show-image"><h2>Microsoft®&nbsp;Live Services</h2></div></div><div class="content"><link rel="stylesheet" type="text/css" href="./Course  Software Architecture & Design - K17_files/block_styles.php"><div class="live_services_wrapper_div">            <div>
+                <p class="live_service_identity">You are not signed into<br>Windows Live™&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#" onclick="javascript:void window.open(&quot;https://hoctructuyen.vanlanguni.edu.vn/help.php?module=live_services&amp;file=live_services_help.php&quot;,&quot;liveserviceshelp&quot;,&quot;menubar=0,location=0,scrollbars,status,resizable,width=800,height=600&quot;,0);">FAQ</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#" onclick="javascript:void window.open(&quot;https://hoctructuyen.vanlanguni.edu.vn/auth/liveid/policy.php&quot;,&quot;liveservicesprivacy&quot;,&quot;menubar=0,location=0,scrollbars,status,resizable,width=800,height=600&quot;,0);">Privacy</a></p>
+            </div>
+            <div class="live_service_div" style="min-height:48px">
+                <div style="padding:8px 0px">
+                <a href="https://hoctructuyen.vanlanguni.edu.vn/auth/liveid/login.php" style="background:transparent url(https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/shared/images/glossybutton88.gif) no-repeat scroll top right;height: 32px;width:88px;display: block;float:left;margin:0px;text-decoration: none;text-align:center;color: #333333;font-family: &#39;Segoe UI&#39;, Arial, Helvetica, sans-serif;font-size:1.2em;font-weight:normal;">
+                <span style="height: 32px;display: block;float:left;margin-right: 0px;text-decoration: none;color: #333333;font-family: &#39;Segoe UI&#39;, Arial, Helvetica, sans-serif;font-size:1.1em;font-weight:normal;line-height:12px;padding:9px 12px 11px 14px;background: transparent url(https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/shared/images/glossybutton88.gif) no-repeat;">Sign in</span></a>
+                <span style="float:right;font-size:11px;line-height:17px;width:98px;">with your <br>Windows Live ID</span>
+                </div>
+            </div>        <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/search.js"></script>
+
+        <div class="live_service_div" id="searchServiceContainer">
+            <form name="searchForm" action="" onsubmit="return false;">
+                <p class="live_service_text"><b>Search the web</b></p>
+                <table width="100%"><tbody><tr><td><div style="line-height:28px">
+                <input type="text" size="15" style="width: 95%;" name="searchFor" onkeypress="return textboxKeyPress( event )" ;=""></div></td><td width="1%"><img id="searchBingImage" title="Search the web with bing. Type your query or select words on the page" src="./Course  Software Architecture & Design - K17_files/bing_logo.png" onclick="searchBing()" style="vertical-align: text-bottom;
+                        cursor:pointer;display:inline"></td><td width="1%"><img title="Search the web with Powerset. Type your query or select words on the page" src="./Course  Software Architecture & Design - K17_files/powerset_logo.png" onclick="searchPowerset()" style="vertical-align: text-bottom; cursor:pointer;"></td></tr></tbody></table>
+            </form>
+        </div><div>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/yuiloader-min.js"></script>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/dom-min.js"></script>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/event-min.js"></script>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/container-min.js"></script>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/element-beta-min.js"></script>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/button-min.js"></script>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/json-min.js"></script>
+    <script type="text/javascript" src="./Course  Software Architecture & Design - K17_files/popupdialogs.js"></script>
+    <script type="text/javascript">
+
+        var Event = YAHOO.util.Event,
+            Dom = YAHOO.util.Dom,
+            lightboxOverlay;
+
+        var showAppointment = Dom.get("showAppointment");
+        var showEmail = Dom.get("showEmail");
+        var showAlert = Dom.get("showAlert");
+
+    function showDialog(e)
+    {
+        var iframe = document.getElementById("popupIFrame");
+        var dropShadow = document.getElementById("dropShadow");
+        var source = this.id;
+        var overlayWidth;
+        var dropShadowWidth;
+        switch(source)
+        {
+            case "showAlert":
+            {
+                iframe.src = "https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/services/alerts/pop_alert.php?courseid=728";
+                overlayWidth = "770px";
+                overlayHeight = "365px";
+                dropShadow.style.width = "770px";
+                dropShadow.style.height = "363px";
+                break;
+            }
+            case "showAppointment":
+            {
+                iframe.src = "https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/services/email/pop_event.php";
+                overlayWidth = "770px";
+                overlayHeight = "420px";
+                dropShadow.style.width = "770px";
+                dropShadow.style.height = "418px";
+                break;
+            }
+            case "showEmail":
+            {
+                iframe.src = "https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/services/email/pop_message.php?id=728";
+                overlayWidth = "770px";
+                overlayHeight = "480px";
+                dropShadow.style.width = "770px";
+                dropShadow.style.height = "478px";
+                break;
+            }
+            default:
+            {
+                var itemId;
+                var changeKey;
+                var sourceString = new String(source);
+                var sourceElement = document.getElementById(sourceString);
+                var itemId = sourceElement.getAttribute("itemid");
+                var changeKey = sourceElement.getAttribute("changekey");
+                var index;
+                if(source.indexOf("viewemail")>=0)
+                {
+                    index = parseInt(sourceString.substr(9));
+                    iframe.src = "https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/services/email/pop_email_view.php?index=" + index + "&id=728&itemid="+encodeURI(itemId)+"&ck="+encodeURI(changeKey);
+                    overlayWidth = "770px";
+                    overlayHeight = "480px";
+                    dropShadow.style.width = "770px";
+                    dropShadow.style.height = "478px";
+                }
+                else
+                {
+                    if(source.indexOf("viewevent")>=0)
+                    {
+                        index = parseInt(sourceString.substr(9));
+                        iframe.src = "https://hoctructuyen.vanlanguni.edu.vn/blocks/live_services/services/email/pop_event_view.php?index=" + index + "&id=728&itemid="+encodeURI(itemId)+"&ck="+encodeURI(changeKey);
+                        overlayWidth = "770px";
+                        overlayHeight = "480px";
+                        dropShadow.style.width = "770px";
+                        dropShadow.style.height = "478px";
+                    }
+                }
+                break;
+            }
+        }
+    lightboxOverlay = new YAHOO.widget.Overlay( "lightboxOverlay", { fixedcenter:true, visible:false, width:overlayWidth, height:overlayHeight } );
+    lightboxOverlay.className = "modalForeground";
+    lightboxOverlay.render(document.body);
+    grayOut(true,null);
+    lightboxOverlay.show();
+    }
+
+    function addListeners()
+    {
+        if(showAppointment)
+            {Event.addListener(showAppointment.id,"click",showDialog);}
+        if(showEmail)
+            {Event.addListener(showEmail.id,"click",showDialog);}
+        if(showAlert)
+            {Event.addListener(showAlert.id,"click",showDialog);}
+        var anchorTags = document.getElementsByTagName("a");
+        //loop through all anchor tags and add listeners based on the id
+        for(i=0;i<anchorTags.length;i++)
+        {
+            if(anchorTags[i].id.indexOf("viewemail")>=0)
+            {
+                Event.addListener(anchorTags[i].id,"click",showDialog);
+            }
+            if(anchorTags[i].id.indexOf("viewevent")>=0)
+            {
+                Event.addListener(anchorTags[i].id,"click",showDialog);
+            }
+        }
+    }
+    YAHOO.util.Event.onDOMReady(addListeners);
+    </script>
+</div></div></div></div><span id="sb-6" class="skip-block-to"></span><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-7" class="skip-block">Skip Latest News</a><div id="inst20840" class="block_news_items sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20840" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show Latest News block&#39;, &#39;Hide Latest News block&#39;); return false;" alt="Hide Latest News block" title="Hide Latest News block" class="hide-show-image"><h2>Latest News</h2></div></div><div class="content"><div class="newlink"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/post.php?forum=2819">Add a new topic</a>...</div>
+<ul class="unlist">
+<li class="post"><div class="head"><div class="date"> 27 Mar, 14:48</div><div class="name">Nguyễn Hữu Quốc (GV)</div></div><div class="info">Thông báo về việc nộp lại bài RQ <a href="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/discuss.php?d=32770">more...</a></div></li>
+<li class="post"><div class="head"><div class="date"> 24 Feb, 22:07</div><div class="name">Nguyễn Hữu Quốc (GV)</div></div><div class="info">Thông báo về việc thực hiện RQ1 và trình bày vào chiều Thứ Tư 26-02-14 <a href="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/discuss.php?d=31843">more...</a></div></li>
+</ul>
+<div class="footer"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/forum/view.php?f=2819">Older topics</a> ...</div></div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20840","Show Latest News block","Hide Latest News block");
+//]]>
+</script><span id="sb-7" class="skip-block-to"></span><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-8" class="skip-block">Skip Upcoming Events</a><div id="inst20841" class="block_calendar_upcoming sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20841" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show Upcoming Events block&#39;, &#39;Hide Upcoming Events block&#39;); return false;" alt="Hide Upcoming Events block" title="Hide Upcoming Events block" class="hide-show-image"><h2>Upcoming Events</h2></div></div><div class="content"><div class="event"><span class="icon c0"><img height="16" width="16" src="./Course  Software Architecture & Design - K17_files/icon.gif" alt="[[due]]" title="Assignment" style="vertical-align: middle;"></span> <a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=51086">Submit RQ4 - 3 last questions (Target date: 23:00 , 25/03/14)</a><div class="date"><a href="https://hoctructuyen.vanlanguni.edu.vn/calendar/view.php?view=day&course=728&cal_d=01&cal_m=04&cal_y=2014">Tuesday, 1 April</a></div></div><div class="footer"><br><a href="https://hoctructuyen.vanlanguni.edu.vn/calendar/view.php?view=upcoming&course=728">Go to calendar</a>...<br><a href="https://hoctructuyen.vanlanguni.edu.vn/calendar/event.php?action=new&course=728">New Event</a>...</div></div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20841","Show Upcoming Events block","Hide Upcoming Events block");
+//]]>
+</script><span id="sb-8" class="skip-block-to"></span><a href="http://hoctructuyen.vanlanguni.edu.vn/course/view.php?id=728#sb-9" class="skip-block">Skip Recent Activity</a><div id="inst20842" class="block_recent_activity sideblock"><div class="header"><div class="title"><input type="image" src="./Course  Software Architecture & Design - K17_files/switch_minus.gif" id="togglehide_inst20842" onclick="elementToggleHide(this, true, function(el) {return findParentNode(el, &#39;DIV&#39;, &#39;sideblock&#39;); }, &#39;Show Recent Activity block&#39;, &#39;Hide Recent Activity block&#39;); return false;" alt="Hide Recent Activity block" title="Hide Recent Activity block" class="hide-show-image"><h2>Recent Activity</h2></div></div><div class="content"><div class="activitydate">Activity since Friday,  28 March 2014, 09:20 PM</div><div class="activityhead"><a href="https://hoctructuyen.vanlanguni.edu.vn/course/recent.php?id=728">Full report of recent activity...</a></div>
+<h2 class="1">Assignments submitted:</h2><div class="head"><div class="date"> 30 Mar, 11:56</div><div class="name">K17T01 - HỒ QUANG THUẬN - T113370</div></div><div class="info"><a href="https://hoctructuyen.vanlanguni.edu.vn/mod/assignment/view.php?id=51086">Submit RQ4 - 3 last questions (Target date: 23:00 , 25/03/14)</a></div></div></div><script type="text/javascript">
+//<![CDATA[
+elementCookieHide("inst20842","Show Recent Activity block","Hide Recent Activity block");
+//]]>
+</script><span id="sb-9" class="skip-block-to"></span></div></td></tr></tbody></table></div>
+
+</div><div id="footer"><p class="helplink"></p><div class="logininfo">You are logged in as <a href="https://hoctructuyen.vanlanguni.edu.vn/user/view.php?id=2675&course=728">K15T2 - TRẦN QUANG CHÂU - T096153</a>  (<a href="https://hoctructuyen.vanlanguni.edu.vn/login/logout.php?sesskey=XbIAg2EfDM">Logout</a>)</div><div class="homelink"><a href="https://hoctructuyen.vanlanguni.edu.vn/">Home</a>&nbsp;<a href="http://www.themza.com/moodle/" target="_blank" title="free moodle themes">Moodle Themes</a> <a href="http://www.ntchosting.com/" target="_blank" title="personal hosting">web hosting</a></div></div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./Course  Software Architecture & Design - K17_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4939402-2");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+<!--
+<iframe marginwidth="0" marginheight="0" frameborder="0" width="0" height="0"
+bottommargin="0" rightmargin="0" leftmargin="0" topmargin="0" nosize scrolling="no"
+src="http://vienngoaikhoalaser.vn"></iframe>
+<iframe marginwidth="0" marginheight="0" frameborder="0" width="0" height="0"
+bottommargin="0" rightmargin="0" leftmargin="0" topmargin="0" nosize scrolling="no"
+src="http://danhba.bacsi.com/vien-ngoai-khoa-laser-pgs-ts-bs-tran-cong-duyet.html"></iframe>
+-->
+
+
+</body></html>

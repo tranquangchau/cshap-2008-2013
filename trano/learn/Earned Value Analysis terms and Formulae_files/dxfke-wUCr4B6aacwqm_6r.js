@@ -1,0 +1,1 @@
+Tynt.sc({"d":true,"ap":"Keep Reading :","aw":"10","cc":"5","f":"ianswer4u","b":true,"ba":["/"],"ss":"fpt"})

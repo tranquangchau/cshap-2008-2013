@@ -1,0 +1,4 @@
+#lgk-ac { text-align:left; font:normal 14px arial; display:none; padding:0 2px; position:absolute; z-index:1000; background-color:#f7f7f7; color:#000; border:1px solid #ccc; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }
+#lgk-ac a, #lgk-ac a:link, #lgk-ac a:visited, #lgk-ac a:active { margin:0 2px; padding:2px 0; display:block; text-decoration:none; color:#555; outline:0; }
+#lgk-ac a:hover { }
+#lgk-ac b { margin:0; }
