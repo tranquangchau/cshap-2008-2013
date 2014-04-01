@@ -1,0 +1,4701 @@
+/* Change to Bookstore link in header - nb 11/15/11 */
+#header #store-link {
+    display: block;
+    float: right;
+    color: #000000;
+    line-height: 43px;
+    padding: 15px 7px 12px;
+    margin-left: 40px; 
+    }
+
+/* Mobile App Styleguide Page */
+#app-styleguide {
+     margin-top: 20px;
+     }
+
+#app-styleguide .display{
+     float: left; 
+     margin-right: 30px; 
+     width: 250px;
+     }
+
+#app-styleguide .description{
+     float: left; 
+     margin: 0 20px 0 0; 
+     width: 600px;
+     }
+
+#app-styleguide h2{
+    padding: 30px  0 10px 0; 
+     }
+
+#app-styleguide .assets{
+    margin: 10px  0 10px 30px; 
+     }
+
+
+/* Change to Bookstore link in header - nb 11/15/11 */
+#header #store-link {
+    display: block;
+    float: right;
+    color: #000000;
+    line-height: 43px;
+    padding: 15px 7px 12px;
+    margin-left: 40px; 
+    }
+
+/* Homepage Slideshow typography adjustments, 8/1/11 */
+
+.multi-feature-carousel .feature .bottom-banner h4,
+#main-content .feature-container-header h2 { font-family:  Arial, sans-serif; }
+
+.multi-feature-carousel .feature .bottom-banner h4,
+.multi-feature-carousel .feature .bottom-banner p {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Dummies Editions - added style - nb 7/12/11 */
+.dummies-editions p{
+	float: left;
+	clear: both;
+	margin: 15px 0 0 0;
+	padding: 0;
+	width: 160px;
+	_width: 150px;
+	}
+
+/* Dummies 20th Anniversary - nb 2/22/11 */
+#homepage #header{ 	
+	height: 132px;
+	background: url(http://media.wiley.com/assets/3203/60/hp-header-bg-20th.gif) no-repeat bottom left !important;
+	position: relative;
+	}
+
+#homepage #header .logo{
+	position: absolute;
+	left: 0 !important;
+	top: 12px;
+	}
+
+#anniversary-logo{
+	float: left;
+	position: relative;
+	bottom: -20px; left: 0;
+	width: 98px;
+	height: 90px;
+	padding:  0;
+	}
+
+/* Dummies 20th Anniversary - nb 2/28/11 */
+#dummies_anniversary_feature h2{
+	margin: 0;
+	font-size: 1.33em;
+	color: #fbf900;
+	font-style: italic;
+	padding: 10px 15px 5px;
+	background: #1b1b1b url(http://media.wiley.com/spa_assets/site/dummies2/include/images/bg/leftnav-header-bg.gif) repeat-x bottom left;
+	}
+
+#dummies_anniversary_feature .topic-content .article-listing .article{ width: 590px; }
+
+#promo .anniversary-promo img{ float: left; }
+
+#promo .anniversary-promo .content{ margin-left: 95px; }
+
+
+
+/* Dummies Month - nb 2/15/11 */
+#dummies_month {
+	width: 630px; margin:0; padding: 0;
+	}
+
+#rebate_header_mobile{
+	display: none;
+	}
+	
+#dummies_month .rebate {
+	background: #fff url('http://media.wiley.com/spa_assets/site/dummies2/include/images/bg/generic-gradient-bg.gif') repeat-x top left; border: 1px solid #ccc; margin: 0; padding: 0;
+	}	
+
+#dummies_month .wrapper {
+	margin: 20px 20px 0 20px; padding: 0;
+	} 	
+	
+#dummies_month .rebate p {
+	font-size: 1.18em; font-weight: bold;
+	}	
+
+#dummies_month .download {
+	margin: 15px;
+	}	
+
+#dummies_month .details {
+	margin: 10px 0 10px 20px; padding: 0;
+	}		
+	
+#dummies_month .fineprint {
+	float: left; width: 300px; margin: 10px 20px 0 0;
+	}	
+	
+#dummies_month .fineprint p{
+	font-size: 0.86em; line-height: 100%; margin: 8px; 0 0 0; padding: 0;
+	}	
+	
+#dummies_month .retailers {
+	float: right; width: 253px; margin: 0; padding: 0; position: relative; bottom: 0; right: 0;
+	}
+
+#dummies_month .article-tools{
+	margin: 0;
+	text-align: right;
+	padding: 0;
+	_padding-bottom: 10px;
+	display: inline;
+	float: right;
+	font-family: verdana;
+	font-size: 0.83em;
+	}
+	
+#dummies_month .article-tools-clear{
+	clear: both;
+	margin: 0 0 10px 0;	
+	border-bottom: none;
+	}	
+
+#dummies_month .article-tools li{
+	margin: 0;
+	padding: 0 5px;
+	float: left;
+	list-style: none;
+	border-right: none;		
+	}
+
+#dummies_month #all-titles{
+	margin: 15px 20px;		
+	}
+
+#dummies_month #all-titles-mobile{
+	display:none;		
+	}
+
+/* NavBar Ad - nb 10/12/10 */
+.navbar{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #cccccc; 
+    border-bottom: none; 
+	}
+
+/* nb added 5/6 */
+.disclaimer{ font-size: 0.83em; }
+
+/* nb added leaderboard caption 6/4 */
+/* for ad alert txt */	
+.leaderboard .caption{
+	margin: -10px 0 0 0;
+	padding: 0;
+	color: #999;
+	text-align: center;
+	font-family: verdana;
+	font-size: 0.65em;
+	font-weight: normal;
+	}
+
+/* Fix for DF bestselling-products */
+.DF.bestselling-products h4 {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 12px;
+    }
+
+/* Content links */
+
+.article-content a {
+     font-weight: bold;
+     text-decoration: underline;
+}
+
+.article-content a:hover { text-decoration: none; }
+
+.article-content a.tooltip-link { 
+     font-weight: normal;
+     text-decoration: none;
+}
+
+/* Mobile Landing Page */
+#apps-page .app-display{
+     float: left; 
+     margin-right: 25px; 
+     width: 106px;
+     }
+#apps-page .app-description{
+     float: left; 
+     margin: 0 20px 0 0; 
+     width: 475px;
+     }
+
+#android-apps-page .app-display{
+     float: left; 
+     margin-right: 25px; 
+     width: 126px;
+     }
+#android-apps-page .app-description{
+     float: left; 
+     margin: 0 20px 0 0; 
+     width: 455px;
+     }
+
+#main-content-left {
+	float:left;
+}
+
+#main-content-right {
+	float:right;
+}
+
+#FeaturedAppWrapper {
+	width:600px;
+	background: #fff; 
+	margin: 10px 0;
+	padding:15px;
+}
+
+#FeaturedAppWrapper h2 {
+	background-color:#000000;
+	Color:#FF0;
+	padding:10px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+#FeaturedAppContent {
+	padding:10px;
+	border: 1px solid #999999;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.FeaturedAppIcon {
+	padding-right:15px;
+}
+
+/* 7/29/2011 */
+.leaderboard {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    z-index: 100000000;
+}
+
+#title #header .logo, #store #header .logo {
+    left: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+#title #header #query, 
+#store #header #query {
+    width: 185px;
+    height: 11px;
+    font-size: 12px;
+}
+
+#title #header label img, 
+#store #header label img {
+    margin-bottom: -1px;
+    margin-left: 0;
+    margin-right: 1px;
+    margin-top: 0;
+}
+
+#title #header .button, 
+#store #header .button {
+    margin-bottom: -9px;
+    margin-left: 1px;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.multi-feature-carousel .feature .bottom-banner h3 { font: 19px "Arial", sans-serif; }
+.multi-feature-carousel .feature .bottom-banner h4 { font: 17px "Arial", sans-serif; }
+.multi-feature-carousel .feature .bottom-banner h5 { font: 15px "Arial", sans-serif; }
+
+/*Aug 2011 Indigo promotion - ng 8/8/11 */
+.bookCopyIndigo {
+	font-size:12px;
+	font-style:italic;
+}
+
+.bookCoverIndigo {
+	padding-right:30px;
+}
+
+.bookTableRowIndigo {
+	vertical-align:bottom;
+}
+
+/*Dummies Mobile Apps - ng 8/12/11 */
+#MobilePage-product-listingsize80 {
+	width:300px;
+        padding-left:15px;
+	height:170px;
+}
+
+.mobileappimage {
+	padding-right:10px;
+	padding-bottom:40px;
+}
+
+/*Dummies eLearning Exit Page - nb 8/24/11 */
+#eLearning { margin-bottom: 40px; }
+
+#eLearning p {
+    font-size: 1.5em; 
+    color:#e3002d;
+    line-height: 1.4em;
+    }
+
+/*Dummies Rebate Center- nb 9/1/11 */
+#rebate_center h2 {
+    margin-bottom: 10px;
+    }
+
+#rebate_center h3 {
+    margin-top: 15px;
+    }
+
+.interstitial .productDetail-btb {
+    width: 300px; 
+    margin: 10px 0;
+    float: right;
+}
+
+.interstitial .productDetail-btb ul { 
+    width: 150px;
+    list-style: none; 
+    overflow: hidden; 
+    margin: 0; 
+    padding: 1em 0; 
+    display: inline-block;
+}
+
+.interstitial .productDetail-btb ul li a { 
+    width: 150px;
+    float: none;
+}
+/*Dummies Month Indigo - nb 2/10/12 */
+#Indigo-dummiesmonth #banner {
+	margin-bottom: 20px;
+}
+
+#Indigo-dummiesmonth tr.titlename {
+	margin-bottom: 20px;
+}
+
+#Indigo-dummiesmonth .bookCopyIndigo {
+	font-size:12px;
+	font-style:italic;	
+}
+
+#Indigo-dummiesmonth .bookCoverIndigo {
+	padding-right:30px;
+}
+
+#Indigo-dummiesmonth .bookTableRowIndigo {
+	vertical-align:bottom;
+}
+
+#Indigo-dummiesmonth .offer{
+	margin: 20px 20px 0 0;	
+}
+
+/*Dummies eLearning Kits - JS 2/28/12 */
+
+#elearning-container{
+	border-style:solid none none;
+	border-top-color:#333;
+	border-top-width:1px;
+	width:958px;}
+
+#elearning-head {
+	background-image: url(http://media.wiley.com/assets/7019/98/e-laerning-kit-header.jpg);
+   background-position: right top;
+    background-repeat: no-repeat;
+    height: 475px;
+    padding: 10px 0 0;;
+}
+
+#elearning-head .elearning-head-intro{
+	float:left;
+	margin:50px 0 0 30px;
+	width:480px;}
+
+#elearning-head .elearning-head-content{
+	float:left;
+	margin:300px 0 0 30px;
+	padding:0;
+	width:370px;}
+
+#elearning-head h1{
+	font-size:24px;
+	line-height:34px;}
+
+#elearning-head p{
+	font-size:14px;
+	margin:20px 0;}
+
+#elearning-title-container{
+	border-color:#000;
+	border-style:solid;
+	border-width:20px 1px;
+	margin:0 0 0 15px;
+	width:930px;}
+
+#elearning-title-container .elearning-title{
+	border-bottom-color:#666;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	float:left;
+	height:221px;
+	margin:0 15px 0 0;
+	width:450px;}
+
+#elearning-title-container .elearning-title-last{
+	float:left;
+	height:221px;
+	margin:0 15px 0 0;
+	padding:0 0 15px;
+	width:450px;}
+
+#elearning-title-container .elearning-title-cover{
+	float:left;
+	margin:15px 15px 0;
+	width:150px;}
+
+#elearning-title-container .elearning-title-content{
+	float:left;
+	height:150px;
+	margin:15px 15px 0 0;
+	width:255px;}
+
+#elearning-title-container .elearning-title-buy{
+	float:right;
+	font-weight:700;
+	margin:0 15px 0 0;
+	text-align:right;
+	width:112px;}
+
+#dummies_month .promo{
+	background: #fff; 
+	border: 1px solid #ccc; 
+	margin: 0; 
+	padding: 0;
+}	
+
+/* Ingram Errors */
+.content-copy { margin-bottom: 10px; }
+.button-help {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-image: -moz-linear-gradient(top, #2c7aca, #0f5ba8);
+    background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0,#2c7aca), color-stop(1,#0f5ba8));
+    background-color: #0f5ba8;
+color: #ffffff !important;
+}
+
+/* In A Day promo page */
+#InADaycontainer { 	
+margin:-15px 0 0 -10px;
+padding:0 ;
+width:960px;
+text-align:left;
+vertical-align: middle;	
+background-color:#ffff00;
+}
+#InADayheader {
+margin:0;
+width:960PX;
+padding:0;
+height:160px;
+background:url(http://media.wiley.com/assets/7066/94/InADay_header.jpg) no-repeat top;
+}
+#InADaycenterColumn { 	
+padding-bottom:20px;
+border-right:15px solid #ffff00;
+background:url(http://media.wiley.com/assets/7066/95/InADay_bodyBG.jpg) #ffffff no-repeat top left;
+}
+.InADayContent {
+margin: 8px 50px 0px 345px;
+padding-top:25px;
+}
+#InADayFooter {
+bottom:0;
+border-top:15px solid #ffff00;
+height:38px;
+background-color:#000000;
+}
+#InADayFooter img{
+padding:7px 15px 0 0;
+float:right;
+}
+.InADayContent h1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:30px !important;
+line-height:35px !important;
+font-weight:bold;
+padding-bottom:5px;
+}
+.InADaySelfImp {width:275px; padding:10px 0 !important; margin-left:100px;}
+.InADaygray {width:275px; padding:10px 0 !important;}
+h3.InADaygray2 {font-family:Arial, Helvetica, sans-serif; font-size: 19px;font-weight: bold; color: #000000; border-bottom: #367cd3 1px solid; width: 275px;}
+.InADayContent p{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+}
+.InADayContent td a{
+font-weight:bold;
+color:#367cd3;
+font-size:12px;
+margin:10px 0;
+}
+.InADayContent td{
+padding:2px 0;
+font-weight:bold;
+color:#367cd3;
+font-size:12px;
+}
+.emptyCellInADay {
+height:124px;
+width:80px;
+}
+#BlueDiv {
+float:right;
+padding-top:5px;
+padding-right:20px
+}
+/* #Guitar FD, 3E promo page */
+#GuitarFD3Econtainer { 	
+margin:-15px 0 0 -10px;
+padding:0 ;
+width:960px;
+text-align:left;
+vertical-align: middle;	
+background-color:#ffff00;
+}
+#GuitarFD3Eheader {
+margin:0;
+width:954px;
+padding:0;
+height:183px;
+background:url(http://media.wiley.com/assets/7069/04/GuitarFD_header.jpg) no-repeat top left;
+}
+#GuitarFD3EcenterColumn { 	
+border-right:21px solid #ffff00;
+min-height:725px;
+background:url(http://media.wiley.com/assets/7069/05/GuitarFD_BodyBG.jpg) #ffffff no-repeat top left;
+}
+.GuitarFD3EContent {
+margin: 0 250px 0 35px;
+padding-top:10px;
+}
+
+#GuitarFD3EFooter {
+bottom:0;
+border-top:21px solid #ffff00;
+height:38px;
+background-color:#000000;
+width:958px;
+}
+.GuitarFD3EContent h1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:28px !important;
+line-height:32px !important;
+font-weight:bold;
+padding-bottom:5px;
+}
+.GuitarFD3EContent h2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:17px !important;
+font-weight:bold;
+color:#367cd3;
+padding-bottom:5px;
+}
+.GuitarFD3EContent td{
+float:left;
+margin-left:-5px;
+}
+.GuitarFD3EContent p {
+width:570px;
+font-size:14px !important;
+}
+#GuitarFD3EBlueDiv {
+float:left;
+width:118%;
+height:17px;
+padding:15px 0;
+background:url(http://media.wiley.com/assets/7069/10/GuitarFD_bluebar.png) no-repeat left;
+margin-left:-19px;
+}
+.GuitarFD3EBookImg {
+float:right;
+padding-left:22px;
+}
+.GuitarFD3ESpacer {
+width:100%;
+height:25px;
+}
+
+/* How Washington Works Pages -- nb 9/20/12 */
+#washington-works-description{
+    margin: 20px 0 20px 0; 
+}
+
+#washington-works-title{
+    margin: 20px 0 20px 0; 
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#washington-works-video{
+    margin-left: 10px; 
+}
+
+#washington-works-infographic{
+    margin:20px 20px 0 35px;
+}
+
+/* Licensing Partner Static Feature - nb 8/27/12 */
+#topic-landing .licensing-partner h3{
+    font-size: 1.33em;
+    margin: 10px 10px 0 10px;
+    }
+
+#topic-landing .licensing-partner{ padding-bottom: 10px; }
+    
+#topic-landing .licensing-partner .thumbnail{ 
+    float: left;
+    border: 1px solid #ccc;
+    margin: 0 10px 5px 0;
+    }
+    
+#topic-landing .licensing-partner .details{ margin: 0 10px 10px; }    
+    
+#topic-landing .licensing-partner p{ 
+    font-family:verdana;
+    line-height: 140%;
+    }   
+
+/* Score Higher Education Titles Promo Page - nb and ng 8/7/12 */
+#score-higher-topic * { padding: 0; margin: 0; }
+
+#score-higher-subnav {margin-top: 20px;}
+
+#score-higher-topic #bar { 
+ color: #333;
+ border: 0px solid #ccc;
+ margin: 14px 0px 0px 20px;
+ padding: 0px;
+ height: 23px;
+ width: 670px;
+ float: left;
+ background-image: url(http://media.wiley.com/assets/7056/23/blackbar.jpg);
+}
+
+#score-higher-topic #bargray { 
+ color: #333;
+ border: 0px solid #ccc;
+ padding: 0px;
+ height: 13px;
+ width: 1001px;
+ float: left;
+ background-image: url(http://media.wiley.com/assets/7056/21/bar_gray.jpg);
+}
+#score-higher-topic #graybar { 
+ color: #333;
+ border: 0px solid #ccc;
+ margin: 0px 0px 20px 20px;
+ padding: 0px;
+ /*height: 450px;*/
+ width: 670px;
+ float: left;
+ background: url(http://media.wiley.com/assets/7056/26/graybox_450.jpg) repeat-x;
+}
+
+#score-higher-topic  h1 {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+font-weight: normal;
+color: #000000;
+margin: 20px 0px 30px 30px;
+}
+
+#score-higher-topic p.list {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+color: #000000;
+margin-top:50px;
+margin: 25px 0px 0px 50px;
+}
+
+#score-higher-topic p.listsmall {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: #000000;
+margin-top:50px;
+margin: 25px 0px 0px 50px;
+}
+
+#score-higher-topic p.right {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: #000000;
+margin: 10px 0px 0px 18px;
+}
+
+#score-higher-topic p.sciencetitle {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 17px;
+color: #000000;
+margin: 14px 0px 0px 4px;
+}
+
+#score-higher-topic p.science {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 23px;
+color: #000000;
+margin: 12px 0px 0px 4px;
+}
+
+#score-higher-topic p.sciencelink {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: #0d56a2;
+margin: 0px 0px 0px 0px;
+}
+
+
+#score-higher-topic p.bartitle {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 0px;
+color: #ffff00;
+margin: 11px 0px 0px 10px;
+}
+
+#score-higher-topic #links a {
+	text-decoration: none;
+	font-weight: regular;
+	color: #0d56a2;
+	border-right: 0px solid #ccc;
+	font-size: 12.5px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	}
+#score-higher-topic #links a.red:hover {
+	color: #CF232A;
+	text-decoration: underline;
+	}
+	
+#score-higher-topic a {
+    outline: none;
+ }
+#score-higher-topic a img {
+    border:none;
+ }
+ 
+#score-higher-topic #learn a {
+	text-decoration: none;
+	font-weight: regular;
+	color: #0d56a2;
+	border-right: 0px solid #ccc;
+	font-size: 13.5px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	}
+#score-higher-topic #learn a.red:hover {
+	color: #CF232A;
+	text-decoration: underline;
+	}
+	
+#score-higher-topic table {
+text-align: center;
+text-decoration: none;
+}
+
+p.ScoreHigherHome {
+	font-size:25px;
+	line-height:35px;
+	font-weight: bold;
+	color:#000000;
+}
+p.ScoreHigherHomeSmall {
+	font-size:20px;
+	font-weight: normal;
+	line-height:28px;
+	color:#000000;
+}
+.LeftScoreHigherHome {
+	float:left;
+	width:47%;
+	padding-top:15px !important;
+	padding-left:25px !important;a
+}
+.RightScoreHigherHome {
+	float:right;
+	width:50%;
+	padding-top:25px !important;
+}
+
+
+/* Sidebar eLearning Courses - nb 7/6/12 */
+#sidebar .elearning-courses a:link,
+#sidebar .elearning-courses a:visited{
+    color: #000;
+    font-weight: normal;
+    }
+    
+#sidebar .elearning-courses a:hover{ 
+    color: #0d56a2; 
+    text-decoration: none;
+    }
+    
+ #sidebar .elearning-courses{
+    padding: 0;
+    margin: 0;
+    width: 202px;
+    font-size: 1.33em;
+    }
+    
+ #sidebar .elearning-courses li{
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style: none;       
+    }
+
+#sidebar .elearning-courses h4{
+    padding: 2px 6px 2px 10px;
+    background: #1b1b1b url(http://media.wiley.com/spa_assets/R16B044/site/dummies2/include/images/bg/leftnav-header-bg.gif) repeat-x bottom left;
+    color: #fbf900;
+    }
+
+#sidebar .elearning-courses ul{
+    margin: 0;
+    padding: 5px 0 0 0;
+    background: #fff url(http://media.wiley.com/spa_assets/R16B044/site/dummies2/include/images/bg/generic-gradient-bg.gif) repeat-x top left;
+    }   
+  
+#sidebar .elearning-courses ul li{
+    margin: 0;
+    padding: 3px 6px 1px 10px;
+    color: #000;
+    font-weight: bold;
+    background: none;
+    }  
+    
+#sidebar .elearning-courses b{ font-weight: normal; }    
+#sidebar .elearning-courses ul li{ padding-bottom: 15px; }  
+
+/* Split Related Feature with Outbrain Widget - nb 2/17/12 */
+.related-content-split{ 
+    width: 310px; 
+    float: left;
+    margin-right: 10px;
+    }	
+	
+.outbrain-widget-split{
+    width: 310px;
+    float: right;
+    }
+
+.outbrain-organic-widget-split{ 
+    width: 310px; 
+    float: left;
+    margin-right: 10px;
+    }	
+	
+.outbrain-paid-widget-split{
+    width: 310px;
+    float: right;
+    }
+
+
+#contenttype-html .TechnicalStuff, #contenttype-html .Remember, #contenttype-html .Tip, #contenttype-html .Warning, #contenttype-html .CheatSheet {
+    margin-left: 0;
+}
+
+/* Topic Page Carousels - nb 10/18/12 */
+#topic-carousel .multi-feature-carousel {
+    position: relative;
+    width: 415px;
+    height: 230px;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    }
+    
+#topic-carousel .multi-feature-carousel .feature{ 
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    color: #ffffff;
+    }
+
+#topic-carousel .multi-feature-carousel .feature a { color: #51b5f8; }
+
+#topic-carousel .multi-feature-carousel .feature .bottom-banner {
+    padding: 10px 15px;
+    width: 385px;
+    height: 20px;
+    background: url(http://media.wiley.com/spa_assets/R16B047/site/dummies2/include/images/bg/mask-70.png) repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h3,
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h4,
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h5 { color: #ffffff; }
+ 
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h3 { font: 18px "Arial", sans-serif; }
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h4 { font: 16px "Arial", sans-serif; }
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h5 { font: 14px "Arial", sans-serif; }
+
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h3 a, 
+#topic-carousel .multi-feature-carousel .feature .bottom-banner h4 a { color: #ffffff; text-decoration: none; }
+
+#topic-carousel .multi-feature-carousel .feature .bottom-banner p { margin: 0; }
+    
+#topic-carousel .multi-feature-carousel-navigation {
+    width: 411px;
+    margin: 0 0 20px 2px;
+    padding: 0 0 0 3px;
+    list-style: none;
+    background-color: #f7f7f7;
+    border-bottom: 4px solid #001318;
+    }
+    
+#topic-carousel .multi-feature-carousel-navigation li { 
+    margin: 0;
+    padding: 0 7px 5px 0;
+    display: block;
+    float: left;
+    }
+
+#topic-carousel .multi-feature-carousel-navigation li.last { 
+    margin: 0;
+    padding: 0 0 5px 0;
+    display: block;
+    float: left;
+    }
+
+
+#topic-carousel .multi-feature-carousel-navigation a {
+    display: block;
+    width: 97px;
+    height: 63px;
+    overflow: hidden;
+    }
+
+#topic-carousel .multi-feature-carousel-navigation a img {
+    display: block;
+    height: 63px;
+    width: 147px;
+    margin: 0 -25px;
+    }
+
+#topic-carousel .multi-feature-carousel-navigation a.active {
+    width: 93px;
+    height: 59px;
+    border: 4px solid #2b7dcf;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin: -2px;
+    }
+
+#topic-carousel .multi-feature-carousel-navigation a.active img {
+    margin: -2px -27px;
+    }
+
+/* Wine For Dummies Promo - svj 10/24/12 */
+#promo-wine-header {
+  margin: 0 0 0 -12px;
+}
+#promo-wine-content {
+  margin: 0 0 0 -12px;
+  width: 927px;
+  height: 560px;
+  border-right: 17px solid #ffff00;
+  border-left: 16px solid #ffff00;
+}
+#promo-wine-footer {
+  margin: 0 0 0 -12px;
+}
+#promo-wine-book {
+  margin: 0 0 0 20px;
+  float: left;
+}
+#promo-wine-buy-big a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3366cb;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  left: 184px;
+  bottom: 70px;
+}
+#promo-wine-article {
+  width: 510px;
+  float: left;
+  margin: 26px 0 0 20px;
+}
+#promo-wine-section {
+  width: 520px;
+  margin: 10px 0 0 0;
+}
+#promo-wine-cover {
+  float: left;
+  margin: 0 20px 0 0;
+}
+#promo-wine-buy {
+  width: 100px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+#promo-wine-buy-small {
+  width: 86px;
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+
+/* Android Development Dummies Promo - svj 10/24/12 */
+#android-wrap {
+  margin:0 0 0 -12px;
+  padding:0;
+  width: 960px;
+  height: 928px;
+  background: url(http://media.wiley.com/assets/7079/31/bg_android.png) no-repeat top left;
+}
+#android-zone1 div {
+  float: right;
+  margin-top: 550px;
+}
+#android-buy a {
+  background-color: #a5c444;
+  margin: 0 150px 0 0;
+  padding: 6px 6px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #87a038;
+}
+#android-headline {
+  float: left;
+  width: 870px;
+  margin: 50px 0 0 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+#android-library {
+  float: left;
+  margin: 16px 0 0 248px;
+}
+#android-book {
+  float: left;
+  margin: 0 26px 0 0;
+}
+#android-buy2 {
+  margin: 4px 0 0 3px;
+}
+#android-buy2 a {
+  background-color: #a5c444;
+  padding: 4px 6px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-shadow: 1px 1px 1px #87a038;
+}
+#android-odd {
+  margin: 0 0 0 10px;
+}
+#android-footer {
+  width: 960px;
+  margin: 0 0 0 -12px;
+}
+
+/* Thanksgiving Landing Page - nb 11/5/12 */
+#thanksgiving h2 {
+    margin: 20px 0 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#thanksgiving h3,
+#holiday h3 {
+    /*margin: 5px 10px 10px 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: normal;*/
+    margin: 0;
+    font-size: 1.33em;
+    color: #fbf900;
+    font-style: italic;
+    padding: 10px 15px 5px;
+    background: #1b1b1b url(http://media.wiley.com/spa_assets/R16B048/site/dummies2/include/images/bg/leftnav-header-bg.gif) repeat-x bottom left;
+}
+
+#thanksgiving h4,
+#holiday h4 {
+    margin: 10px 10px 15px 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#thanksgiving .feature-box,
+#holiday .feature-box {
+    margin: 5px;
+    padding-left: 0;
+}
+
+#thanksgiving .feature-container .main-featured-article{
+    float:left;
+    width:200px;
+    margin-right:8px;
+}
+
+#thanksgiving .feature-container .main-featured-article-last{
+    float:left;
+    width:200px;
+    margin-right:0;
+}
+
+#thanksgiving .feature-container .main-featured-article p,
+#thanksgiving .feature-container .main-featured-article-last p,
+#thanksgiving .gradient-feature .featured-article p,
+#thanksgiving .gradient-feature .featured-article-last p,
+#holiday .gradient-feature .featured-article p,
+#holiday .gradient-feature .featured-article-last p{
+    margin:10px 0 0 0;
+    line-height: 1.5em;
+}
+
+
+#thanksgiving .gradient-feature,
+#holiday .gradient-feature{ 
+    margin: 20px 0 0 0;
+    padding:2px 0;
+    background: #fff url(http://media.wiley.com/spa_assets/R16B048/site/dummies2/include/images/bg/generic-gradient-bg.gif) repeat-x top left; 
+} 
+	
+#thanksgiving .gradient-feature .featured-article,
+#holiday .gradient-feature .featured-article{ 	
+    float:left;
+    width:150px;
+    margin-right:5px;
+    } 
+	
+#thanksgiving .gradient-feature .featured-article-last,
+#holiday .gradient-feature .featured-article-last{ 	
+    float:left;
+    width:150px;
+    margin-right:0;
+    } 	  
+
+/* Holiday Gadget Gift Guide - svj 11/12/12 */
+.gadget-wrap {
+        width: 758px;
+        margin: 0 0 0 -19px;
+}
+.gadget-section {
+	width: 670px;
+	margin: 0 0 60px 57px;	
+}
+.gadget-title {
+	width: 660px;
+	height: 30px;
+	background-color: #000;	
+	color: #ffff00;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+.gadget-gray1 {
+	width: 670px;
+	height: 189px;
+	background-image: url(http://media.wiley.com/assets/7083/83/gray1.png);
+	background-repeat: no-repeat;
+}
+.gadget-gray2 {
+	width: 670px;
+	height: 378px;
+	background-image: url(http://media.wiley.com/assets/7083/84/gray2.png);
+	background-repeat: no-repeat;
+}
+.gadget-gray3 {
+	width: 670px;
+	height: 567px;
+	background-image: url(http://media.wiley.com/assets/7083/85/gray3.png);
+	background-repeat: no-repeat;
+}
+.gadget-gray4 {
+	width: 670px;
+	height: 756px;
+	background-image: url(http://media.wiley.com/assets/7083/86/gray4.png);
+	background-repeat: no-repeat;
+}
+.gadget-package {
+	float: left;
+	height: 180px;
+	margin: 20px 0 0 36px;
+}
+.gadget-buy {
+	margin: 2px 0 20px 11px;	
+}
+.gadget-buy a {
+	color: #0d56a8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.gadget-top {
+  clear: both;
+  font-weight: bold;
+  padding: 10px 10px 0 0;
+  margin: 0;
+  text-align: right;
+}
+
+/* Music Trades Gift Guide - svj 11/14/12 */
+.musictrade-wrap {
+        width: 758px;
+        margin: 0 0 0 -19px;
+}
+.musictrade-section {
+	width: 670px;
+	margin: 20px 0 60px 57px;	
+}
+.musictrade-title {
+	width: 660px;
+	height: 30px;
+	background-color: #000;	
+	color: #ffff00;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+.musictrade-gray1 {
+	width: 670px;
+	height: 189px;
+	background-image: url(http://media.wiley.com/assets/7084/51/gray1.png);
+	background-repeat: no-repeat;
+}
+.musictrade-gray2 {
+	width: 670px;
+	height: 378px;
+	background-image: url(http://media.wiley.com/assets/7084/52/gray2.png);
+	background-repeat: no-repeat;
+}
+.musictrade-gray3 {
+	width: 670px;
+	height: 567px;
+	background-image: url(http://media.wiley.com/assets/7084/53/gray3.png);
+	background-repeat: no-repeat;
+}
+.musictrade-gray4 {
+	width: 670px;
+	height: 756px;
+	background-image: url(http://media.wiley.com/assets/7084/54/gray4.png);
+	background-repeat: no-repeat;
+}
+.musictrade-package {
+	float: left;
+	height: 178px;
+	margin: 20px 0 0 54px;
+        position: relative;
+}
+.musictrade-book2 {
+padding: 0 8px;
+}
+.musictrade-book img, .musictrade-book2 img {
+-moz-box-shadow: 3px 3px 4px #aaaaaa;
+-webkit-box-shadow: 3px 3px 4px #aaaaaa;
+box-shadow: 3px 3px 4px #aaaaaa;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa');
+}
+.musictrade-buy {
+	margin: 2px 0 20px 8px;
+        position: absolute;
+        bottom: 0;
+}
+.musictrade-buy2 {
+	margin: 2px 0 20px 0;	
+}
+.musictrade-buy a, .musictrade-buy2 a {
+	color: #0d56a8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.musictrade-top {
+  clear: both;
+  font-weight: bold;
+  padding: 10px 10px 0 0;
+  margin: 0;
+  text-align: right;
+}
+.musictrade-order {
+margin: 0;
+padding: 0;
+font-size: 14px;
+line-height: 12px;
+}
+.musictrade-wrap2 {
+        width: 758px;
+        height: 600px;
+        margin: 0 0 0 -19px;
+}
+.musictrade-label {
+background-image: url(http://media.wiley.com/assets/7084/28/order.png);
+background-repeat: no-repeat;
+width: 400px;
+height: 117px;
+padding: 18px 0 0 20px;
+}
+.musictrade-border {
+border: 1px solid #787878;
+}
+.musictrade-border2 {
+border-right: 1px solid #787878;
+border-bottom: 1px solid #787878;
+}
+
+/* eLearning Center - svj 11/14/12 */
+#elearning-wrap {
+  background-color: #fff;
+  margin: 0 0 0 -12px;
+  padding: 0;
+}
+#elearning-content {
+  width: 960px;
+  height: 1316px;
+  background: url(http://media.wiley.com/assets/7079/33/bg.png) no-repeat;
+}
+#elearning-header {
+	width: 532px;
+	height: 449px;
+	float: left;
+	margin: 25px 0 0 44px;
+}
+#elearning-top-text {
+  width: 300px;
+  float: right;
+  margin: 50px 40px 0 0;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+#elearning-top-list li {
+  padding: 0 0 6px 0;
+  list-style-image: url(http://media.wiley.com/assets/7079/34/arrow.png);
+}
+#elearning-blue {
+  color: #1170cf;
+  font-weight: bold;
+}
+#elearning-top-vid {
+	padding: 20px 0 0 0;
+}
+#elearning-bottom-header {
+  width: 860px;
+  float: right;
+  margin: 64px 40px 0 0;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+.elearning-showcase {
+	width: 910px;
+	float: right;
+	margin: 20px 40px 0 0;
+}
+.elearning-promo {
+	float:right;
+	margin: 0 0 30px 20px;
+}
+.elearning-tag {
+	margin: 0 0 0 94px;
+}
+.elearning-tag a {
+	color: #0066cc;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.epro-bg {
+		background-image: url(http://media.wiley.com/assets/7080/29/productbg.png);
+		background-repeat:no-repeat;
+		width: 960px;
+		height: 619px;
+                margin: 0 0 0 -12px;
+}
+.epro-bg2 {
+		background-image: url(http://media.wiley.com/assets/7080/29/productbg.png);
+		background-repeat: repeat-y;
+		width: 960px;
+		height: 700px;
+       margin: 0 0 0 -12px;
+	}
+	.epro-bg3 {
+		background-image: url(http://media.wiley.com/assets/7080/29/productbg.png);
+		background-repeat: repeat-y;
+		width: 960px;
+		height: 800px;
+                margin: 0 0 0 -12px;
+	}
+    .epro-bg4 {
+		background-image: url(http://media.wiley.com/assets/7080/29/productbg.png);
+		background-repeat: repeat-y;
+		width: 960px;
+		height: 940px;
+                margin: 0 0 0 -12px;
+	}
+	.epro-leftcontain {
+		float: left;
+	}
+    .epro-rightcontain {
+		background-image: url(http://media.wiley.com/assets/7080/30/stripe.png);
+		background-repeat:no-repeat;	
+		width: 399px;
+		height: 619px;
+		float: right;
+		margin: 0 20px 0 0;
+	}
+    .epro-rightcontain2 {
+		background-image: url(http://media.wiley.com/assets/7080/30/stripe.png);
+		background-repeat: repeat-y;	
+		width: 399px;
+		height: 700px;
+		float: right;
+		margin: 0 20px 0 0;
+	}
+	.epro-rightcontain3 {
+		background-image: url(http://media.wiley.com/assets/7080/30/stripe.png);
+		background-repeat: repeat-y;	
+		width: 399px;
+		height: 800px;
+		float: right;
+		margin: 0 20px 0 0;
+	}
+    .epro-rightcontain4 {
+		background-image: url(http://media.wiley.com/assets/7080/30/stripe.png);
+		background-repeat: repeat-y;	
+		width: 399px;
+		height: 940px;
+		float: right;
+		margin: 0 20px 0 0;
+	}
+	.epro-label {
+		margin: 20px 0 0 30px;	
+	}
+	.epro-blurb-office {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-office h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-office p {
+		font-size: 16px;
+		width: 400px;
+		padding: 22px 0 0 50px;
+		line-height: 24px;
+	}
+    .epro-blurb-photo {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-photo h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-photo p {
+		font-size: 16px;
+		width: 400px;
+		padding: 12px 0 0 50px;
+		line-height: 24px;
+	}
+    .epro-blurb-excel {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-excel h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-excel p {
+		font-size: 16px;
+		width: 400px;
+		padding: 22px 0 0 50px;
+		line-height: 24px;
+	}
+    .epro-blurb-html {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-html h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-html p {
+		font-size: 16px;
+		width: 400px;
+		padding: 8px 0 0 50px;
+		line-height: 22px;
+	}
+    .epro-blurb-java {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-java h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-java p {
+		font-size: 16px;
+		width: 400px;
+		padding: 12px 0 0 50px;
+		line-height: 24px;
+	}
+    .epro-blurb-social {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-social h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-social p {
+		font-size: 16px;
+		width: 400px;
+		padding: 8px 0 0 50px;
+		line-height: 22px;
+	}
+    .epro-blurb-windows7 {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-windows7 h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-windows7 p {
+		font-size: 16px;
+		width: 400px;
+		padding: 12px 0 0 50px;
+		line-height: 24px;
+	}
+    .epro-blurb-word {
+		background-image: url(http://media.wiley.com/assets/7079/98/blurb.png);
+		background-repeat:no-repeat;
+		width: 522px;
+		height: 247px;
+		margin: 20px 0 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+	}
+	.epro-blurb-word h1 {
+		font-size: 20px;
+		color: #fff;
+		padding: 14px 0 0 50px;	
+	}
+	.epro-blurb-word p {
+		font-size: 16px;
+		width: 400px;
+		padding: 8px 0 0 50px;
+		line-height: 22px;
+	}
+	.epro-book {
+		margin: 20px 0 0 80px;
+	}
+	.epro-book-text {
+		margin: -20px 0 0 94px;	
+	}
+	.epro-book-text a {
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 14px;
+		color: #0066cc;	
+	}
+        .epro-icons a {
+                text-decoration: none;
+        }
+	.epro-mac {
+		margin: -8px 0 0 80px;
+	}
+	.epro-mac-text {
+		margin: -20px 0 0 110px;	
+	}
+	.epro-mac-text a {
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 14px;
+		color: #0066cc;	
+	}
+	.epro-book-text ul li {
+  		list-style-image: url(http://media.wiley.com/assets/7079/34/arrow.png);
+	}
+	.epro-mac-text ul li {
+  		list-style-image: url(http://media.wiley.com/assets/7079/34/arrow.png);
+		width: 200px;
+		margin: 0 0 10px 0;
+                line-height: 18px;
+	}
+
+
+.series-article ol.level-one > li p.first-para {
+    font-weight: bold;
+}
+
+/* Small Business Titles - svj 02/12/2013 */
+.smbiz-wrap {
+	width: 959px;
+	margin: 0 0 0 -10px;
+}
+.smbiz-section {
+	width: 959px;
+	margin: 0 0 20px 0;	
+}
+.smbiz-package {
+	float: left;
+	height: 170px;
+	margin: 20px 0 0 48px;
+}
+.smbiz-book {
+	height: 130px;	
+}
+.smbiz-buy {
+	margin: 2px 0 20px 11px;	
+}
+.smbiz-buy a {
+	color: #0d56a8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: right;
+	font-weight: bold;
+}
+.smbiz-top {
+	clear: both;
+	font-weight: bold;
+	padding: 10px 60px 0 0;
+	margin: 0;
+	text-align: right;
+}
+.smbiz-arrow {
+	font-size: 9px;	
+}
+
+/* Hobby Farming For Dummies - SVJ 03/19/2013 */
+/*HOBBY FARMING HOME*/
+.hobby-wrap {
+  width: 959px;
+  height: 900px;
+  margin: 0 0 0 -10px;
+  background-image: url(http://media.wiley.com/assets/7136/13/bg.png);
+  background-repeat: no-repeat;
+}
+.hobby-spacer {
+  margin: 240px 0 0 0;
+}
+.hobby-set {
+  width: 870px;
+  height: 273px;
+  padding: 20px 0 0 44px;
+}
+.hobby-box1 {
+	width: 275px;
+	height: 273px;
+        margin: 0 15px 0 0;
+        float: left;	
+}
+.hobby-box1 p {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	letter-spacing: 0.5px;
+	color: #000;
+        line-height: 28px;
+}
+.hobby-box1 p:first-letter {
+	float: left;
+	font-size: 74px;
+	line-height: 50px;
+        text-indent: -5px;
+        margin-left: -5px;
+}
+.hobby-box {
+  width: 273px;
+  height: 273px;
+  margin: 0 15px 0 0;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #000;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+.hobby-boxtitle {
+  width: 273px;
+  height: 48px;
+  background-color: #000;
+}
+.hobby-boxtitle h1 {
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.hobby-cover {
+  width: 207px;
+  height: 224px;
+  float: left;
+}
+.hobby-see a {
+  float: left;
+  color: #01a350;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 200px 0 0 0;
+}
+
+/*HOBBY FARMING CATEGORIES*/
+.hobby2-wrap {
+  width: 784px;
+  height: 900px;
+  margin: 0 0 0 -19px;
+  background-image: url(http://media.wiley.com/assets/7138/08/bg2.png);
+  background-repeat: no-repeat;
+}
+.hobby2-content {
+  margin: 190px 0 0 38px;
+  padding: 0;
+}
+.hobby2-wrap p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+}
+.hobby2-half {
+  float: left;
+  width: 345px;	
+  margin: 20px 0 20px 0;
+}
+#hobby2-halfbuff {
+  margin-right: 18px;	
+}
+.hobby2-whole {
+  float: left;
+  width: 708px;	
+  margin: 20px 0 20px 0;
+}
+#hobby2-last {
+  margin-bottom: 40px;	
+}
+.hobby2-cat1 {
+  width: 337px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.hobby2-cat2 {
+  width: 700px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.hobby2-package {
+  float: left;
+  width: 172px;	
+}
+.hobby2-package a {
+  color: #01a350;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+/*HOBBY FARMING LIGHTBOX - Generic Shell*/
+.hobby3-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.hobby3-image {
+	float: left;
+	position: relative;
+	right: -16px;
+}
+.hobby3-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.hobby3-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.hobby3-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.hobby3-author a:hover {
+	text-decoration: underline;
+}
+.hobby3-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.hobby3-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.hobby3-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.hobby3-buypack {
+	float: left;
+	width: 130px;
+}	
+.hobby3-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.hobby3-buypack a:hover {
+	text-decoration: underline;	
+}
+.hobby3-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.hobby3-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.hobby3-list li {
+	margin: 0 0 4px 0;
+}
+
+/* Mother's Day For Dummies - SVJ 04/5/2013 */
+/*MOTHER'S DAY HOME*/
+.mothers-wrap {
+  width: 959px;
+  height: 900px;
+  margin: 0 0 0 -10px;
+  background-image: url(http://media.wiley.com/assets/7140/17/bg_main_959x352.png);
+  background-repeat: no-repeat;
+}
+.mothers-spacer {
+  margin: 280px 0 0 0;
+}
+.mothers-set {
+  width: 870px;
+  height: 273px;
+  padding: 20px 0 0 44px;
+}
+.mothers-box1 {
+	width: 275px;
+	height: 275px;
+	margin: 0 15px 0 0;
+	float: left;	
+}
+.mothers-box1 p:first-letter {
+	float: left;
+	font-size: 74px;
+	line-height: 50px;
+	text-indent: -5px;
+	margin-left: -5px;
+}
+.mothers-box {
+  width: 273px;
+  height: 273px;
+  margin: 0 15px 0 0;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #000;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+.mothers-boxtitle {
+  width: 273px;
+  height: 48px;
+  background-color: #000;
+}
+.mothers-boxtitle h1 {
+	float: left;
+	width: 190px;
+	margin: 0 0 0 14px;
+	color: #fff;
+	text-align: left;
+	line-height: 48px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.mothers-boxtitle a {
+	float: left;
+	color: #fef200;
+	line-height: 48px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.mothers-cover {
+  width: 273px;
+  height: 224px;
+}
+
+/*MOTHER'S DAY CATEGORIES*/
+.mothers2-wrap {
+  width: 784px;
+  margin: 0 0 0 -19px;
+  background-image: url(http://media.wiley.com/assets/7140/18/bg_category_784x288.png);
+  background-repeat: no-repeat;
+}
+.mothers2-content {
+  margin: 222px 0 0 38px;
+  padding: 0;
+}
+.mothers2-content p {
+	width: 554px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #000;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  text-align: right;
+}
+.mothers2-half {
+  float: left;
+  width: 345px;	
+  margin: 20px 0 20px 0;
+}
+#mothers2-halfbuff {
+	margin-right: 18px;	
+}
+.mothers2-whole {
+	float: left;
+	width: 708px;	
+	margin: 20px 0 20px 0;
+}
+.mothers2-quarter {
+	float: left;
+	width: 174px;	
+	margin: 20px 0 20px 0;
+}
+.mothers2-threequarter {
+	float: left;
+	width: 516px;	
+	margin: 20px 0 20px 0;
+}
+#mothers2-last {
+  margin-bottom: 40px;	
+}
+.mothers2-cat1 {
+  width: 337px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.mothers2-cat2 {
+  width: 700px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.mothers2-cat3 {
+  width: 508px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.mothers2-cat4 {
+  width: 166px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.mothers2-package {
+  float: left;
+  width: 172px;	
+}
+.mothers2-package a {
+  color: #cf196b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+/*MOTHER'S DAY LIGHTBOX - Generic Shell*/
+.mothers3-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.mothers3-image {
+	float: left;
+	position: relative;
+	right: -16px;
+}
+.mothers3-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.mothers3-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.mothers3-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.mothers3-author a:hover {
+	text-decoration: underline;
+}
+.mothers3-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.mothers3-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.mothers3-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.mothers3-buypack {
+	float: left;
+	width: 130px;
+}	
+.mothers3-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.mothers3-buypack a:hover {
+	text-decoration: underline;	
+}
+.mothers3-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.mothers3-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.mothers3-list li {
+	margin: 0 0 4px 0;
+}
+
+/* Paid Video Access Page */
+#video-access {
+     margin:0 0 0 -5px;
+}
+
+/*ASVAB FOR DUMMIES*/
+.asvab-wrap {
+  width: 959px;
+  height: 800px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7146/33/bg_main_959x502.png);
+  background-repeat: no-repeat;
+}
+.asvab-col1 {
+	width: 418px;
+	height: 600px;
+	float: left;
+	margin: 50px 0 0 0;
+}
+.asvab-col1 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 13px;
+	margin: 0 0 0 190px;
+	position: relative;
+	top: -22px;
+}
+.asvab-col2 {
+	width: 344px;
+	height: 600px;
+	position: relative;
+	left: -36px;
+	float: left;
+	margin: 80px 0 0 0;
+}
+.asvab-p1 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 26px;
+	line-height: 28px;
+	position: relative;
+	left: -10px;
+	padding: 40px 0 0 60px;
+}
+.asvab-ul {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: normal;
+  	font-size: 16px;
+	padding: 10px 0 0 60px;
+	margin: 0 0 0 6px;
+}
+.asvab-ul li {
+	margin: 0 0 8px 0;
+}
+.asvab-book1 {
+	width: 172px;
+	height: 206px;
+	float: left;
+margin-left: -20px;
+}
+.asvab-book2 {
+
+
+	width: 172px;
+	height: 206px;
+	float: left;
+margin-left: 5px;
+}
+.asvab-book1 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	margin: 0;
+	position: relative;
+	right: -30px;
+}
+.asvab-book2 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	margin: 0;
+	position: relative;
+	left: -14px;
+}
+.asvab-book1 img {
+	position: relative;
+	left: -8px;
+}
+.asvab-book2 img {
+	position: relative;
+	left: -50px;
+}
+.asvab-col3 {
+	width: 195px;
+	height: 1085px;
+	margin: 0;
+	float: left;
+	position: relative;
+	left: -50px;
+ 	background-image: url(http://media.wiley.com/assets/7185/34/strip_216x1085.png);
+	background-repeat: no-repeat;
+}
+.asvab-p2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 14px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 70px 0 0 0;
+}
+.asvab-p3 {
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	text-align: center;
+	position: relative;
+	top: -6px;
+}
+.asvab-col3 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.asvab-col3 a img {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+	margin: 0 0 0 40px;
+	padding: 0;
+}
+
+/*ASVAB LIGHTBOX*/
+.asvab2-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.asvab2-image {
+	float: left;
+	position: relative;
+	right: -16px;
+}
+.asvab2-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.asvab2-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.asvab2-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.asvab2-author a:hover {
+	text-decoration: underline;
+}
+.asvab2-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.asvab2-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.asvab2-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.asvab2-buypack {
+	float: left;
+	width: 130px;
+}	
+.asvab2-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.asvab2-buypack a:hover {
+	text-decoration: underline;	
+}
+.asvab2-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.asvab2-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.asvab2-list li {
+	margin: 0 0 4px 0;
+}
+
+/* GRADUATION FOR DUMMIES */
+.grad-wrap {
+  width: 959px;
+  height: 900px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+}
+.grad-title {
+	width: 959px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	line-height: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #FF0;
+}
+.grad-set {
+  width: 959px;
+  height: 206px;
+  margin: 20px 0 0 0;
+  background-image: url(http://media.wiley.com/assets/7143/19/strip_959x206.png);
+  background-repeat: no-repeat;
+}
+.grad-bookline {
+	margin: 0 0 0 20px;
+	padding: 0;
+	float: left;
+}
+.grad-category {
+	width: 300px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	padding: 108px 0 0 0;
+	text-align: right;
+}
+.grad-category2  {
+	width: 475px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	padding: 108px 0 0 0;
+	text-align: right;
+}
+.grad-seeall a {
+	width: 60px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ff0;
+	line-height: 14px;
+	padding: 112px 0 0 0;
+	margin: 0 0 0 8px;
+	text-align: left;
+}
+
+.grad2-wrap {
+  width: 784px;
+  margin: 0 0 0 -19px;
+}
+.grad2-title {
+	width: 784px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	line-height: 48px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #FF0;
+}
+.grad2-content {
+  margin: 30px 0 0 38px;
+  padding: 0;
+}
+.grad2-half {
+  float: left;
+  width: 345px;	
+  margin: 20px 0 20px 0;
+}
+#grad2-halfbuff {
+	margin-right: 18px;	
+}
+.grad2-whole {
+	float: left;
+	width: 708px;	
+	margin: 20px 0 20px 0;
+}
+.grad2-quarter {
+	float: left;
+	width: 174px;	
+	margin: 20px 0 20px 0;
+}
+.grad2-threequarter {
+	float: left;
+	width: 516px;	
+	margin: 20px 0 20px 0;
+}
+#grad2-last {
+  margin-bottom: 40px;	
+}
+.grad2-cat1 {
+  width: 337px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.grad2-cat2 {
+  width: 700px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.grad2-cat3 {
+  width: 508px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.grad2-cat4 {
+  width: 170px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.grad2-package {
+  float: left;
+  width: 172px;	
+}
+.grad2-package a {
+  color: #0f5ba9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.grad3-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.grad3-image {
+	float: left;
+	position: relative;
+	right: -16px;
+}
+.grad3-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.grad3-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.grad3-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.grad3-author a:hover {
+	text-decoration: underline;
+}
+.grad3-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.grad3-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.grad3-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.grad3-buypack {
+	float: left;
+	width: 130px;
+}	
+.grad3-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.grad3-buypack a:hover {
+	text-decoration: underline;	
+}
+.grad3-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.grad3-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.grad3-list li {
+	margin: 0 0 4px 0;
+}
+
+/* FATHER'S DAY FOR DUMMIES */
+.fathers-wrap {
+  width: 958px;
+  height: 900px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7148/64/bg_main_958x533.png);
+  background-repeat: no-repeat;
+}
+.fathers-title {
+	width: 959px;
+	margin: 160px 0 0 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	line-height: 53px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px !important;
+	background-color: #FF0;
+}
+.fathers-cell1 {
+	float: left;
+	width: 440px;
+	height: 214px;
+	border: 1px solid #000;
+	background-color: #fff;	
+	margin: 28px 0 0 25px;
+	padding: 0;
+	
+	box-shadow: 4px 4px 4px #ccc;
+}
+.fathers-cell1 img {
+	float: left;
+	margin: 10px 0 10px 12px;
+	width: 134px;
+	height: 160px;	
+}
+.fathers-cell2 {
+	float: left;
+	width: 290px;
+	height: 214px;
+	border: 1px solid #000;
+	background-color: #fff;	
+	margin: 28px 0 0 20px;
+	padding: 0;
+	
+	box-shadow: 4px 4px 4px #ccc;
+}
+.fathers-cell2 img {
+	float: left;
+	margin: 10px 0 10px 11px;
+	width: 134px;
+	height: 160px;	
+}
+.fathers-celltitle {
+	clear: both;
+	width: 100%;
+	height: 34px;
+	line-height: 36px;
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-weight: bold;
+	font-size: 19px !important;
+	display: block;
+	text-align: center;
+}
+.fathers-seeall1 {
+	width: 440px;
+	height: 26px;
+	line-height: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0073b9;
+	font-weight: bold;
+	font-size: 14px !important;
+	text-align: center;
+	float: left;	
+	margin: 0 0 0 25px;
+}
+.fathers-seeall2 {
+	width: 290px;
+	height: 26px;
+	line-height: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0073b9;
+	font-weight: bold;
+	font-size: 14px !important;
+	text-align: center;
+	float: left;	
+	margin: 0 0 0 20px;
+}
+.fathers2-wrap {
+  width: 784px;
+  height: 900px;
+  margin: 0 0 0 -19px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7148/63/bg_category_784x436.png);
+  background-repeat: no-repeat;
+}
+.fathers2-title {
+	width: 784px;
+	margin: 160px 0 0 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px !important;
+	background-color: #FF0;
+}
+.fathers2-content {
+  margin: 30px 0 0 38px;
+  padding: 0;
+}
+.fathers2-half {
+  float: left;
+  width: 345px;	
+  margin: 20px 0 20px 0;
+}
+#fathers2-halfbuff {
+	margin-right: 18px;	
+}
+.fathers2-whole {
+	float: left;
+	width: 708px;	
+	margin: 20px 0 20px 0;
+}
+.fathers2-quarter {
+	float: left;
+	width: 174px;	
+	margin: 20px 0 20px 0;
+}
+.fathers2-threequarter {
+	float: left;
+	width: 516px;	
+	margin: 20px 0 20px 0;
+}
+#fathers2-last {
+  margin-bottom: 40px;	
+}
+.fathers2-cat1 {
+  width: 337px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.fathers2-cat2 {
+  width: 700px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.fathers2-cat3 {
+  width: 508px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.fathers2-cat4 {
+  width: 170px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.fathers2-package {
+  float: left;
+  width: 172px;	
+}
+.fathers2-package a {
+  color: #0f5ba9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+.fathers3-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.fathers3-image {
+	float: left;
+	position: relative;
+	right: -16px;
+}
+.fathers3-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.fathers3-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.fathers3-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.fathers3-author a:hover {
+	text-decoration: underline;
+}
+.fathers3-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.fathers3-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.fathers3-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.fathers3-buypack {
+	float: left;
+	width: 130px;
+}	
+.fathers3-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.fathers3-buypack a:hover {
+	text-decoration: underline;	
+}
+.fathers3-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.fathers3-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.fathers3-list li {
+	margin: 0 0 4px 0;
+}
+
+/* VIDEO TRAINING FOR DUMMIES */
+.vidtraining1-wrap {
+  width: 958px;
+  height: 1000px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7152/36/bg_main_958x307.png);
+  background-repeat: no-repeat;
+}
+.vidtraining1-package {
+  float: left;
+  width: 318px;	
+}
+.vidtraining1-package a {
+	color: #000;
+	text-decoration: none;
+}
+.vidtraining1-package a p {
+	position: relative;
+	bottom: 30px;
+	margin: 0;
+	padding: 0;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  line-height: 29px;
+}
+.vidtraining1-package a p img {
+	position: relative;
+	top: 6px;	
+}
+.vidtraining1-clear {
+	clear: both;	
+}
+.vidtraining1-subline {
+	width: 510px;
+	background-color: #24aeb2;
+	color: #ffff08;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: right;
+	padding: 0 18px 0 0;
+	margin: 36px 0 0 0;
+}
+.vidtraining1-list {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	width: 600px;
+	margin: 16px 0 0 90px;
+}
+.vidtraining1-list li {
+	margin: 3px 0 3px 0;	
+}
+.vidtraining2-wrap {
+	padding: 0 10px 0 6px;	
+}
+.vidtraining2-image {
+	float: left;
+	position: relative;
+	left: -20px;
+}
+.vidtraining2-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.vidtraining2-title span {
+	font-size: 22px;
+}
+.vidtraining2-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.vidtraining2-author a {
+	color: #06898c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.vidtraining2-author a:hover {
+	text-decoration: underline;
+}
+.vidtraining2-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-buys p {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-buys p a{
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+	text-decoration: underline;
+}
+.vidtraining2-buys p a:hover{
+	color: #06898c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-buys {
+	margin: 8px 0 0 70px;
+	clear: both;
+	width: 650px;
+}
+.vidtraining2-buypack {
+	float: left;
+	width: 130px;
+}	
+.vidtraining2-buypack a {
+	color: #00a44c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.vidtraining2-buypack a:hover {
+	text-decoration: underline;	
+}
+.vidtraining2-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.vidtraining2-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+	list-style-position: inside;
+}
+.vidtraining2-list li {
+	margin: 0 0 4px 0;
+}
+/* VIDEO TRAINING FOR DUMMIES */
+.vidtraining1-wrap {
+  width: 958px;
+  height: 1000px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7152/36/bg_main_958x307.png);
+  background-repeat: no-repeat;
+}
+.vidtraining1-package {
+  float: left;
+  width: 318px;	
+}
+.vidtraining1-package a {
+	color: #000;
+	text-decoration: none;
+}
+.vidtraining1-package a p {
+	position: relative;
+	bottom: 30px;
+	margin: 0;
+	padding: 0;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  line-height: 29px;
+}
+.vidtraining1-package a p img {
+	position: relative;
+	top: 6px;	
+}
+.vidtraining1-clear {
+	clear: both;	
+}
+.vidtraining1-subline {
+	width: 510px;
+	background-color: #24aeb2;
+	color: #ffff08;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: right;
+	padding: 0 18px 0 0;
+	margin: 36px 0 0 0;
+}
+.vidtraining1-list {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	width: 600px;
+	margin: 16px 0 0 90px;
+}
+.vidtraining1-list li {
+	margin: 3px 0 3px 0;	
+}
+.vidtraining2-wrap {
+	padding: 0 10px 0 6px;	
+}
+.vidtraining2-image {
+	float: left;
+	position: relative;
+	left: -20px;
+}
+.vidtraining2-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.vidtraining2-title span {
+	font-size: 22px;
+}
+.vidtraining2-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.vidtraining2-author a {
+	color: #06898c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.vidtraining2-author a:hover {
+	text-decoration: underline;
+}
+.vidtraining2-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-buys p {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-buys p a{
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+	text-decoration: underline;
+}
+.vidtraining2-buys p a:hover{
+	color: #06898c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.vidtraining2-buys {
+	margin: 8px 0 0 70px;
+	clear: both;
+	width: 650px;
+}
+.vidtraining2-buypack {
+	float: left;
+	width: 130px;
+}	
+.vidtraining2-buypack a {
+	color: #00a44c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.vidtraining2-buypack a:hover {
+	text-decoration: underline;	
+}
+.vidtraining2-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.vidtraining2-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+	list-style-position: inside;
+}
+.vidtraining2-list li {
+	margin: 0 0 4px 0;
+}
+/* INVESTING IN YOUR 20s AND 30s FOR DUMMIES */
+.investing-wrap {
+  width: 958px;
+  height: 700px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7159/42/investing-home-banner.jpg);
+  background-repeat: no-repeat;
+}
+.investing-title {
+	width: 959px;
+	margin:160px 0 0 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	line-height: 53px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 22px !important;
+	background-color: #FF0;
+}
+.investing-cell1 {
+	float: left;
+	width: 440px;
+	height: 214px;
+	border: 1px solid #000;
+	background-color: #fff;	
+	margin: 28px 0 0 25px;
+	padding: 0;
+	
+	box-shadow: 4px 4px 4px #ccc;
+}
+.investing-cell1 img {
+	float: left;
+	margin: 10px 0 10px 12px;
+	border:none !important;
+}
+.investing-cell2 {
+	float: left;
+	width: 290px;
+	height: 214px;
+	border: 1px solid #000;
+	background-color: #fff;	
+	margin: 28px 0 0 20px;
+	padding: 0;
+	
+	box-shadow: 4px 4px 4px #ccc;
+}
+.investing-cell2 img {
+	float: left;
+	margin: 10px 0 10px 11px;
+	width: 134px;
+	height: 160px;	
+}
+.investing-celltitle {
+ background-color: #000000;
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 19px !important;
+    font-weight: bold;
+    height: 34px;
+    line-height: 36px;
+    text-align: center;
+    width: 100%;
+}
+.investing-seeall1 {
+	color: #0073B9;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin: 75px 0 0 0;
+    text-align: center;
+    width: 70px;
+}
+.investing-seeall2 {
+	width: 290px;
+	height: 26px;
+	line-height: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0073b9;
+	font-weight: bold;
+	font-size: 14px !important;
+	text-align: center;
+	float: left;	
+	margin: 0 0 0 20px;
+}
+.investing2-wrap {
+  width: 784px;
+  height: 900px;
+  margin: 0 0 0 -19px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7159/60/investing-secondary-banner.jpg);
+  background-repeat: no-repeat;
+}
+.investing2-title {
+	width: 784px;
+	margin: 160px 0 0 0;
+	padding: 0;
+	color: #000;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px !important;
+	background-color: #FF0;
+}
+.investing2-content {
+  margin: 30px 0 0 38px;
+  padding: 0;
+}
+.investing2-half {
+  float: left;
+  width: 345px;	
+  margin: 20px 0 20px 0;
+}
+#investing2-halfbuff {
+	margin-right: 18px;	
+}
+.investing2-whole {
+	float: left;
+	width: 708px;	
+	margin: 20px 0 20px 0;
+}
+.investing2-quarter {
+	float: left;
+	width: 174px;	
+	margin: 20px 0 20px 0;
+}
+.investing2-threequarter {
+	float: left;
+	width: 516px;	
+	margin: 20px 0 20px 0;
+}
+#investing2-last {
+  margin-bottom: 40px;	
+}
+.investing2-cat1 {
+  width: 337px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.investing2-cat2 {
+  width: 700px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.investing2-cat3 {
+  width: 508px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.investing2-cat4 {
+  width: 170px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.investing2-package {
+  float: left;
+  width: 172px;	
+}
+.investing2-package a {
+  color: #0f5ba9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+.investing3-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.investing3-image {
+	float: left;
+	position: relative;
+	right: -16px;
+}
+.investing3-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.investing3-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.investing3-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.investing3-author a:hover {
+	text-decoration: underline;
+}
+.investing3-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.investing3-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.investing3-wrap li{
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 0 25px;
+	list-style:disc;
+}
+.investing3-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.investing3-buypack {
+	float: left;
+	width: 130px;
+}	
+.investing3-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.investing3-buypack a:hover {
+	text-decoration: underline;	
+}
+.investing3-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.investing3-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.investing3-list li {
+	margin: 0 0 4px 0;
+}
+/*Small Biz Success LP *?
+.small-biz-success-wrap {
+  width: 958px;
+  height: 1000px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+}
+.small-biz-success-package {
+  float: left;
+  width: 290px;	
+}
+.small-biz-success-package-small {
+  float: left;
+  width: 233px;	
+}
+.small-biz-success-package-text {
+  float: left;
+  width: 360px;	
+}
+.small-biz-success-package a p img {
+	position: relative;
+	top: 6px;	
+}
+img.large{
+	position: relative;
+	top: -56px;
+	float:right;	
+}
+.small-biz-learn-more {
+	text-align:center !important; 
+	width: 290px;	
+	top: -56px !important; 
+	position: relative;
+}
+.small-biz-learn-more-small {
+	text-align:center !important; 
+	width: 230px;	
+	top: -5px !important; 
+	position: relative;
+}
+.small-biz-success-clear {
+	clear: both;	
+}
+.small-biz-success-middle-area {
+	width:100%;
+	padding:0 15px;
+}
+.small-biz-success-bottom-area {
+	width:100%;
+    padding: 0 15px 0 50px;
+}
+.small-biz-success-heading {
+	font-family:"Myriad Pro" !important;
+	font-size: 1.8em !important;
+	font-weight:bold !important;
+	line-height: 1.3em !important;
+	padding-right:15px;
+	color:#000000;
+	padding-bottom:10px;
+}
+.small-biz-success-learn-more {
+	font-family:"Myriad Pro" !important;
+	font-size: 1.2em !important;
+	font-weight:bold !important;
+	padding-left: 75px;
+	color:#000000;
+	position: relative;
+	text-align:left;
+	padding-top:25px !important;
+}
+.small-biz-success-learn-more-small {
+	font-family:"Myriad Pro" !important;
+	font-size: 1.2em !important;
+	font-weight:bold !important;
+	padding-left: 10px;
+	color:#000000;
+	position: relative;
+	text-align:left;
+	padding-top:5px !important;
+}
+.small-biz-success-learn-more-small:after, .small-biz-success-learn-more:after {
+	content: " "; 
+	display: inline;
+	margin-top: 3px; 
+	width: 0; 
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 8px solid red;
+	position: absolute;
+	margin-left:15px;
+}
+.small-biz-success-ribbon-cutting {
+	margin-top:-70px;
+}
+
+.small-biz-success-lighbox-wrap {
+    padding: 15px;
+    width: 770px;
+}
+/* Managing Your Money & Investing For Dummies FOR DUMMIES */
+.money-mgt-investing-wrap {
+  width: 958px;
+  height: 700px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7201/00/header.png);  background-repeat: no-repeat;
+}
+.money-mgt-investing-cell1 {
+	float: left;
+	width: 277px;
+	height: 277px;
+	border: 1px solid #000;
+	background-color: #fff;	
+	margin: 28px 0 0 25px;
+	padding: 0;
+	position:relative;
+	box-shadow: 4px 4px 4px #ccc;
+}
+.money-mgt-investing-cell1 img {
+	float: left;
+	margin: 10px 0 10px 12px;
+	border:none !important;
+}
+.money-mgt-investing-cell2 {
+	float: left;
+	width: 290px;
+	height: 214px;
+	border: 1px solid #000;
+	background-color: #fff;	
+	margin: 28px 0 0 20px;
+	padding: 0;
+	
+	box-shadow: 4px 4px 4px #ccc;
+}
+.money-mgt-investing-cell2 img {
+	float: left;
+	margin: 10px 0 10px 11px;
+	width: 134px;
+	height: 160px;	
+}
+.money-mgt-investing-celltitle {
+	background-color: #000000;
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 27px !important;
+    font-weight: bold;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    width: 100%;
+}
+.money-mgt-investing-seeall1{
+	color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 23px !important;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin: 75px 0 0 0;
+    text-align: left;
+    width: 110px;
+	position:absolute;
+	left:165px;
+}
+.money-mgt-investing-seeall1 a{
+	color: #000000;
+	text-decoration:none !important;
+	
+}
+.money-mgt-investing-seeall1 a:after{
+	content:url(http://media.wiley.com/assets/7201/10/green-arrow.png);
+	position:absolute;
+	padding-left:5px;
+}
+.money-mgt-investing-seeall2 {
+	width: 290px;
+	height: 26px;
+	line-height: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0073b9;
+	font-weight: bold;
+	font-size: 14px !important;
+	text-align: center;
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.money-mgt-investing2-content {
+  margin: 0 0 0 38px;
+  padding: 0;
+}
+.money-mgt-investing2-half {
+  float: left;
+  width: 345px;	
+  margin: 20px 0 20px 0;
+}
+#investing2-halfbuff {
+	margin-right: 18px;	
+}
+.money-mgt-investing2-whole {
+	float: left;
+	width: 888px;	
+	margin: 20px 0 20px 0;
+}
+.money-mgt-investing2-quarter {
+	float: left;
+	width: 174px;	
+	margin: 20px 0 20px 0;
+}
+.money-mgt-investing2-threequarter {
+	float: left;
+	width: 516px;	
+	margin: 20px 0 20px 0;
+}
+#investing2-last {
+  margin-bottom: 40px;	
+}
+.money-mgt-investing2-cat1 {
+  width: 337px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.money-mgt-investing2-cat2 {
+  width: 850px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.money-mgt-investing2-cat3 {
+  width: 508px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.money-mgt-investing2-cat4 {
+  width: 170px;
+  height: 38px;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+  margin: 0 0 6px 0;
+  background-image: url(http://media.wiley.com/assets/7138/09/cat_bg.png);
+  background-repeat: repeat-x;
+}
+.money-mgt-investing2-package {
+  float: left;
+  width: 160px;	
+  padding:15px 0 0 15px;
+}
+.money-mgt-investing2-package a {
+  color: #0f5ba9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+.money-mgt-investing3-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.money-mgt-investing3-image {
+	float: left;
+	position: relative;
+	right: -16px;
+	padding: 0 30px 15px 0;
+}
+.money-mgt-investing3-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.money-mgt-investing3-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.money-mgt-investing3-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.money-mgt-investing3-author a:hover {
+	text-decoration: underline;
+}
+.money-mgt-investing3-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.money-mgt-investing3-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.money-mgt-investing3-wrap li{
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 0 25px;
+	list-style:disc;
+}
+.money-mgt-investing3-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.money-mgt-investing3-buypack {
+	float: left;
+	width: 130px;
+}	
+.money-mgt-investing3-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.money-mgt-investing3-buypack a:hover {
+	text-decoration: underline;	
+}
+.money-mgt-investing3-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.money-mgt-investing3-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.money-mgt-investing3-list li {
+	margin: 0 0 4px 0;
+}
+.money-mgt-spacer {
+	height:382px;
+	width:958px;
+}
+.money-mgt-investing2-package a{
+	color: #000000;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px !important;
+    font-weight: bold;
+    height: 32px;
+	text-decoration:none !important;
+}
+.money-mgt-investing2-package img{
+	padding-bottom:10px !important;
+}
+.money-mgt-investing2-package a:after{
+	content:url(http://media.wiley.com/assets/7201/56/small-green-arrow.png);
+	position:absolute;
+	padding-left:5px;
+}
+
+
+/* LIGHTBOX */
+.promo-lighbox-wrap li {
+	font-size:14px;
+}
+.promo-lighbox-wrap {
+    padding: 15px;
+    width: 770px;
+}
+.promo-buypack {
+    float: left;
+    width: 121px;
+}
+.promo-buypack a {
+    color: #01A350;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0 2px 0 0;
+    padding: 0;
+    text-decoration: none;
+}
+.promo-image {
+	float:left;
+	padding:0 0 10px 0;
+	position:relative;
+}
+
+
+
+
+/*DIABETES FOR DUMMIES*/
+.diabetes-wrap {
+  width: 959px;
+  height: 1000px;
+  margin: 0 0 0 -10px;
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7206/55/bg_main_959x958.png);
+  background-repeat: no-repeat;
+}
+.diabetes-headline {
+	float: left;
+	margin: 200px 0 0 0;
+}
+.diabetes-col1 {
+	width: 418px;
+	height: 600px;
+	float: left;
+	margin: 0 0 0 0;
+}
+.diabetes-col1 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 13px;
+	margin: 0 0 0 190px;
+	position: relative;
+	top: -22px;
+}
+.diabetes-col2 {
+	width: 344px;
+	height: 600px;
+	position: relative;
+	left: -46px;
+	float: left;
+	top: 355px;
+        border-style:solid;
+        border-width:0px;
+}
+.diabetes-p4-copy {
+	position: relative;
+	left: -4px;
+	float: left;
+	top: 70px;
+        width: 350px;
+        border-style:solid;
+        border-width:0px;
+        margin-left: -340px;
+}
+.diabetes-ul {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: normal;
+  	font-size: 16px;
+	padding: 10px 0 0 60px;
+	margin: 0 0 0 6px;
+}
+.diabetes-ul li {
+	margin: 0 0 8px 0;
+}
+.diabetes-book1 {
+	width: 172px;
+	height: 206px;
+	float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+}
+.diabetes-book2 {
+	width: 172px;
+	height: 206px;
+	float: left;
+        margin-left: -10px;
+        margin-top: -100px;
+}
+.diabetes-book1 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	margin: 0;
+	position: relative;
+	right: -30px;
+}
+.diabetes-book2 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	margin: 0;
+	position: relative;
+	left: -14px;
+}
+.diabetes-book1 img {
+	position: relative;
+	left: -8px;
+}
+.diabetes-book2 img {
+	position: relative;
+	left: -50px;
+}
+.diabetes-col3 {
+	width: 195px;
+	height: 0px;
+	margin: 0;
+	float: left;
+	position: relative;
+	left: 10px;
+        margin-top: -60px;
+}
+.diabetes-p1 {
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	text-align: left;
+        width: 300px;
+        padding-left: 140px;
+	position: relative;
+	top: -10px;
+}
+.diabetes-p2 {
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	text-align: left;
+        padding-left: 40px;
+	position: relative;
+	top: -15px;
+}
+.diabetes-p3 {
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 12px;
+	text-align: center;
+	position: relative;
+	top: -6px;
+}
+.diabetes-p4 {
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+  	font-size: 18px;
+        line-height: 26px;
+	text-align: left;
+	position: absolute;
+	padding: 40px 0 0 110px;
+}
+.diabetes-col3 a {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.diabetes-col3 a img {
+	color: #0f5ba9;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+
+/*diabetes LIGHTBOX*/
+.diabetes2-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.diabetes2-image {
+	float: left;
+	position: relative;
+	right: -16px;
+        padding: 0 35px 0 0;
+}
+.diabetes2-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.diabetes2-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.diabetes2-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.diabetes2-author a:hover {
+	text-decoration: underline;
+}
+.diabetes2-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.diabetes2-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.diabetes2-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.diabetes2-buypack {
+	float: left;
+	width: 130px;
+}	
+.diabetes2-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.diabetes2-buypack a:hover {
+	text-decoration: underline;	
+}
+.diabetes2-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.diabetes2-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.diabetes2-list li {
+	margin: 0 0 4px 0;
+}
+
+/*Generic Lightboxes*/
+.generic-lightbox-wrap {
+	width: 610px;
+	padding: 0 0 0 6px;	
+}
+.generic-lightbox-image {
+	float: left;
+	position: relative;
+	right: -16px;
+        padding: 0 35px 0 0;
+}
+.generic-lightbox-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+}
+.generic-lightbox-author {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+.generic-lightbox-author a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 4px 0;
+	text-decoration: none;
+}
+.generic-lightbox-author a:hover {
+	text-decoration: underline;
+}
+.generic-lightbox-isbn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+.generic-lightbox-blurb {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.generic-lightbox-buys {
+	margin: 8px 0 60px 0;
+	clear: both;
+}
+.generic-lightbox-buypack {
+	float: left;
+	width: 130px;
+}	
+.generic-lightbox-buypack a {
+	color: #01a350;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 2px 0 0;
+	text-decoration: none;
+}
+.generic-lightbox-buypack a:hover {
+	text-decoration: underline;	
+}
+.generic-lightbox-buypack a img {
+	position: relative;
+	bottom: -8px;
+}
+.generic-lightbox-list {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0 0 10px 30px;
+}
+.generic-lightbox-list li {
+	margin: 0 0 4px 0;
+}
+
+
+
+/* Holiday Tech Gift Guide 2013 - kb 11/1/13 */
+.tech-wrap {
+        width: 758px;
+        margin: 0 0 0 -19px;
+}
+.tech-section {
+	width: 670px;
+	margin: 0 0 60px 57px;	
+}
+.tech-title {
+	width: 660px;
+	height: 30px;
+	background-color: #000;	
+	color: #ffff00;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+.tech-gray1 {
+	width: 670px;
+	height: 189px;
+	background-image: url(http://media.wiley.com/assets/7083/83/gray1.png);
+	background-repeat: no-repeat;
+}
+.tech-gray2 {
+	width: 670px;
+	height: 378px;
+	background-image: url(http://media.wiley.com/assets/7083/84/gray2.png);
+	background-repeat: no-repeat;
+}
+.tech-gray3 {
+	width: 670px;
+	height: 567px;
+	background-image: url(http://media.wiley.com/assets/7083/85/gray3.png);
+	background-repeat: no-repeat;
+}
+.tech-gray4 {
+	width: 670px;
+	height: 675px;
+	background-image: url(http://media.wiley.com/assets/7083/86/gray4.png);
+	background-repeat: no-repeat;
+}
+.tech-package {
+	float: left;
+	height: 180px;
+	margin: 20px 0 0 36px;
+}
+.tech-buy {
+	margin: 2px 0 20px 11px;	
+}
+.tech-buy a {
+	color: #0d56a8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.tech-top {
+  clear: both;
+  font-weight: bold;
+  padding: 10px 10px 0 0;
+  margin: 0;
+  text-align: right;
+}
+
+/* NEW HOMEPAGE - nb 12/9/13 */
+#home-page #main-content .home-split-left{float:left;width:300px;margin-right:20px;}
+#home-page #main-content .home-split-right{float:left;width:300px;}  
+  
+#home-page #home-topics{background:url(http://media.wiley.com/assets/7214/82/browse-topics.png) no-repeat left top;border:none;width:958px;margin:0;padding:0;}
+#home-page #home-topics h2{font:italic bold 21px "Myriad Pro", arial, sans-serif;position:relative;left: 16px;top:15px;}
+#home-page #home-topics .topic-list{float:left;margin:44px 0 0 20px;width:182px;}
+
+#home-page #home-topics .topics{list-style:none;margin:0;padding:7px 0 1px;font-size:13px;font-weight:bold;}
+#home-page #home-topics .topics li{list-style:none;margin:0;}
+#home-page #home-topics .topics li a{display:block;height:22px;line-height:22px;padding:0 0 0 -2px;background:url(http://media.wiley.com/assets/7214/92/home-topics-hover.png) no-repeat left top;text-decoration:none;position:relative;font-weight:bold;white-space:nowrap;}
+#home-page #home-topics .topics li a:hover{height:24px;margin-bottom:-2px;background-position:left bottom;z-index:1;}
+
+#home-page #homepage-content{border-bottom:1px solid #ccc;margin-bottom:20px;padding:18px 11px;width:936px;}
+#home-page #homepage-content .product-type{float:left;margin:0 43px;width:148px;}
+#home-page #homepage-content .product-type .product-icon{margin:0 45px 8px 45px;}
+#home-page #homepage-content .product-type h2 {font-size:18px;font-weight:bold;text-align:center;}
+#home-page #homepage-content .product-type .product-description{font-size:12px;font-weight:bold;line-height:150%;margin:12px 0;text-align:center;color:#383737;}
+#home-page #homepage-content .product-type .product-button{margin:0;}
+#home-page .placement .caption{color:#5a5a5a;font-family:verdana;font-size:0.83em;font-weight:normal;margin-bottom:10px;text-align:left;text-transform:uppercase;}
+
+#home-page .feature-container{border:none !important;}
+#home-page #main-content .feature-container-header{padding:5px 20px 0 0;min-height:26px;background:#fff;text-align:center;}
+#home-page #main-content .feature-container-header h2,
+#home-page #main-content .feature-container-header h3,
+#home-page #main-content .feature-container-header h4{line-height:100%;font-style:normal;display:block;text-align:left;vertical-align:middle;}
+#home-page #main-content .feature-container-header h2{font-size:18px;color:#01458a;font-family:arial,sans-serif;margin-bottom:0;}
+#home-page #main-content .feature-container-header h4{color:#5a5a5a;font-family:verdana;font-size:0.83em;font-weight:normal;margin:0 0 10px 0;text-transform:uppercase;}
+#home-page #main-content .feature-box{margin:10px 10px 20px;padding-left:20px;}
+#home-page #main-content .feature-box ul,#main-content .feature-box ol{margin:8px 0;}
+#home-page #main-content .feature-box h2,#main-content .feature-box .product-title{font-size:15px;margin-bottom:8px;}
+#home-page #main-content .feature-box li{margin-left:0;color:#7c7c7c;}
+#home-page #main-content .feature-box .feature-box-header{display:none;}
+#home-page #main-content .feature-box .product-listing{border:0;padding:0;}
+#home-page #main-content .feature-box .product-description{margin-top:0;margin-bottom:0;}
+#home-page #main-content .feature-box .more{display:none;}
+
+/* PRODUCTS NAVBAR - nb 12/9/13 */
+#products-navbar-wrapper{background-color:#fff;border-right:1px solid #d9d9d9;border-left:1px solid #d9d9d9;width:958px;margin:0;padding:4px 0 8px 0;}
+#products-navbar{background:#fff url(http://media.wiley.com/assets/7215/00/bg-navbar-products.png) repeat-x left top;border-bottom:2px solid #d9d9d9;width:958px;margin:0;padding:12px 0;}
+#products-navbar #product-test-banks{float:left;width:234px;height:36px;border-right:1px solid #d9d9d9;margin-left:12px;}
+#products-navbar #product-elearning{float:left;width:234px;height:36px;margin-left:8px;border-right:1px solid #d9d9d9;}
+#products-navbar #product-mobile-apps{float:left;width:229px;height:36px;margin-left:8px;border-right:1px solid #d9d9d9;}
+#products-navbar #product-store{float:left;width:208px;height:36px;margin-left:8px;margin-right:12px;}
+#products-navbar .icon{float:left;width:36px;margin-right:6px;}
+#products-navbar .product-info{float:left;margin:0;padding:0;}
+#products-navbar .title{color:#666666;font-size:12px;font-weight:bold;margin-top:-2px;}
+#products-navbar .button{margin-top:2px;}
+
+/* PRACTICE TEST PAGE - NT 12/10/13 */
+.pratice-test-lp-wrap {
+  background-color: #fff;
+  background-image: url(http://media.wiley.com/assets/7214/67/2013-12-pratice-test-header.png);  
+  background-repeat: no-repeat;
+  margin: 0 0 0 -10px;
+  width: 959px;
+  height:950px;
+  color:#000000;
+}
+.pratice-test-lp-main {
+  padding: 220px 10px 10px 10px;
+  margin-left:-10px;
+}
+.pratice-test-lp-heading {
+  width:608px;
+  height:48px;
+  background:#000000;
+  font-size:16px !important;
+  float:left;
+  margin-right:42px;
+ }
+.pratice-test-lp-heading h1 {
+  color:#ffff00;
+  padding: 15px 15px 15px 20px;
+  font-weight:normal !important;
+}
+.pratice-test-lp-set-frist{
+  height: 273px;
+  width: 959px;
+}
+.pratice-test-lp-set {
+  height: 273px;
+  width: 977px;
+  padding:40px 20px 45px 20px;
+}
+.pratice-test-lp-box1 {
+  float: left;
+  height: 273px;
+  margin: 0 15px 0 0;
+  width: 285px;
+}
+.pratice-test-lp-box1 {
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 3px #CCCCCC;
+  float: left;
+  height: 283px;
+  margin: 0 15px 0 0;
+  width: 285px;
+}
+.pratice-test-lp-box {
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 3px #CCCCCC;
+  float: left;
+  padding-bottom:10px;
+  margin: 0 29px 0 0;
+  width: 285px;
+  height:315px
+}
+.pratice-test-lp-boxtitle {
+  background-color: #000000;
+  width: 285px;
+}
+.pratice-test-lp-boxtitle h6 {
+  color: #FFFFFF;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: normal;
+  text-align: center;
+  vertical-align:central !important;
+  padding:10px 0;
+  font-size:18px;
+  line-height:20px;
+  margin:0 10px;
+}
+.pratice-test-lp-cover {
+  height: 224px;
+  width: 273px;
+  text-align:center !important;
+  padding:15px 0;
+}
+.pratice-test-lp-see {
+  width:100%;
+  margin-top:-58px;
+  text-align:center !important;
+}

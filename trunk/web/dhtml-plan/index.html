@@ -1,0 +1,99 @@
+<script language="JavaScript1.2">
+
+//Flying planes - by John Ely
+//Modified from: Autumn leaves script- by Kurt Grigg (kurt.grigg@virgin.net)
+//Modified by Dynamic Drive for NS6 functionality
+//visit http://www.dynamicdrive.com for this script
+
+//Pre-load your image below!
+//CHANGE 5 to the number of images listed below
+grphcs=new Array(5) 
+
+//PRELOAD the involved images (extend or contract variables according to # of images used)
+Image0=new Image();
+Image0.src=grphcs[0]="plane0.gif"
+Image1=new Image();
+Image1.src=grphcs[1]="plane1.gif"
+Image2=new Image();
+Image2.src=grphcs[2]="plane2.gif"
+Image3=new Image();
+Image3.src=grphcs[3]="plane3.gif"
+Image4=new Image();
+Image4.src=grphcs[4]="plane4.gif"
+
+//SPECIFY number of images to randomly display concurrently from list above. Less the more efficient
+Amount=3; 
+Ypos=new Array();
+Xpos=new Array();
+Speed=new Array();
+Step=new Array();
+Cstep=new Array();
+ns=(document.layers)?1:0;
+ns6=(document.getElementById&&!document.all)?1:0;
+ie=document.all
+
+if (ns){
+for (i = 0; i < Amount; i++){
+var P=Math.floor(Math.random()*grphcs.length);
+rndPic=grphcs[P];
+document.write("<LAYER NAME='sn"+i+"' LEFT=0 TOP=0><img src="+rndPic+"></LAYER>");
+}
+}
+else{
+document.write('<div style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i = 0; i < Amount; i++){
+var P=Math.floor(Math.random()*grphcs.length);
+rndPic=grphcs[P];
+document.write('<img id="si'+i+'" src="'+rndPic+'" style="position:absolute;top:0px;left:0px">');
+}
+document.write('</div></div>');
+}
+WinHeight=(ns||ns6)?window.innerHeight-70:window.document.body.clientHeight;
+WinWidth=(ns||ns6)?window.innerWidth:window.document.body.clientWidth;
+for (i=0; i < Amount; i++){                                                                
+ Ypos[i] = Math.round(Math.random()*WinHeight);
+ Xpos[i] = Math.round(Math.random()*WinWidth);
+ Speed[i]= Math.random()*5+1;
+ Cstep[i]=0;
+ Step[i]=Math.random()*0.1+0.05;
+}
+function fly(){
+var WinHeight=(ns||ns6)?window.innerHeight:window.document.body.clientHeight;
+var WinWidth=(ns||ns6)?window.innerWidth-70:window.document.body.clientWidth;
+var hscrll=(ns||ns6)?window.pageYOffset:document.body.scrollTop;
+var wscrll=(ns||ns6)?window.pageXOffset:document.body.scrollLeft;
+
+for (i=0; i < Amount; i++){
+sy = Speed[i]*Math.sin(Cstep[i]);
+sx = Speed[i]*2;
+Ypos[i]+=sy;
+Xpos[i]+=sx; 
+if (Xpos[i] > WinWidth){
+Ypos[i]=Math.round(Math.random()*WinHeight);
+Xpos[i]=-60;
+Speed[i]=Math.random()*5+1;
+}
+
+if (ns){
+document.layers['sn'+i].left=Xpos[i]+wscrll;
+document.layers['sn'+i].top=Ypos[i];
+}
+
+else if (ns6){
+document.getElementById("si"+i).style.left=Xpos[i]+wscrll;
+document.getElementById("si"+i).style.top=Math.min(WinHeight,Ypos[i]);
+}
+
+else{
+eval("document.all.si"+i).style.left=Xpos[i]+wscrll;
+eval("document.all.si"+i).style.top=Ypos[i];
+} 
+Cstep[i]+=Step[i];
+}
+setTimeout('fly()',20);
+}
+
+if (ie||ns||ns6)
+window.onload=fly
+//-->
+</script>
