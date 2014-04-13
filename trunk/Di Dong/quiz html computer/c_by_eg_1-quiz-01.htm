@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">  
+
+<head>
+<title>Quiz -- C_by_eg_1</title>
+
+<!--
+2013-11-30_1317
+//POLARIS//cygdrive/c/mosh/quiz$ quiz.pl -singular -overwrite:1 -multiline -out:C:/quiz//computer/ -strip_outpath:test -overwrite:1 test/c-by-eg-1.txt
+$Id: quiz.pl,v 1.64 2013-11-30 07:44:56 a Exp 3040
+AUTHOR: (C) moshahmed
+-->
+
+<style>
+  <!--
+    .wrong   { color:red;   background:#fcc }
+    .correct { color:green; background:#cfc }
+  -->
+</style>
+
+</head>
+<body>
+
+Quiz 1 -- C_by_eg_1<br> <table border=1> <tr> <td id='t_header_1'>Number</td> <td id='t_header_2'>Question</td> <td id='t_header_3'>Answer</td> <td id='t_header_4'>Your answer</td> <td id='t_header_5'>choices</td> </tr>  <tr> <td id='t_qn_1_1'>1</td> <td id='t_qn_1_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; x&nbsp; =&nbsp; 10,&nbsp; y&nbsp; =&nbsp; 20;<br>&nbsp; &nbsp; x&nbsp; =&nbsp; y;<br>&nbsp; &nbsp; y&nbsp; =&nbsp; x;<br>&nbsp; &nbsp; print&nbsp; x,&nbsp; y;</td> <td id='t_qn_1_3'></td> <td id='t_qn_1_4'><select id=q_qn_1 data-ansval='20,20' data-ansidx='3'  onChange='javascript:evaluate_question(1-1,0,0);'  > <option>------------<option>20,10<option>10,20<option>20,20<option>10,10 </select></td> <td id='t_qn_1_5'><b>choices:</b><br>20,10<br>10,20<br>20,20<br>10,10</td> </tr>  <tr> <td id='t_qn_2_1'>2</td> <td id='t_qn_2_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; i;<br>&nbsp; &nbsp; for(i=0;i&lt;5;i=i+2)<br>&nbsp; &nbsp; &nbsp; &nbsp; print&nbsp; i;</td> <td id='t_qn_2_3'></td> <td id='t_qn_2_4'><select id=q_qn_2 data-ansval='0,2,4' data-ansidx='2'  onChange='javascript:evaluate_question(2-1,0,0);'  > <option>------------<option>0,2,4,6<option>0,2,4<option>2,4,6<option>2,4 </select></td> <td id='t_qn_2_5'><b>choices:</b><br>0,2,4,6<br>0,2,4<br>2,4,6<br>2,4</td> </tr>  <tr> <td id='t_qn_3_1'>3</td> <td id='t_qn_3_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; x[3]&nbsp; =&nbsp; {3,2,0};<br>&nbsp; &nbsp; int&nbsp; d&nbsp; =&nbsp; x[0]&nbsp; +&nbsp; 8*x[1]&nbsp; +&nbsp; 8*8*x[2];<br>&nbsp; &nbsp; print&nbsp; d;</td> <td id='t_qn_3_3'></td> <td id='t_qn_3_4'><select id=q_qn_3 data-ansval='19' data-ansidx='1'  onChange='javascript:evaluate_question(3-1,0,0);'  > <option>------------<option>19<option>72<option>528<option>5 </select></td> <td id='t_qn_3_5'><b>choices:</b><br>19<br>72<br>528<br>5</td> </tr>  <tr> <td id='t_qn_4_1'>4</td> <td id='t_qn_4_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; i;<br>&nbsp; &nbsp; for(i=0;i&lt;5;i=i+1)<br>&nbsp; &nbsp; &nbsp; &nbsp; print&nbsp; i;</td> <td id='t_qn_4_3'></td> <td id='t_qn_4_4'><select id=q_qn_4 data-ansval='0,1,2,3,4' data-ansidx='4'  onChange='javascript:evaluate_question(4-1,0,0);'  > <option>------------<option>1,2,3,4,5<option>0,1,2,3,4,5<option>1,2,3,4<option>0,1,2,3,4 </select></td> <td id='t_qn_4_5'><b>choices:</b><br>1,2,3,4,5<br>0,1,2,3,4,5<br>1,2,3,4<br>0,1,2,3,4</td> </tr>  <tr> <td id='t_qn_5_1'>5</td> <td id='t_qn_5_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; &nbsp; x&nbsp; =&nbsp; 10;<br>&nbsp; &nbsp; print&nbsp; x;<br>&nbsp; &nbsp; x&nbsp; =&nbsp; x&nbsp; -&nbsp; 1;</td> <td id='t_qn_5_3'></td> <td id='t_qn_5_4'><select id=q_qn_5 data-ansval='10' data-ansidx='2'  onChange='javascript:evaluate_question(5-1,0,0);'  > <option>------------<option>8<option>10<option>9 </select></td> <td id='t_qn_5_5'><b>choices:</b><br>8<br>10<br>9</td> </tr>  <tr> <td id='t_qn_6_1'>6</td> <td id='t_qn_6_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; x&nbsp; =&nbsp; 10,&nbsp; y;<br>&nbsp; &nbsp; x&nbsp; =&nbsp; x&nbsp; +&nbsp; 10;<br>&nbsp; &nbsp; y&nbsp; =&nbsp; x&nbsp; +&nbsp; 10;<br>&nbsp; &nbsp; print&nbsp; x,&nbsp; y;</td> <td id='t_qn_6_3'></td> <td id='t_qn_6_4'><select id=q_qn_6 data-ansval='20,&nbsp; 30' data-ansidx='2'  onChange='javascript:evaluate_question(6-1,0,0);'  > <option>------------<option>10,&nbsp; 20<option>20,&nbsp; 30<option>20,&nbsp; 20 </select></td> <td id='t_qn_6_5'><b>choices:</b><br>10,&nbsp; 20<br>20,&nbsp; 30<br>20,&nbsp; 20</td> </tr>  <tr> <td id='t_qn_7_1'>7</td> <td id='t_qn_7_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; b[2]&nbsp; =&nbsp; {1,0};<br>&nbsp; &nbsp; int&nbsp; d&nbsp; =&nbsp; b[0]&nbsp; +&nbsp; 2*b[1];<br>&nbsp; &nbsp; print&nbsp; d;</td> <td id='t_qn_7_3'></td> <td id='t_qn_7_4'><select id=q_qn_7 data-ansval='1' data-ansidx='1'  onChange='javascript:evaluate_question(7-1,0,0);'  > <option>------------<option>1<option>3<option>0<option>2 </select></td> <td id='t_qn_7_5'><b>choices:</b><br>1<br>3<br>0<br>2</td> </tr>  <tr> <td id='t_qn_8_1'>8</td> <td id='t_qn_8_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; c[2];<br>&nbsp; &nbsp; c[0]&nbsp; =&nbsp; 44;<br>&nbsp; &nbsp; c[1]&nbsp; =&nbsp; c[0]&nbsp; +&nbsp; 10;<br>&nbsp; &nbsp; c[2]&nbsp; =&nbsp; c[1]&nbsp; +&nbsp; 10;<br>&nbsp; &nbsp; print&nbsp; c[0],&nbsp; c[1],&nbsp; c[2];</td> <td id='t_qn_8_3'></td> <td id='t_qn_8_4'><select id=q_qn_8 data-ansval='44,&nbsp; 54,&nbsp; 64' data-ansidx='1'  onChange='javascript:evaluate_question(8-1,0,0);'  > <option>------------<option>44,&nbsp; 54,&nbsp; 64<option>44,&nbsp; 44,&nbsp; 44<option>44+10+10<option>54,&nbsp; 54,&nbsp; 54 </select></td> <td id='t_qn_8_5'><b>choices:</b><br>44,&nbsp; 54,&nbsp; 64<br>44,&nbsp; 44,&nbsp; 44<br>44+10+10<br>54,&nbsp; 54,&nbsp; 54</td> </tr>  <tr> <td id='t_qn_9_1'>9</td> <td id='t_qn_9_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; i=10;<br>&nbsp; &nbsp; while(i&gt;5)&nbsp; {<br>&nbsp; &nbsp; &nbsp; &nbsp; print&nbsp; i;<br>&nbsp; &nbsp; &nbsp; &nbsp; i&nbsp; =&nbsp; i-1;<br>&nbsp; &nbsp; }</td> <td id='t_qn_9_3'></td> <td id='t_qn_9_4'><select id=q_qn_9 data-ansval='10,9,8,7,6' data-ansidx='3'  onChange='javascript:evaluate_question(9-1,0,0);'  > <option>------------<option>5,6,7,8,9,10<option>10,9,8,7,6,5,4<option>10,9,8,7,6<option>10,9,8,7,6,5<option>6,7,8,9,10<option>9,8,7,6,5,4 </select></td> <td id='t_qn_9_5'><b>choices:</b><br>5,6,7,8,9,10<br>10,9,8,7,6,5,4<br>10,9,8,7,6<br>10,9,8,7,6,5<br>6,7,8,9,10<br>9,8,7,6,5,4</td> </tr>  <tr> <td id='t_qn_10_1'>10</td> <td id='t_qn_10_2'>What&nbsp; is&nbsp; the&nbsp; output&nbsp; of&nbsp; this&nbsp; program?<br>&nbsp; &nbsp; int&nbsp; &nbsp; x&nbsp; =&nbsp; 10;<br>&nbsp; &nbsp; print&nbsp; x;<br>&nbsp; &nbsp; x&nbsp; =&nbsp; x&nbsp; +&nbsp; 1;</td> <td id='t_qn_10_3'></td> <td id='t_qn_10_4'><select id=q_qn_10 data-ansval='10' data-ansidx='1'  onChange='javascript:evaluate_question(10-1,0,0);'  > <option>------------<option>10<option>1<option>11 </select></td> <td id='t_qn_10_5'><b>choices:</b><br>10<br>1<br>11</td> </tr>  </table>       <script type="text/javascript">var is_ie = 0;</script>
+      <!--[if IE]> <script type="text/javascript">is_ie = 1;</script> <![endif]-->
+
+      <input type='button'
+        value='evaluate quiz 1 (marks will not change on reevaluate)'
+        id='evaluate_quiz_qn'
+        onclick='evaluate_quiz_qn(1,10,0,0);' />
+
+  <script src='evalquiz.js'> </script>
+
+
+<a href="http://in.linkedin.com/in/moshahmed">by Mosh</a>
+<a href="mailto:moshahmed+quiz-C_by_eg_1-2013-11-30_1317@gmail.com">Suggestions?</a>
+</body>

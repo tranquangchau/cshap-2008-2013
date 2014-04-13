@@ -1,0 +1,80 @@
+1. Designing a webpage is done by a process. What is this process?
+developing
+coding
+editing
+creating
+
+2. What does it mean to 'make changes' to your webpage?
+
+author
+browse
+add stuff only
+edit
+
+3. Of the following choices, what is a person called who designs webpages?.
+
+author
+creator
+programmert
+designer
+
+4. What is your webpage called when you are coding it?.
+
+web browser
+word processor
+text file
+web document
+
+5. What is the software used to browse the Word Wide Web?
+
+computer
+tags
+web browser
+flags
+
+6. What is the acronym, in computer sense, for WWW? 
+
+Word Wide Wrestling
+The Internet
+Word Wide Web
+Webmaster's Wacky Webzine
+
+7. What's the acronym for HTML? 
+
+Hi, teach me language
+It's not an acronym, it's Spanish for "computer"
+Hyperterminal Markup Language
+Hypertext Markup Language
+
+8. How do you define an attribute? Answer this question choosing the best example below. 
+
+<img border="1">
+<img border=1>
+<img border:1>
+<img border= "1">
+
+9. What is a flag, in computer sense? 
+
+a decorated banner which soars overhead
+an attribute which equals itself
+cloth with a meaninge
+an attribute's setting
+
+10. Define this symbol: /
+
+slash
+forward slash
+backslash
+Both a and b
+Both a and c
+
+ans[1] = "a";
+ans[2] = "d";
+ans[3] = "a";
+ans[4] = "d";
+ans[5] = "c";
+ans[6] = "c";
+ans[7] = "d";
+ans[8] = "a";
+ans[9] = "b";
+ans[10] = "d";
