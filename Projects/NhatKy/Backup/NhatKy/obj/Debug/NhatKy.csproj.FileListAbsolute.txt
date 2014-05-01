@@ -27,3 +27,32 @@ C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\NhatKy\
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmLearNing.resources
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmThoikhoabieu.resources
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.thoigianbieu.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.exe
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.pdb
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\bin\Debug\NhatKy.exe
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\bin\Debug\NhatKy.pdb
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\ResolveAssemblyReference.cache
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.Form1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmCamXuc.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmCamXuc1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmDayli.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmKienThuc.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmKienThuc1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmLearNing.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmMucTieu.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmQuanHe.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmQuanHe1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmSucKhoe.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmSucKhoe1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmGhiChep.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmThoikhoabieu.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmThoiQuen.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmTriTue.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmTriTue1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmVanHoa.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmVanHoa1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmYChi.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.frmYChi1.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.Properties.Resources.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.thoigianbieu.resources
+D:\Codes\code\Projects\NhatKy\Backup\NhatKy\obj\Debug\NhatKy.csproj.GenerateResource.Cache

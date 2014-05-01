@@ -34,15 +34,15 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(25, 12);
+            this.richTextBox1.Location = new System.Drawing.Point(25, 38);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(358, 379);
+            this.richTextBox1.Size = new System.Drawing.Size(358, 351);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(308, 397);
+            this.button1.Location = new System.Drawing.Point(308, 400);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -59,7 +59,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Name = "frmKienThuc1";
-            this.Text = "frmKienThuc1";
+            this.Text = "Kiến Thức Note";
             this.Load += new System.EventHandler(this.frmKienThuc1_Load);
             this.ResumeLayout(false);
 

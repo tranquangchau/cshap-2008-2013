@@ -3,3 +3,8 @@ C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1ch
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1chieu\Mang1chieu\obj\Release\ResolveAssemblyReference.cache
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1chieu\Mang1chieu\obj\Release\Mang1chieu.exe
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1chieu\Mang1chieu\obj\Release\Mang1chieu.pdb
+D:\Codes\code\Projects\Mang1chieu\Mang1chieu\bin\Release\Mang1chieu.exe
+D:\Codes\code\Projects\Mang1chieu\Mang1chieu\bin\Release\Mang1chieu.pdb
+D:\Codes\code\Projects\Mang1chieu\Mang1chieu\obj\Release\ResolveAssemblyReference.cache
+D:\Codes\code\Projects\Mang1chieu\Mang1chieu\obj\Release\Mang1chieu.exe
+D:\Codes\code\Projects\Mang1chieu\Mang1chieu\obj\Release\Mang1chieu.pdb

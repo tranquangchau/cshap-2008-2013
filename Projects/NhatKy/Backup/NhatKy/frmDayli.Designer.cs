@@ -62,10 +62,11 @@
             this.label1.Size = new System.Drawing.Size(73, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Month-Day";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(146, 418);
+            this.button3.Location = new System.Drawing.Point(146, 420);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 4;
@@ -75,15 +76,15 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(156, 55);
+            this.richTextBox1.Location = new System.Drawing.Point(146, 55);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(500, 279);
+            this.richTextBox1.Size = new System.Drawing.Size(510, 279);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = "";
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(146, 389);
+            this.button5.Location = new System.Drawing.Point(146, 394);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 7;
@@ -107,6 +108,7 @@
             this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 9;
             this.label2.Text = "3";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -116,6 +118,7 @@
             this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "4";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -125,6 +128,7 @@
             this.label4.Size = new System.Drawing.Size(13, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "5";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -134,6 +138,7 @@
             this.label5.Size = new System.Drawing.Size(19, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "10";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -143,10 +148,12 @@
             this.label6.Size = new System.Drawing.Size(19, 13);
             this.label6.TabIndex = 9;
             this.label6.Text = "11";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label7.Location = new System.Drawing.Point(153, 356);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(71, 13);
@@ -172,7 +179,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Name = "frmDayli";
-            this.Text = "frmDayli";
+            this.Text = "Dayli";
             this.Load += new System.EventHandler(this.frmDayli_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -205,6 +205,37 @@ namespace NhatKy
                 label1.Text = DateTime.Now.ToString();
                 //button5.Enabled = true;
             }
-        }        
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            listBox1.SelectedItem = subngay();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            listBox1.SelectedItem = "4-9";
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            listBox1.SelectedItem = "3-20";
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            listBox1.SelectedItem = "5-15";
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            listBox1.SelectedItem = "10-20";
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            listBox1.SelectedItem = "11-23";
+        }
+                
     }
 }

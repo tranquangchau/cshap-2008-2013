@@ -16,25 +16,27 @@ namespace NhatKy
 
         private void button10_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             frmSucKhoe sk = new frmSucKhoe();
-            sk.Show();
+            sk.Show();            
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            label2.Text = DateTime.Now.ToString();
+        {            
+            label2.Text = "Gieo Suy Nghĩ, Gặt Hành Động;\n Gieo Hành Động, Gặt Thói Quen \n Gieo Thói Quen, Gặt Tính Cách;\n Gieo Tính Cách, Gặt Số Phận";
+            toolStripStatusLabel4.Text = DateTime.Now.ToString();
+            
             
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             frmCamXuc cx = new frmCamXuc();
-            cx.Show();
+            cx.Show();           
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -47,6 +49,7 @@ namespace NhatKy
         {
             frmQuanHe qh = new frmQuanHe();
             qh.Show();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -66,19 +69,6 @@ namespace NhatKy
             frmYChi yc = new frmYChi();
             yc.Show();
         }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Phần mềm được tạo bởi chautranquang \n"  +
-            "Với mong muốn ghi chép lại cuộc sống để dễ dàng quản lý hơn \n"+
-            "Phiên bản hiện tại vision 4");
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Gửi yêu cầu tới địa chỉ email tranquangchau155@gmail.com để được câu trả lời!");
-        }
-
         private void button11_Click(object sender, EventArgs e)
         {
             frmGhiChep gc = new frmGhiChep();
@@ -134,45 +124,37 @@ namespace NhatKy
         {
             Random randomcolor = new Random();
             this.richTextBox1.ForeColor = Color.FromArgb(randomcolor.Next(0, 256), randomcolor.Next(0, 256), randomcolor.Next(0, 256));
-        }
-
-        private void button17_Enter(object sender, EventArgs e)
-        {
-            //button17.Text = "THÀNH CÔNG";
-            //button17.ForeColor = Color.Red;
-            //button17.Font = new Font(button17.Font, FontStyle.Bold);
-            //button17.BackColor = Color.Red;
-        }
-
-        private void button17_MouseHover(object sender, EventArgs e)
-        {
-            button17.Text = "CỐ LÊN";
-            button17.ForeColor = Color.Red;
-            button17.Font = new Font(button17.Font, FontStyle.Bold);
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button17_MouseClick(object sender, MouseEventArgs e)
-        {
-            button17.Text = "THÀNH CÔNG";
-            button17.ForeColor = Color.Red;
-            button17.Font = new Font(button17.Font, FontStyle.Bold);
-            button17.BackColor = Color.Red;
-        }
-
-        private void button17_MouseCaptureChanged(object sender, EventArgs e)
-        {
-            button17.Text = "THÀNH CÔNG";
-        }
+        }      
 
         private void richTextBox2_MouseMove(object sender, MouseEventArgs e)
         {
             Random randomcolor1 = new Random();
             this.richTextBox2.ForeColor = Color.FromArgb(randomcolor1.Next(0, 256), randomcolor1.Next(0, 256), randomcolor1.Next(0, 256));
-        }   
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {            
+            toolStripStatusLabel4.Text = DateTime.Now.ToString();
+        }
+
+
+
+
+        private void helpToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Gửi yêu cầu tới địa chỉ email tranquangchau155@gmail.com để được câu trả lời!");
+        }
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Phần mềm được tạo bởi chautranquang \n" +
+            "Với mong muốn ghi chép lại cuộc sống để dễ dàng quản lý hơn \n" +
+            "Phiên bản hiện tại vision 4");
+        }
+
+        private void toolStripStatusLabel5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

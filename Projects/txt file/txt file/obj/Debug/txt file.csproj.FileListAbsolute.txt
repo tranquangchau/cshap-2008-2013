@@ -6,3 +6,11 @@ C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\txt fil
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\txt file\txt file\obj\Debug\txt file.csproj.GenerateResource.Cache
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\txt file\txt file\obj\Debug\txt file.exe
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\txt file\txt file\obj\Debug\txt file.pdb
+D:\Codes\code\Projects\txt file\txt file\obj\Debug\txt file.exe
+D:\Codes\code\Projects\txt file\txt file\obj\Debug\txt file.pdb
+D:\Codes\code\Projects\txt file\txt file\bin\Debug\txt file.exe
+D:\Codes\code\Projects\txt file\txt file\bin\Debug\txt file.pdb
+D:\Codes\code\Projects\txt file\txt file\obj\Debug\ResolveAssemblyReference.cache
+D:\Codes\code\Projects\txt file\txt file\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Codes\code\Projects\txt file\txt file\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Codes\code\Projects\txt file\txt file\obj\Debug\txt file.csproj.GenerateResource.Cache
