@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(374, 421);
+            this.button1.Location = new System.Drawing.Point(328, 412);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -45,9 +45,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(27, 9);
+            this.richTextBox1.Location = new System.Drawing.Point(27, 37);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(411, 406);
+            this.richTextBox1.Size = new System.Drawing.Size(376, 359);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
@@ -56,11 +56,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(452, 447);
+            this.ClientSize = new System.Drawing.Size(419, 447);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Name = "frmSucKhoe1";
-            this.Text = "frmSucKhoe1";
+            this.Text = "Sức Khỏe Note";
             this.Load += new System.EventHandler(this.frmSucKhoe1_Load);
             this.ResumeLayout(false);
 

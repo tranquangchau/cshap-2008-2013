@@ -39,7 +39,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(436, 286);
+            this.button1.Location = new System.Drawing.Point(369, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(538, 286);
+            this.button2.Location = new System.Drawing.Point(471, 270);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -59,7 +59,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(43, 285);
+            this.button3.Location = new System.Drawing.Point(26, 269);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -69,25 +69,25 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(164, 29);
+            this.richTextBox1.Location = new System.Drawing.Point(131, 51);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(405, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(415, 123);
             this.richTextBox1.TabIndex = 3;
             this.richTextBox1.Text = "";
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(154, 153);
+            this.richTextBox2.Location = new System.Drawing.Point(131, 180);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(415, 96);
+            this.richTextBox2.Size = new System.Drawing.Size(415, 73);
             this.richTextBox2.TabIndex = 4;
             this.richTextBox2.Text = "";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 97);
+            this.label1.Location = new System.Drawing.Point(32, 94);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 5;
@@ -96,7 +96,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 156);
+            this.label2.Location = new System.Drawing.Point(23, 197);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 6;
@@ -107,7 +107,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(656, 336);
+            this.ClientSize = new System.Drawing.Size(558, 304);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox2);
@@ -116,7 +116,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "frmKienThuc";
-            this.Text = "frmKienThuc";
+            this.Text = "Kiến Thức";
             this.Load += new System.EventHandler(this.frmKienThuc_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

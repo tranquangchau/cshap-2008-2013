@@ -61,7 +61,16 @@ namespace NhatKy
             button4.Enabled = true;
         }
 
-        private void tabControl1_Selected(object sender, TabControlEventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            richTextBox1.ReadOnly = true;
+            StreamReader sr = new StreamReader("data/muctieunganhan.txt");
+            richTextBox1.Text = sr.ReadToEnd();
+            sr.Close();
+            button3.Enabled = false;
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
             switch (tabControl1.SelectedIndex)
             {
@@ -70,18 +79,9 @@ namespace NhatKy
                     richTextBox2.Text = sr1.ReadToEnd();
                     richTextBox2.ReadOnly = true;
                     sr1.Close();
-                    button5.Enabled = false; 
-                    break;               
+                    button5.Enabled = false;
+                    break;
             }
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-            richTextBox1.ReadOnly = true;
-            StreamReader sr = new StreamReader("data/muctieunganhan.txt");
-            richTextBox1.Text = sr.ReadToEnd();
-            sr.Close();
-            button3.Enabled = false;
         }
     }
 }

@@ -38,14 +38,14 @@
             this.button3 = new System.Windows.Forms.Button();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage4.SuspendLayout();
@@ -64,7 +64,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(586, 395);
             this.tabControl1.TabIndex = 0;
-            this.tabControl1.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControl1_Selected);
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -81,7 +81,7 @@
             // 
             // Lưu
             // 
-            this.Lưu.Location = new System.Drawing.Point(256, 333);
+            this.Lưu.Location = new System.Drawing.Point(85, 333);
             this.Lưu.Name = "Lưu";
             this.Lưu.Size = new System.Drawing.Size(75, 23);
             this.Lưu.TabIndex = 2;
@@ -91,7 +91,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(175, 333);
+            this.button2.Location = new System.Drawing.Point(4, 333);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -122,7 +122,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(268, 331);
+            this.button6.Location = new System.Drawing.Point(84, 334);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 2;
@@ -132,7 +132,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(155, 331);
+            this.button3.Location = new System.Drawing.Point(3, 334);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 1;
@@ -161,9 +161,19 @@
             this.tabPage2.Text = "Hằng tháng";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(87, 332);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 2;
+            this.button7.Text = "Lưu";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(138, 332);
+            this.button4.Location = new System.Drawing.Point(6, 332);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 1;
@@ -191,9 +201,19 @@
             this.tabPage3.Text = "Hằng năm";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(86, 334);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "Lưu";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(158, 330);
+            this.button5.Location = new System.Drawing.Point(5, 334);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 1;
@@ -205,13 +225,13 @@
             // 
             this.richTextBox4.Location = new System.Drawing.Point(4, 16);
             this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(560, 299);
+            this.richTextBox4.Size = new System.Drawing.Size(560, 308);
             this.richTextBox4.TabIndex = 0;
             this.richTextBox4.Text = "";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(514, 413);
+            this.button1.Location = new System.Drawing.Point(514, 404);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -219,35 +239,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(239, 333);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "Lưu";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(251, 330);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Lưu";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // frmThoiQuen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 444);
+            this.ClientSize = new System.Drawing.Size(591, 428);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Name = "frmThoiQuen";
-            this.Text = "ThoiQuen";
+            this.Text = "Thói Quen";
             this.Load += new System.EventHandler(this.frmThoiQuen_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

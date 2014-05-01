@@ -268,7 +268,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "thoigianbieu";
-            this.Text = "thoigianbieu";
+            this.Text = "Thời Gian Biểu";
             this.Load += new System.EventHandler(this.thoikhoabieu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

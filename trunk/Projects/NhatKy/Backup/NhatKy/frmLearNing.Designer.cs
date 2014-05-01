@@ -76,7 +76,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 8);
+            this.listBox1.Location = new System.Drawing.Point(9, 10);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(139, 342);
             this.listBox1.TabIndex = 2;
@@ -92,7 +92,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "frmLearNing";
-            this.Text = "frmLearNing";
+            this.Text = "Learning";
             this.Load += new System.EventHandler(this.frmLearNing_Load);
             this.ResumeLayout(false);
 

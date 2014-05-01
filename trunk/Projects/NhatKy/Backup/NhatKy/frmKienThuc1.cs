@@ -29,5 +29,6 @@ namespace NhatKy
             richTextBox1.Text = sr.ReadToEnd();
             sr.Close();
         }
+
     }
 }

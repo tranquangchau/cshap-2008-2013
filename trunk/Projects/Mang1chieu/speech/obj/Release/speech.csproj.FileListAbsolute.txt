@@ -9,3 +9,14 @@ C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1ch
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1chieu\speech\bin\Release\Interop.SpeechLib.dll
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1chieu\speech\obj\Release\speech.exe
 C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Mang1chieu\speech\obj\Release\speech.pdb
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\Interop.SpeechLib.dll
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\speech.csproj.ResolveComReference.cache
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\speech.exe
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\speech.pdb
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\ResolveAssemblyReference.cache
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\speech.Form1.resources
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\speech.Properties.Resources.resources
+D:\Codes\code\Projects\Mang1chieu\speech\obj\Release\speech.csproj.GenerateResource.Cache
+D:\Codes\code\Projects\Mang1chieu\speech\bin\Release\speech.exe
+D:\Codes\code\Projects\Mang1chieu\speech\bin\Release\speech.pdb
+D:\Codes\code\Projects\Mang1chieu\speech\bin\Release\Interop.SpeechLib.dll
