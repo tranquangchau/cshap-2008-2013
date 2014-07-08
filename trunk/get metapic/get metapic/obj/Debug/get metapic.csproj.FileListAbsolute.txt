@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\bin\Debug\get metapic.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\bin\Debug\get metapic.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\obj\Debug\get_metapic.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\obj\Debug\get_metapic.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\obj\Debug\get metapic.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\obj\Debug\get metapic.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\get metapic\get metapic\obj\Debug\get metapic.pdb
