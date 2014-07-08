@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\obj\Debug\phai_xong.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\obj\Debug\phai_xong.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\obj\Debug\phai xong.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\bin\Debug\phai xong.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\bin\Debug\phai xong.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\obj\Debug\phai xong.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\phai xong\phai xong\obj\Debug\phai xong.pdb

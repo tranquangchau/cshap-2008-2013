@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\bin\Debug\PictureSlide.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\bin\Debug\PictureSlide.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\obj\Debug\PictureSlide.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\obj\Debug\PictureSlide.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\obj\Debug\PictureSlide.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\obj\Debug\PictureSlide.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\PictureSlide\PictureSlide\obj\Debug\PictureSlide.pdb

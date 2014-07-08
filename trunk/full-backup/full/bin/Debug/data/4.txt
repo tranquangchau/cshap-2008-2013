@@ -1,0 +1,15 @@
+StreamWriter sw = File.CreateText(saveFileDialog2.FileName);
+sw.WriteLine(richTextBox1.Text);
+sw.Flush();
+sw.Close();
+It's recommended to use sw.WriteLine() on a specific line number in richTextBox1 then move to another line.
+
+Example
+
+for (int i = 0; i < richTextBox1.Lines.Length; i++)
+{
+    sw.WriteLine(richTextBox1.Lines[i]);
+}
+sw.Flush();
+sw.Close();
+

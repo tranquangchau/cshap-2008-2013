@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\bin\Debug\Robot.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\bin\Debug\Robot.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\obj\Debug\Robot.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\obj\Debug\Robot.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\obj\Debug\Robocon.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\obj\Debug\Robot.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Robot\Robot\obj\Debug\Robot.pdb

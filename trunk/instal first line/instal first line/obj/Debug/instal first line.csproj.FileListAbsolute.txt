@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\bin\Debug\instal first line.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\bin\Debug\instal first line.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\obj\Debug\instal_first_line.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\obj\Debug\instal_first_line.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\obj\Debug\instal first line.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\obj\Debug\instal first line.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\instal first line\instal first line\obj\Debug\instal first line.pdb

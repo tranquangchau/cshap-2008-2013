@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\obj\Debug\picgoal.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\obj\Debug\picgoal.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\obj\Debug\picgoal.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\bin\Debug\picgoal.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\bin\Debug\picgoal.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\obj\Debug\picgoal.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\picgoal\picgoal\obj\Debug\picgoal.pdb

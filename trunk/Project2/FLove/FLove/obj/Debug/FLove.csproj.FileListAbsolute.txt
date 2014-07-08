@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\bin\Debug\FLove.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\bin\Debug\FLove.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\obj\Debug\FLove.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\obj\Debug\FLove.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\obj\Debug\FLove.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\obj\Debug\FLove.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\FLove\FLove\obj\Debug\FLove.pdb
