@@ -73,19 +73,13 @@ namespace picgoal
         {
             k = findk("jpg") + findk("jpeg") + findk("png") + findk("gif");
             label1.Text = k.ToString();
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-            label1.Hide();
-            if (i == k)
-            {
-                xaike(i, pictureBox1);
-                i = 0;
-            }
-            else
-                xaike(i, pictureBox1);
-            i++;
+            StreamWriter sw = new StreamWriter("text.txt", true);
+            sw.WriteLine(DateTime.Now);
+            sw.Close();
+            //button1.FlatStyle = FlatStyle.Flat; 
+            //button1.BackColor = System.Drawing.Color.Transparent;
+            //button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            //button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -101,6 +95,31 @@ namespace picgoal
         private void label1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("D:\\Final All\\soft\\sologoal\\2014-07-08_085911.jpg");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StreamWriter sw = new StreamWriter("text.txt",true);
+            sw.WriteLine(this.Text);
+            sw.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            label1.Hide();
+            if (i == k)
+            {
+                xaike(i, pictureBox1);
+                i = 0;
+            }
+            else
+                xaike(i, pictureBox1);
+            i++;
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("text.txt");
         }
     }
 }
