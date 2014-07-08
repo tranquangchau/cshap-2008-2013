@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\bin\Debug\Test hide show.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\bin\Debug\Test hide show.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\obj\Debug\Test_hide_show.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\obj\Debug\Test_hide_show.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\obj\Debug\Test hide show.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\obj\Debug\Test hide show.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Test hide show\Test hide show\obj\Debug\Test hide show.pdb

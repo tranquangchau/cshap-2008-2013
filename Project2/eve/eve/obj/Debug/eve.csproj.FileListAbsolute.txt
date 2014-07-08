@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\obj\Debug\eve.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\obj\Debug\eve.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\obj\Debug\eve.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\bin\Debug\eve.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\bin\Debug\eve.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\obj\Debug\eve.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Project2\eve\eve\obj\Debug\eve.pdb

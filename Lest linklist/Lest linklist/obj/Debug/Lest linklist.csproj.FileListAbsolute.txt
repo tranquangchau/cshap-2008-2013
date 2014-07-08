@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\bin\Debug\Lest linklist.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\bin\Debug\Lest linklist.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\obj\Debug\Lest_linklist.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\obj\Debug\Lest_linklist.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\obj\Debug\Lest linklist.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\obj\Debug\Lest linklist.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Lest linklist\Lest linklist\obj\Debug\Lest linklist.pdb

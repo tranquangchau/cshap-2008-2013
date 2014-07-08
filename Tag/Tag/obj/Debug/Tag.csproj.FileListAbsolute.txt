@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\bin\Debug\Tag.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\bin\Debug\Tag.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\obj\Debug\Tag.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\obj\Debug\Tag.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\obj\Debug\Tag.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\obj\Debug\Tag.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Tag\Tag\obj\Debug\Tag.pdb

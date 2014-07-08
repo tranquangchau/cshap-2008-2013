@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\obj\Debug\install_pic_in_richt.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\obj\Debug\install_pic_in_richt.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\obj\Debug\install pic in richt.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\bin\Debug\install pic in richt.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\bin\Debug\install pic in richt.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\obj\Debug\install pic in richt.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\install pic in richt\install pic in richt\obj\Debug\install pic in richt.pdb

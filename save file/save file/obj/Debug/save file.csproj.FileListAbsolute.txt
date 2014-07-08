@@ -1,0 +1,5 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\save file\save file\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\save file\save file\bin\Debug\save file.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\save file\save file\bin\Debug\save file.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\save file\save file\obj\Debug\save file.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\save file\save file\obj\Debug\save file.pdb

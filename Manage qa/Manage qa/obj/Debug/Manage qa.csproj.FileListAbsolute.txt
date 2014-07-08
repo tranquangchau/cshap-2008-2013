@@ -1,0 +1,10 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\bin\Debug\Manage qa.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\bin\Debug\Manage qa.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\obj\Debug\Manage_qa.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\obj\Debug\Manage_qa.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\obj\Debug\Manage qa.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\obj\Debug\Manage qa.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\obj\Debug\Manage qa.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\obj\Debug\Manage_qa.Add.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Manage qa\Manage qa\bin\Debug\Manage qa.exe.config

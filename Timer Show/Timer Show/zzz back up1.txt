@@ -1,0 +1,163 @@
+﻿// Code by chuoi.vn. Date 17/04/2014
+// Project Timer Show txt, photo,
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Timer_Show
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            timer1.Interval = 1000;
+            timer1.Start();
+            button1.Hide();
+        }
+        int i = 0;
+        private void timer1_Tick(object sender, EventArgs e)
+        {            
+            
+            string s1 = linefile(i);
+            string s2;
+            string filepic;
+            label1.Text = s1.ToString();
+
+            
+
+            //xu ly link file anh.
+            if (s1.IndexOf(" ") == -1)
+            {
+                filepic = "File/" + taolink(s1).ToString() + ".gif";                
+            }
+            else
+            {
+                s2 = s1.Substring(0,s1.IndexOf(" "));
+                filepic = "File/" + taolink(s2).ToString()+ ".gif";                
+            }            
+            //label1.Text = filepic;
+
+            // Kiem tra file anh co ton tai hay khong
+            if (File.Exists(filepic))
+            {
+                pictureBox1.Image = Image.FromFile(filepic);
+            }
+            else
+                pictureBox1.Image = Image.FromFile("File/error-404.jpg");
+            
+            if (i > k - 2)
+            {
+                timer1.Stop(); MessageBox.Show("End");
+                button1.Show();
+            }
+            i++;
+        }
+        int k;
+        private string linefile(int j)
+        {
+            string[] st = File.ReadAllLines("data.txt");
+            k = st.Length;
+            return st[j];
+
+        }
+        public string taolink(string st)
+        {
+            string sr=st.Substring(0,1).ToLower();
+            string sout="";
+            switch (sr)
+            {
+                case "a":
+                    sout = "a-file/" + st;
+                    break;
+                case "b":
+                    sout = "b-file/" + st;
+                    break;
+                case "c":
+                    sout = "c-file/" + st;
+                    break;
+                case "d":
+                    sout = "d-file/" + st;
+                    break;
+                case "e":
+                    sout = "e-file/" + st;
+                    break;
+                case "f":
+                    sout = "f-file/" + st;
+                    break;
+                case "g":
+                    sout = "g-file/" + st;
+                    break;
+                case "h":
+                    sout = "h-file/" + st;
+                    break;
+                case "i":
+                    sout = "i-file/" + st;
+                    break;
+                case "j":
+                    sout = "j-file/" + st;
+                    break;
+                case "k":
+                    sout = "k-file/" + st;
+                    break;
+                case "l":
+                    sout = "l-file/" + st;
+                    break;
+                case "m":
+                    sout = "m-file/" + st;
+                    break;
+                case "n":
+                    sout = "n-file/" + st;
+                    break;
+                case "o":
+                    sout = "o-file/" + st;
+                    break;
+                case "p":
+                    sout = "p-file/" + st;
+                    break;
+                case "q":
+                    sout = "q-file/" + st;
+                    break;
+                case "r":
+                    sout = "r-file/" + st;
+                    break;
+                case "s":
+                    sout = "s-file/" + st;
+                    break;
+                case "t":
+                    sout = "t-file/" + st;
+                    break;
+                case "u":
+                    sout = "u-file/" + st;
+                    break;
+                case "v":
+                    sout = "v-file/" + st;
+                    break;
+                case "w":
+                    sout = "w-file/" + st;
+                    break;
+                case "x":
+                    sout = "x-file/" + st;
+                    break;
+                case "y":
+                    sout = "y-file/" + st;
+                    break;
+                case "z":
+                    sout = "z-file/" + st;
+                    break;
+            }
+            return sout;
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Hide();
+            timer1.Start();
+            i = 0;
+        }
+
+    }
+}

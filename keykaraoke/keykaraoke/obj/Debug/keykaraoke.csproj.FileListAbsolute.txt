@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\bin\Debug\keykaraoke.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\bin\Debug\keykaraoke.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\obj\Debug\keykaraoke.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\obj\Debug\keykaraoke.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\obj\Debug\keykaraoke.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\obj\Debug\keykaraoke.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\keykaraoke\keykaraoke\obj\Debug\keykaraoke.pdb

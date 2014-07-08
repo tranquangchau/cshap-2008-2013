@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\bin\Debug\Toi-Dang_Muon-Gi.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\bin\Debug\Toi-Dang_Muon-Gi.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\obj\Debug\Toi_Dang_Muon_Gi.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\obj\Debug\Toi_Dang_Muon_Gi.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\obj\Debug\Toi-Dang_Muon-Gi.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\obj\Debug\Toi-Dang_Muon-Gi.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Toi-Dang_Muon-Gi\Toi-Dang_Muon-Gi\obj\Debug\Toi-Dang_Muon-Gi.pdb
