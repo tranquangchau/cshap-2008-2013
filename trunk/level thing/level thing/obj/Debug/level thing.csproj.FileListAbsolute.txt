@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\bin\Debug\level thing.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\bin\Debug\level thing.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\obj\Debug\level_thing.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\obj\Debug\level_thing.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\obj\Debug\level thing.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\obj\Debug\level thing.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\level thing\level thing\obj\Debug\level thing.pdb

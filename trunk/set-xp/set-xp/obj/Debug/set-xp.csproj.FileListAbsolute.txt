@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\obj\Debug\set_xp.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\obj\Debug\set_xp.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\obj\Debug\set-xp.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\bin\Debug\set-xp.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\bin\Debug\set-xp.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\obj\Debug\set-xp.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\set-xp\set-xp\obj\Debug\set-xp.pdb

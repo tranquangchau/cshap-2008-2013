@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\bin\Debug\test splitercontener.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\bin\Debug\test splitercontener.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\obj\Debug\test_splitercontener.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\obj\Debug\test_splitercontener.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\obj\Debug\test splitercontener.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\obj\Debug\test splitercontener.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\test splitercontener\test splitercontener\obj\Debug\test splitercontener.pdb

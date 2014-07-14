@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\obj\Debug\file_and_folder.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\obj\Debug\file_and_folder.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\obj\Debug\file and folder.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\bin\Debug\file and folder.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\bin\Debug\file and folder.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\obj\Debug\file and folder.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\file and folder\file and folder\obj\Debug\file and folder.pdb

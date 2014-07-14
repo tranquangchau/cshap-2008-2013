@@ -75,7 +75,7 @@ namespace keylearn
         }
 
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             bllist1 = true;
             s2 = s1 + listBox1.Text;
@@ -98,7 +98,7 @@ namespace keylearn
             richTextBox2.Text = "";
         }
 
-        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void listBox2_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             if (bllist1==false)
             {
@@ -122,10 +122,11 @@ namespace keylearn
             //MessageBox.Show(s4+".jpeg");
             //s4=listBox2.Text.
           // MessageBox.Show(s2 + "/" + s4+".jpeg");
-          
-           if (System.IO.File.Exists(s3+"/"+"1" + ".jpeg"))
+
+            if (System.IO.File.Exists(s3 + "/" + listBox2.Text + "_1" + ".jpeg"))
            {
-               pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" + "1" + ".jpeg");
+              // MessageBox.Show(listBox2.Text.ToString());
+               pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" + listBox2.Text + "_1" + ".jpeg");
            } 
             else
            pictureBox1.Image = System.Drawing.Image.FromFile(@"Default/error.jpeg");
@@ -136,7 +137,14 @@ namespace keylearn
         {
             if (System.IO.File.Exists(Environment.CurrentDirectory + p))
             {
-                textbox.LoadFile(Environment.CurrentDirectory + p, RichTextBoxStreamType.PlainText);
+                //textbox.LoadFile(Environment.CurrentDirectory + p, RichTextBoxStreamType.PlainText);
+                StreamReader sr = new StreamReader((Environment.CurrentDirectory + p).ToString());                
+                string s1 = sr.ReadLine();
+                richTextBox3.Text = sr.ReadToEnd();
+                sr.Close();
+                textbox.Text = s1.Replace(";", "\n");
+                
+                
                 // luu file da viet cap nhat               
             }
             else
@@ -197,13 +205,13 @@ namespace keylearn
         }
 
         int i = 1;
-        
-        private void button1_Click(object sender, EventArgs e)
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             i++;
-            if (System.IO.File.Exists(s3 + "/" + i + ".jpeg"))
+            if (System.IO.File.Exists(s3 + "/" +listBox2.Text+"_"+ i + ".jpeg"))
             {
-                pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" + i + ".jpeg");                
+                pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" +listBox2.Text+"_"+ i + ".jpeg");                
                 button1.Text = i.ToString();
                 
             }
@@ -214,12 +222,12 @@ namespace keylearn
             }                                    
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             i--;
-            if (System.IO.File.Exists(s3 + "/" + (i) + ".jpeg"))
+            if (System.IO.File.Exists(s3 + "/" + listBox2.Text + "_"+(i) + ".jpeg"))
             {
-                pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" + (i) + ".jpeg");
+                pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" +listBox2.Text+"_"+ (i) + ".jpeg");
                
                 button1.Text = i.ToString();
                 
@@ -236,8 +244,10 @@ namespace keylearn
         {
             if (bl == true)
             {
-                pictureBox1.Height = panel9.Height;
-                pictureBox1.Width = panel9.Width;
+                pictureBox1.Height = panel11.Height;
+                pictureBox1.Width = panel11.Width;
+                //pictureBox1.Height += 100;
+                //pictureBox1.Width +=100 ;
                 bl = false;
                
             }
@@ -250,7 +260,7 @@ namespace keylearn
         }
         bool addfile = true;
         string s13;
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
             //true edit
             
@@ -382,10 +392,10 @@ namespace keylearn
             
         }
 
-        private void panel7_Leave(object sender, EventArgs e)
-        {
-            button1.Text = ">";
-        }
+        //private void panel7_Leave(object sender, EventArgs e)
+        //{
+        //    button1.Text = ">";
+        //}
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -405,6 +415,31 @@ namespace keylearn
              DialogResult sr =MessageBox.Show("Email: tranquangchau155@gmail.com", "Connect+SUpporT", MessageBoxButtons.OK, MessageBoxIcon.Question);           
            
         }
+
+        //private void panel11_Leave(object sender, EventArgs e)
+        //{
+        //    button1.Text = ">";
+        //}
+
+        private void panel7_Leave(object sender, EventArgs e)
+        {
+            button1.Text = ">";
+        }
+
+        
+
+
+
+       
+        //private void listBox2_SelectedIndexChanged_1(object sender, EventArgs e)
+        //{
+
+        //}
+
+        //private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        //{
+
+        //}
 
       
 
