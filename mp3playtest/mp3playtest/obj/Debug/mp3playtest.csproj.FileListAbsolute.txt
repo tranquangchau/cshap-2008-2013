@@ -1,0 +1,14 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\bin\Debug\mp3playtest.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\bin\Debug\mp3playtest.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\bin\Debug\Interop.MediaPlayer.dll
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\Interop.MediaPlayer.dll
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\mp3playtest.csproj.ResolveComReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\mp3playtest.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\mp3playtest.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\mp3playtest.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\mp3playtest.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\obj\Debug\mp3playtest.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\bin\Debug\NAudio.dll
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\mp3playtest\mp3playtest\bin\Debug\NAudio.xml
