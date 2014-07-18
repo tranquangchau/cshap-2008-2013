@@ -27,9 +27,16 @@ namespace Manage_qa
             this.TopMost=true;
             DungChung.folderload(listBox1);
             //listBox1.SelectedIndex = -1;
-            button1.Enabled = false;
-            button2.Enabled = false;
-            button3.Enabled = false;
+            
+            if (listBox1.Items.Count > 0)
+            {
+                listBox1.SelectedIndex = 0;
+            }
+            else
+            {
+
+            }
+            //button2.PerformClick();
         }
         int i = 0;
         private void button2_Click(object sender, EventArgs e)
@@ -44,11 +51,10 @@ namespace Manage_qa
             }
             //listBox1.SelectedIndex = 0;
             //MessageBox.Show(i.ToString() +" / "+listBox1.SelectedItem.ToString());
-            
-            string sz=DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt" );
+
             label1.Text = DungChung.stringcatchuoi(sz);
-            DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString()+".txt");
-            label2.Text = (i+1).ToString() + "/" + DungChung.k.ToString();                                                  
+            DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString() + ".txt");
+            label2.Text = (i + 1).ToString() + "/" + DungChung.k.ToString();                                 
         }
         
         private void button1_Click(object sender, EventArgs e)
@@ -62,25 +68,49 @@ namespace Manage_qa
             {
                 i = i + 1;
             }
-            string sz = DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt");
-            label1.Text = DungChung.stringcatchuoi(sz) ;
-            DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString()+".txt");
-            label2.Text =(i+1).ToString()+"/"+ DungChung.k.ToString();
+            //string sz = DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt");
+            label1.Text = DungChung.stringcatchuoi(sz);
+            DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString() + ".txt");
+            label2.Text = (i + 1).ToString() + "/" + DungChung.k.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             DungChung.richtextsavetxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString() + ".txt");
         }
-
+        string sz;
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             i = 0;
-            button2.PerformClick();
+            //button2.PerformClick();
             label2.Text = DungChung.k.ToString();
             button1.Enabled = true;
             button2.Enabled = true;
             button3.Enabled = true;
+
+            sz = DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt");
+            //label1.Text = DungChung.stringcatchuoi(sz);
+            //DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString() + ".txt");
+            label2.Text = (i + 1).ToString() + "/" + DungChung.k.ToString(); 
+
+            //MessageBox.Show(DungChung.k.ToString()); //check k max.
+            listBox2.Items.Clear();
+            for (int i1 = 1; i1 <= DungChung.k; i1++)
+            {
+                listBox2.Items.Add(i1);
+            }
+
+            if (listBox2.Items.Count > 0)
+            {
+                listBox2.SelectedIndex = 0;
+            }
+            else
+            {
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+            }
+
         }
 
         internal void Contains(object p)
@@ -95,6 +125,18 @@ namespace Manage_qa
             button2.Enabled = false;
             button3.Enabled = false;
             //listBox1.SelectedIndex = 0;
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            i = listBox2.SelectedIndex;
+            //label1.Text = DungChung.stringcatchuoi(sz);
+            //DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + listBox2.SelectedIndex.ToString() + ".txt");
+            ////DungChung.ric
+            //label2.Text = (listBox2.SelectedIndex+1).ToString() + "/" + DungChung.k.ToString();
+            label1.Text = DungChung.stringcatchuoi(sz);
+            DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString() + ".txt");
+            label2.Text = (i + 1).ToString() + "/" + DungChung.k.ToString();
         }
         // click khi form kia close
     }
