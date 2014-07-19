@@ -67,6 +67,13 @@ namespace keylearn.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap error {
+            get {
+                object obj = ResourceManager.GetObject("error", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap fluency {
             get {
                 object obj = ResourceManager.GetObject("fluency", resourceCulture);
