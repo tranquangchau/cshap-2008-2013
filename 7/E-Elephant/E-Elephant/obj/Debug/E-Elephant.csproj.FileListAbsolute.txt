@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\bin\Debug\E-Elephant.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\bin\Debug\E-Elephant.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\obj\Debug\E_Elephant.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\obj\Debug\E_Elephant.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\obj\Debug\E-Elephant.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\obj\Debug\E-Elephant.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\E-Elephant\E-Elephant\obj\Debug\E-Elephant.pdb

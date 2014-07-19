@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\obj\Debug\Question.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\obj\Debug\Question.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\obj\Debug\Question.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\bin\Debug\Question.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\bin\Debug\Question.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\obj\Debug\Question.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\Question\Question\obj\Debug\Question.pdb

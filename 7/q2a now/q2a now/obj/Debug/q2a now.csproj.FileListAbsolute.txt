@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\bin\Debug\q2a now.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\bin\Debug\q2a now.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\obj\Debug\q2a_now.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\obj\Debug\q2a_now.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\obj\Debug\q2a now.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\obj\Debug\q2a now.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\7\q2a now\q2a now\obj\Debug\q2a now.pdb
