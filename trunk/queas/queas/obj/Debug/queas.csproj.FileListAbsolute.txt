@@ -1,0 +1,9 @@
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\bin\Debug\queas.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\bin\Debug\queas.pdb
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\obj\Debug\queas.Form1.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\obj\Debug\queas.Form2.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\obj\Debug\queas.Properties.Resources.resources
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\obj\Debug\queas.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\obj\Debug\queas.exe
+C:\Documents and Settings\Admin\My Documents\Visual Studio 2008\Projects\queas\queas\obj\Debug\queas.pdb
