@@ -187,6 +187,11 @@ namespace Manage_qa
         }
 		
 		// load data from file txt to richtexbox
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="richtexbox"></param>
+        /// <param name="file"></param>
         public static void richtextloadtxt(RichTextBox richtexbox, string file)
         {
             if (File.Exists(file)==false)

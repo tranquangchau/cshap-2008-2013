@@ -6,6 +6,7 @@
 //using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace Manage_qa
 {
@@ -24,6 +25,8 @@ namespace Manage_qa
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //pictureBox1.ImageLocation = "c#.jpeg";
+            //pictureBox1.Image = Image.FromFile("c#.jpeg");
             this.TopMost=true;
             DungChung.folderload(listBox1);
             //listBox1.SelectedIndex = -1;
@@ -51,7 +54,7 @@ namespace Manage_qa
             }
             //listBox1.SelectedIndex = 0;
             //MessageBox.Show(i.ToString() +" / "+listBox1.SelectedItem.ToString());
-
+            sz = DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt");
             label1.Text = DungChung.stringcatchuoi(sz);
             DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString() + ".txt");
             label2.Text = (i + 1).ToString() + "/" + DungChung.k.ToString();                                 
@@ -68,7 +71,7 @@ namespace Manage_qa
             {
                 i = i + 1;
             }
-            //string sz = DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt");
+            string sz = DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt");
             label1.Text = DungChung.stringcatchuoi(sz);
             DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + i.ToString() + ".txt");
             label2.Text = (i + 1).ToString() + "/" + DungChung.k.ToString();
@@ -110,7 +113,15 @@ namespace Manage_qa
                 button2.Enabled = false;
                 button3.Enabled = false;
             }
-
+            //load picture thing.
+            string filela =listBox1.SelectedItem.ToString() +"/"+listBox1.SelectedItem.ToString() + ".jpeg";
+            //MessageBox.Show(filela.ToString());
+            if (System.IO.Directory.Exists(filela))
+            {
+                pictureBox1.ImageLocation = filela;
+            }
+            else
+                pictureBox1.Image = Manage_qa.Properties.Resources.qa;
         }
 
         internal void Contains(object p)
@@ -130,7 +141,9 @@ namespace Manage_qa
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             i = listBox2.SelectedIndex;
-            //label1.Text = DungChung.stringcatchuoi(sz);
+            string sz = DungChung.fileati(i, listBox1.SelectedItem.ToString() + "/index.txt");
+
+            label1.Text = DungChung.stringcatchuoi(sz);
             //DungChung.richtextloadtxt(richTextBox1, listBox1.SelectedItem.ToString() + "/" + listBox2.SelectedIndex.ToString() + ".txt");
             ////DungChung.ric
             //label2.Text = (listBox2.SelectedIndex+1).ToString() + "/" + DungChung.k.ToString();

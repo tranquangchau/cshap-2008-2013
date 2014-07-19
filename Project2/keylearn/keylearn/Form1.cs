@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
+using System.Media;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
@@ -61,14 +61,11 @@ namespace keylearn
             //Kiem tra list box 1 have data
             if (listBox1.Items.Count > 0)
             {
-                listBox1.SelectedIndex = 0;
-                //toolStripStatusLabel1.Text = listBox2.Items.Count.ToString();
-                //MessageBox.Show("1");
+                listBox1.SelectedIndex = 0;               
             }
             else
             {
-                // MessageBox.Show("2");
-                //toolStripStatusLabel1.Text = "0";
+             
                 return;
 
             }
@@ -82,7 +79,7 @@ namespace keylearn
             PopulateListBox(listBox2, "d", @s2, "*.");
             //MessageBox.Show(listBox2.Items.Count.ToString());
 
-            if (listBox2.Items.Count >0)
+            if (listBox2.Items.Count > 0)
             {
                 listBox2.SelectedIndex = 0;
                 toolStripStatusLabel1.Text = listBox2.Items.Count.ToString();
@@ -90,16 +87,36 @@ namespace keylearn
             }
             else
             {
-               // MessageBox.Show("2");
+                // MessageBox.Show("2");
                 toolStripStatusLabel1.Text = "0";
                 return;
-                
             }
-            richTextBox2.Text = "";
+            //richTextBox2.Text = "";
+            readfile(richTextBox2, "/" + @s3 + "/" + listBox2.Text + ".txt");
         }
-
+        //SoundPlayer nhac = new SoundPlayer();
         private void listBox2_SelectedIndexChanged_1(object sender, EventArgs e)
         {
+            //code play music
+
+            try
+            {
+                Random r = new Random();
+                int inhac = r.Next(1, 8);
+                SoundPlayer nhac = new SoundPlayer();
+                string linknhac = "Default/" + inhac.ToString() + ".wav";
+                // MessageBox.Show(linknhac.ToString());
+                nhac.SoundLocation = linknhac;
+                nhac.Play();
+                musicToolStripMenuItem.Text = inhac.ToString();
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.ToString());
+            }
+            
+            //code
+
             if (bllist1==false)
             {
                 s2 = s1 + listBox2.Text.Substring(0, 1);
@@ -109,30 +126,46 @@ namespace keylearn
                 //MessageBox.Show("bllistb1");
             }
             richTextBox1.Text = "";
+            richTextBox2.Text = "";
+            richTextBox3.Text = "";
             i = 1;
             //read file richtexbox 1
             s3 = s2 +"/"+ listBox2.Text;
-            PopulateListBox(listBox3, "f", @s3, "*.txt");          
+            PopulateListBox(listBox3, "f", @s3, "*.txt");            
+            //gan mach dinh chon Listbox3=0
+            if (listBox3.Items.Count>0)
+            {
+                listBox3.SelectedIndex = 0;
+            }
+            else
+            {
+                
+                //MessageBox.Show(listBox3.Items.Count.ToString());
+            }
             readfile(richTextBox2, "/" + @s3 + "/" + listBox2.Text + ".txt");
-           // MessageBox.Show("/" + @s3 + "/" + listBox2.Text + ".txt");
-            //return;
-            //readfile(richTextBox1,"/" +@s3);
-            // read file picture
+           
             s4 = @s3 + "/" + listBox2.Text;
-            //MessageBox.Show(s4+".jpeg");
-            //s4=listBox2.Text.
-          // MessageBox.Show(s2 + "/" + s4+".jpeg");
-
             if (System.IO.File.Exists(s3 + "/" + listBox2.Text + "_1" + ".jpeg"))
-           {
-              // MessageBox.Show(listBox2.Text.ToString());
+           {             
                pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" + listBox2.Text + "_1" + ".jpeg");
            } 
             else
-           pictureBox1.Image = System.Drawing.Image.FromFile(@"Default/error.jpeg");
-              // pictureBox1.Image = System.Drawing.Image.FromFile("data/A/age/age.jpeg");
+                if (System.IO.File.Exists(s3 + "/" + listBox2.Text + "_1" + ".jpg"))
+                {
+                    pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" + listBox2.Text + "_1" + ".jpg");
+                }
+                else
+                {
+                    pictureBox1.Image = keylearn.Properties.Resources.error;              
+                }    
+           
         }
-
+        
+        /// <summary>
+        /// De doc file 1
+        /// </summary>
+        /// <param name="textbox"></param>
+        /// <param name="p"></param>
         private void readfile(RichTextBox textbox, string p)
         {
             if (System.IO.File.Exists(Environment.CurrentDirectory + p))
@@ -145,6 +178,29 @@ namespace keylearn
                 textbox.Text = s1.Replace(";", "\n");
                 
                 
+                // luu file da viet cap nhat               
+            }
+            else
+            {
+                //MessageBox.Show("Error File");
+                return;
+            }
+        }
+        /// <summary>
+        /// read file have know
+        /// </summary>
+        /// <param name="textbox"></param>
+        /// <param name="p"></param>
+        private void readfile1(RichTextBox textbox, string p)
+        {
+            if (System.IO.File.Exists(Environment.CurrentDirectory + p))
+            {
+                //textbox.LoadFile(Environment.CurrentDirectory + p, RichTextBoxStreamType.PlainText);
+                StreamReader sr = new StreamReader((Environment.CurrentDirectory + p).ToString());
+                //string s1 = sr.ReadLine();
+                textbox.Text = sr.ReadToEnd();
+                sr.Close();
+                //textbox.Text = s1.Replace(";", "\n");
                 // luu file da viet cap nhat               
             }
             else
@@ -186,6 +242,14 @@ namespace keylearn
             if (s == "f")
             {
                 System.IO.DirectoryInfo dinfo = new System.IO.DirectoryInfo(p);
+                if (System.IO.Directory.Exists(p_3)==true)
+                {
+                    Directory.CreateDirectory(p_3);
+                }
+                else
+                {
+
+                }
                 System.IO.FileInfo[] Files = dinfo.GetFiles(p_3);
                 foreach (System.IO.FileInfo fle in Files)
                 {
@@ -201,7 +265,7 @@ namespace keylearn
 
         private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            readfile(richTextBox1, "/" + @s3 + "/" + listBox3.Text);
+            readfile1(richTextBox1, "/" + @s3 + "/" + listBox3.Text);
         }
 
         int i = 1;
@@ -212,14 +276,19 @@ namespace keylearn
             if (System.IO.File.Exists(s3 + "/" +listBox2.Text+"_"+ i + ".jpeg"))
             {
                 pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" +listBox2.Text+"_"+ i + ".jpeg");                
-                button1.Text = i.ToString();
-                
+                button1.Text = i.ToString();                
             }
             else
-            {
-                i--; //ngoai vong phap luat thi gan gi po
-                return;
-            }                                    
+                if (System.IO.File.Exists(s3 + "/" + listBox2.Text + "_" + i + ".jpg"))
+                {
+                    pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" + listBox2.Text + "_" + i + ".jpg");
+                    button1.Text = i.ToString();
+                }
+                else
+                {
+                    i--; //ngoai vong phap luat thi gan gi po
+                    return;
+                }                                    
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -227,16 +296,23 @@ namespace keylearn
             i--;
             if (System.IO.File.Exists(s3 + "/" + listBox2.Text + "_"+(i) + ".jpeg"))
             {
-                pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" +listBox2.Text+"_"+ (i) + ".jpeg");
-               
-                button1.Text = i.ToString();
-                
+                pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" +listBox2.Text+"_"+ (i) + ".jpeg");               
+                button1.Text = i.ToString();                
             }
             else
-            {
-                i++;//ngoai vong phap luat thi gan gi po
-                return;
-            }
+	
+               if (System.IO.File.Exists(s3 + "/" + listBox2.Text + "_"+(i) + ".jpg"))
+                {
+                    pictureBox1.Image = System.Drawing.Image.FromFile(s3 + "/" +listBox2.Text+"_"+ (i) + ".jpg");               
+                    button1.Text = i.ToString();    
+                    
+                }
+	
+                else
+                {
+                    i++;//ngoai vong phap luat thi gan gi po
+                    return;
+                }
              
         }
         bool bl = true;
@@ -424,26 +500,23 @@ namespace keylearn
         private void panel7_Leave(object sender, EventArgs e)
         {
             button1.Text = ">";
+            i = 1;
         }
 
-        
+        private void abcdToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bllist1 = false;
+            listboxload(listBox2, "abc.txt");
+        }
 
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+            
+        }
 
-
-       
-        //private void listBox2_SelectedIndexChanged_1(object sender, EventArgs e)
-        //{
-
-        //}
-
-        //private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
-        //{
-
-        //}
-
-      
-
-      
-
+        private void reloadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PopulateListBox(listBox1, "d", @s1, "*");
+        }
     }
 }

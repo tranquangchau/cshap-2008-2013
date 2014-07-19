@@ -47,8 +47,10 @@ namespace Manage_qa
 
         private void button3_Click(object sender, EventArgs e)
         {
+            
             DungChung.listboxadd(textBox2.Text, listBox1.SelectedItem.ToString() + "/index.txt");
             DungChung.listboxload(listBox1.SelectedItem.ToString() + "/index.txt", listBox2);
+            textBox2.Text = "";
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -60,6 +62,11 @@ namespace Manage_qa
         private void Add_FormClosing_1(object sender, FormClosingEventArgs e)
         {
             MessageBox.Show("Click Max question.");          
+        }
+
+        private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            textBox2.Text = listBox2.SelectedItem.ToString();
         }
     }
 }
