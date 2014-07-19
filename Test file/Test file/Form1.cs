@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+//using System.Collections.Generic;
+//using System.ComponentModel;
 using System.Media;
 using System.Drawing;
 using System.IO;
-using System.Text;
+//using System.Text;
 using System.Windows.Forms;
 
 namespace Test_file

@@ -1,16 +1,17 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Resources;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Test file")]
+[assembly: AssemblyTitle("ManageFile")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("XP SP3 All Main")]
-[assembly: AssemblyProduct("Test file")]
-[assembly: AssemblyCopyright("Copyright © XP SP3 All Main 2014")]
+[assembly: AssemblyCompany("03way")]
+[assembly: AssemblyProduct("2014")]
+[assembly: AssemblyCopyright("Copyright ©QuangChau")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,3 +35,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguageAttribute("vi")]
