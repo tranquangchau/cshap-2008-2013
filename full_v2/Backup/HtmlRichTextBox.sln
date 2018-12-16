@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlRichTextBox", "HtmlRichTextBox\HtmlRichTextBox.csproj", "{7A4B322E-EC19-4C89-9BA1-06C98D0C4911}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlRichTextBoxTest", "HtmlRichTextBoxTest\HtmlRichTextBoxTest.csproj", "{2C8319B1-7FC5-4BD6-92D1-C6DCAFA6D20A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7A4B322E-EC19-4C89-9BA1-06C98D0C4911}.Debug.ActiveCfg = Debug|.NET
+		{7A4B322E-EC19-4C89-9BA1-06C98D0C4911}.Debug.Build.0 = Debug|.NET
+		{7A4B322E-EC19-4C89-9BA1-06C98D0C4911}.Release.ActiveCfg = Release|.NET
+		{7A4B322E-EC19-4C89-9BA1-06C98D0C4911}.Release.Build.0 = Release|.NET
+		{2C8319B1-7FC5-4BD6-92D1-C6DCAFA6D20A}.Debug.ActiveCfg = Debug|.NET
+		{2C8319B1-7FC5-4BD6-92D1-C6DCAFA6D20A}.Debug.Build.0 = Debug|.NET
+		{2C8319B1-7FC5-4BD6-92D1-C6DCAFA6D20A}.Release.ActiveCfg = Release|.NET
+		{2C8319B1-7FC5-4BD6-92D1-C6DCAFA6D20A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
